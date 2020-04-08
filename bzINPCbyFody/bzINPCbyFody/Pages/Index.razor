@@ -1,0 +1,75 @@
+﻿@page "/"
+
+<h1>在 Blazor 透過 PropertyChanged.Fody 套件，使用 INotifyPropertyChanged 事件，設計屬性變更的需求</h1>
+<div class="form-group">
+    <label for="FirstName">名</label>
+    <input id="FirstName" class="form-control" @bind="MyPerson.FirstName" />
+</div>
+<div class="form-group">
+    <label for="LastName">姓</label>
+    <input id="LastName" class="form-control" @bind="MyPerson.LastName" />
+</div>
+<div class="form-group">
+    <label for="Age">年紀</label>
+    <input type="number" id="Age" class="form-control"
+           @bind="MyPerson.Age" @bind:event="oninput" />
+</div>
+
+<button type="submit" class="btn btn-primary" disabled="@MyPerson.IsDisabled">Submit</button>
+
+<div class="text-danger">
+    @MyPerson.Age
+</div>
+<div class="text-danger">
+    @MyPerson.AgeRange
+</div>
+
+@code{
+    class Person : System.ComponentModel.INotifyPropertyChanged
+    {
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        public Action NeedStateHasChangedHandler { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int Age { get; set; }
+        public string AgeRange { get; set; }
+        public bool IsDisabled { get; set; } = true;
+
+        public void OnAgeChanged()
+        {
+            if (Age < 13)
+            {
+                AgeRange = "你是小朋友";
+                IsDisabled = true;
+            }
+            else if (Age < 20)
+            {
+                AgeRange = "你是年青人";
+                IsDisabled = false;
+            }
+            else if (Age < 28)
+            {
+                AgeRange = "你是青年人";
+                IsDisabled = false;
+            }
+            else
+            {
+                AgeRange = "你是成年人";
+                IsDisabled = false;
+            }
+            NeedStateHasChangedHandler?.Invoke();
+            Console.WriteLine($"OnAgeChanged Thread ID = {System.Threading.Thread.CurrentThread.ManagedThreadId}");
+        }
+    }
+
+    Person MyPerson = new Person();
+
+    protected override void OnInitialized()
+    {
+        MyPerson.NeedStateHasChangedHandler += () =>
+        {
+            StateHasChanged();
+        };
+        Console.WriteLine($"OnInitialized Thread ID = {System.Threading.Thread.CurrentThread.ManagedThreadId}");
+    }
+}
