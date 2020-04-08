@@ -1,0 +1,72 @@
+﻿@page "/"
+
+<h1>在 Blazor 使用 INotifyPropertyChanged 事件，設計屬性變更的需求</h1>
+<div class="form-group">
+    <label for="FirstName">名</label>
+    <input id="FirstName" class="form-control" @bind="MyPerson.FirstName" />
+</div>
+<div class="form-group">
+    <label for="LastName">姓</label>
+    <input id="LastName" class="form-control" @bind="MyPerson.LastName" />
+</div>
+<div class="form-group">
+    <label for="Age">年紀</label>
+    <input type="number" id="Age" class="form-control"
+           @bind="MyPerson.Age" @bind:event="oninput" />
+</div>
+
+<button type="submit" class="btn btn-primary" disabled="@IsDisabled">Submit</button>
+
+<div class="text-danger">
+    @MyPerson.Age
+</div>
+<div class="text-info">
+    @Message
+</div>
+<div class="text-danger">
+    @AgeRange
+</div>
+
+@code{
+    Person MyPerson = new Person();
+    bool IsDisabled = true;
+    string AgeRange = "";
+    string Message = "";
+
+    protected override void OnInitialized()
+    {
+        MyPerson.PropertyChanged += (s, e) =>
+        {
+            Message = $"這個屬性 {e.PropertyName} 已經有變更了";
+            if (e.PropertyName == nameof(MyPerson.Age))
+            {
+                AgeChanged();
+            }
+        };
+    }
+
+    void AgeChanged()
+    {
+        if (MyPerson.Age < 13)
+        {
+            AgeRange = "你是小朋友";
+            IsDisabled = true;
+        }
+        else if (MyPerson.Age < 20)
+        {
+            AgeRange = "你是年青人";
+            IsDisabled = false;
+        }
+        else if (MyPerson.Age < 28)
+        {
+            AgeRange = "你是青年人";
+            IsDisabled = false;
+        }
+        else
+        {
+            AgeRange = "你是成年人";
+            IsDisabled = false;
+        }
+        StateHasChanged();
+    }
+}
