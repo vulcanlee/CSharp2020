@@ -1,0 +1,56 @@
+﻿@page "/"
+@using System.ComponentModel.DataAnnotations
+
+<h1>在 Blazor 中設計屬性變更的需求</h1>
+
+<EditForm Model="@MyPerson" OnValidSubmit="HandleValidSubmit">
+    @*使用資料批註附加驗證支援*@
+    <DataAnnotationsValidator />
+    @*摘要說明驗證訊息。*@
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="FirstName">名</label>
+        <InputText id="FirstName" class="form-control" @bind-Value="MyPerson.FirstName" />
+        @*顯示特定欄位的驗證訊息，類似于驗證訊息標記協助程式。 使用 For 屬性指定驗證欄位，並以 lambda 運算式命名模型屬性*@
+        <ValidationMessage For="@(()=>MyPerson.FirstName)" />
+    </div>
+    <div class="form-group">
+        <label for="LastName">姓</label>
+        <InputText id="LastName" class="form-control" @bind-Value="MyPerson.LastName" />
+        <ValidationMessage For="@(()=>MyPerson.LastName)" />
+    </div>
+    <div class="form-group">
+        <label for="Age">年紀</label>
+        <InputNumber id="Age" class="form-control" @bind-Value="MyPerson.Age" />
+        <ValidationMessage For="@(()=>MyPerson.Age)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary" disabled="@IsDisabled">Submit</button>
+
+</EditForm>
+
+<div class="text-danger">
+    這裡可以顯示年紀分類說明文字
+</div>
+
+@code{
+
+    class Person
+    {
+        [Required(ErrorMessage = "欄位 名，不可為空白")]
+        public string FirstName { get; set; }
+        [Required(ErrorMessage = "欄位 姓，不可為空白")]
+        public string LastName { get; set; }
+        [Range(0, 99, ErrorMessage = "年紀數值不正確")]
+        public int Age { get; set; }
+    }
+
+    Person MyPerson = new Person();
+    bool IsDisabled = true;
+
+    private void HandleValidSubmit()
+    {
+        Console.WriteLine("OnValidSubmit");
+    }
+}
