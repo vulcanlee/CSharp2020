@@ -57,8 +57,10 @@
                 AgeRange = "你是成年人";
                 IsDisabled = false;
             }
-            NeedStateHasChangedHandler?.Invoke();
+            //NeedStateHasChangedHandler?.Invoke();
             Console.WriteLine($"OnAgeChanged Thread ID = {System.Threading.Thread.CurrentThread.ManagedThreadId}");
+            var foo = System.Threading.SynchronizationContext.Current == null ? false : true;
+            Console.WriteLine($"OnInitialized SynchronizationContext = {foo}");
         }
     }
 
@@ -68,8 +70,10 @@
     {
         MyPerson.NeedStateHasChangedHandler += () =>
         {
-            StateHasChanged();
-        };
+        //StateHasChanged();
+    };
         Console.WriteLine($"OnInitialized Thread ID = {System.Threading.Thread.CurrentThread.ManagedThreadId}");
+        var foo = System.Threading.SynchronizationContext.Current == null ? false : true;
+        Console.WriteLine($"OnInitialized SynchronizationContext = {foo}");
     }
 }
