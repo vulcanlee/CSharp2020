@@ -28,7 +28,6 @@
     class Person : System.ComponentModel.INotifyPropertyChanged
     {
         public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        public Action NeedStateHasChangedHandler { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }
@@ -57,23 +56,8 @@
                 AgeRange = "你是成年人";
                 IsDisabled = false;
             }
-            //NeedStateHasChangedHandler?.Invoke();
-            Console.WriteLine($"OnAgeChanged Thread ID = {System.Threading.Thread.CurrentThread.ManagedThreadId}");
-            var foo = System.Threading.SynchronizationContext.Current == null ? false : true;
-            Console.WriteLine($"OnInitialized SynchronizationContext = {foo}");
         }
     }
 
     Person MyPerson = new Person();
-
-    protected override void OnInitialized()
-    {
-        MyPerson.NeedStateHasChangedHandler += () =>
-        {
-        //StateHasChanged();
-    };
-        Console.WriteLine($"OnInitialized Thread ID = {System.Threading.Thread.CurrentThread.ManagedThreadId}");
-        var foo = System.Threading.SynchronizationContext.Current == null ? false : true;
-        Console.WriteLine($"OnInitialized SynchronizationContext = {foo}");
-    }
 }
