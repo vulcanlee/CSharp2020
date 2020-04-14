@@ -1,0 +1,9 @@
+﻿<UserControl x:Class="WPFPrismNoModuleAutoView.Views.MyView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid Background="LightGreen">
+        <TextBlock Text="Hello World" FontSize="48" Foreground="HotPink"/>
+    </Grid>
+</UserControl>
