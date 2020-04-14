@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="WPFPrismViewNavigation.Views.MyView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid Background="LightGray">
+        <StackPanel
+            Orientation="Vertical">
+            <TextBlock Text="MyView"
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   FontSize="48" Foreground="White"/>
+            <TextBlock Text="{Binding Message}"
+                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                       FontSize="30"
+                       Foreground="Green"/>
+            <Button 
+                HorizontalAlignment="Center"
+                Command="{Binding GoNextCommand}">導航到下頁</Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

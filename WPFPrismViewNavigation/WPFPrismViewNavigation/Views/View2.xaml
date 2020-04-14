@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="WPFPrismViewNavigation.Views.View2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid Background="LightPink">
+        <StackPanel
+            Orientation="Vertical">
+            <TextBlock Text="View2"
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   FontSize="48" Foreground="White"/>
+            <TextBlock Text="{Binding Message}"
+                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                       FontSize="30"
+                       Foreground="Green"/>
+            <StackPanel
+                Orientation="Horizontal"
+                HorizontalAlignment="Center">
+                <Button 
+                    HorizontalAlignment="Center"
+                    Command="{Binding GoPrevCommand}">導航到上頁</Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>
