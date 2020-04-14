@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFPrismHelloWorldWithModule", "WPFPrismHelloWorldWithModule\WPFPrismHelloWorldWithModule.csproj", "{0B42C3BA-3C4C-4146-AF15-65FFB8E1AA45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostModule", "HostModule\HostModule.csproj", "{4AD26A16-115E-4569-A937-CE5F787BE368}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B42C3BA-3C4C-4146-AF15-65FFB8E1AA45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B42C3BA-3C4C-4146-AF15-65FFB8E1AA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B42C3BA-3C4C-4146-AF15-65FFB8E1AA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B42C3BA-3C4C-4146-AF15-65FFB8E1AA45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD26A16-115E-4569-A937-CE5F787BE368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD26A16-115E-4569-A937-CE5F787BE368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD26A16-115E-4569-A937-CE5F787BE368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD26A16-115E-4569-A937-CE5F787BE368}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCDC60CF-FC1D-40AA-8DB8-70527B3AD9FD}
+	EndGlobalSection
+EndGlobal

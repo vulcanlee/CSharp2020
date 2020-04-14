@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPFPrismHelloWorldWithModule.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}" Height="350" Width="525">
+    <Grid Background="LightGray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel
+            HorizontalAlignment="Center"
+            Orientation="Horizontal">
+            <Button Command="{Binding SayHiCommand}" Width="150">Hi</Button>
+            <Button Command="{Binding ThankYouCommand}" Width="150">Thank You</Button>
+            <Button Command="{Binding RemoveCommand}" Width="150">Remove</Button>
+        </StackPanel>
+        <ContentControl Grid.Row="1" prism:RegionManager.RegionName="ContentRegion" />
+    </Grid>
+</Window>
