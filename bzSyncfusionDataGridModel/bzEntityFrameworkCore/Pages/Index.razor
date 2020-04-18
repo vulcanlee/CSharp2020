@@ -25,7 +25,7 @@
     }
 
     List<RowData> records = new List<RowData>();
-    async void LoadData(MouseEventArgs e)
+    async Task LoadData(MouseEventArgs e)
     {
         var rows = await Context.Course.Include(x => x.Department).ToListAsync();
 
@@ -50,6 +50,6 @@
         //    Name = x.Department.Name
         //}).ToList();
 
-        StateHasChanged();
+        //StateHasChanged();
     }
 }
