@@ -8,7 +8,12 @@
 <button class="btn btn-primary" @onclick="LoadData">讀取資料庫</button>
 
 <SfGrid DataSource="@records">
-
+    <GridColumns>
+        <GridColumn Field=@nameof(Course.CourseId) HeaderText="序號" TextAlign="TextAlign.Right" Width="120"></GridColumn>
+        <GridColumn Field=@nameof(Course.Title) HeaderText="課程名稱" Width="150"></GridColumn>
+        <GridColumn Field=@nameof(Course.Credits) HeaderText=" Credits" Format="d" Type="ColumnType.Date" TextAlign="TextAlign.Right" Width="130"></GridColumn>
+        <GridColumn Field=@nameof(Course.DepartmentId) HeaderText="科系" TextAlign="TextAlign.Right" Width="120"></GridColumn>
+    </GridColumns>
 </SfGrid>
 @code{
     List<Course> records = new List<Course>();
