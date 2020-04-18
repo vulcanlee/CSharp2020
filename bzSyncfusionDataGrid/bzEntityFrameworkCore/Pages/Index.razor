@@ -1,0 +1,20 @@
+﻿@page "/"
+@using bzEntityFrameworkCore.Models
+@using Microsoft.EntityFrameworkCore
+@inject ContosoUniversityContext Context
+
+<h1>Hello, Entity Framework Core</h1>
+
+<button class="btn btn-primary" @onclick="LoadData">讀取資料庫</button>
+
+<SfGrid DataSource="@records">
+
+</SfGrid>
+@code{
+    List<Course> records = new List<Course>();
+    async void LoadData(MouseEventArgs e)
+    {
+        records = await Context.Course.ToListAsync();
+        StateHasChanged();
+    }
+}
