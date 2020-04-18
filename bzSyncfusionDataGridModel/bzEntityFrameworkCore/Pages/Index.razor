@@ -1,0 +1,55 @@
+﻿@page "/"
+@using bzEntityFrameworkCore.Models
+@using Microsoft.EntityFrameworkCore
+@inject ContosoUniversityContext Context
+
+<h1>Hello, Entity Framework Core</h1>
+
+<button class="btn btn-primary" @onclick="LoadData">讀取資料庫</button>
+
+<SfGrid DataSource="@records">
+    <GridColumns>
+        <GridColumn Field=@nameof(RowData.CourseId) HeaderText="序號" TextAlign="TextAlign.Right" Width="120"></GridColumn>
+        <GridColumn Field=@nameof(RowData.Title) HeaderText="課程名稱" Width="150"></GridColumn>
+        <GridColumn Field=@nameof(RowData.Credits) HeaderText=" Credits" Format="d" Type="ColumnType.Date" TextAlign="TextAlign.Right" Width="130"></GridColumn>
+        <GridColumn Field=@nameof(RowData.Name) HeaderText="科系" TextAlign="TextAlign.Right" Width="120"></GridColumn>
+    </GridColumns>
+</SfGrid>
+@code{
+    class RowData
+    {
+        public int CourseId { get; set; }
+        public string Title { get; set; }
+        public int Credits { get; set; }
+        public string Name { get; set; }
+    }
+
+    List<RowData> records = new List<RowData>();
+    async void LoadData(MouseEventArgs e)
+    {
+        var rows = await Context.Course.Include(x => x.Department).ToListAsync();
+
+        // 這裡使用 LINQ 宣告式語言來實現
+        var query = from c in rows
+                    select new RowData
+                    {
+                        CourseId = c.CourseId,
+                        Title = c.Title,
+                        Credits = c.Credits,
+                        Name = c.Department.Name
+                    };
+        records = query.ToList();
+
+        //// 這裡使用 LINQ 延伸方法來實現
+        //records = rows.Select<Course, RowData>((x, y) =>
+        //new RowData
+        //{
+        //    CourseId = x.CourseId,
+        //    Title = x.Title,
+        //    Credits = x.Credits,
+        //    Name = x.Department.Name
+        //}).ToList();
+
+        StateHasChanged();
+    }
+}

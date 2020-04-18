@@ -1,0 +1,44 @@
+﻿@page "/"
+@namespace bzEntityFrameworkCore.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bzEntityFrameworkCore</title>
+    <base href="~/" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link href="css/site.css" rel="stylesheet" />
+
+    @*底下為要使用 Syncfusion 相關套件需要用到的 css 內容*@
+    <link href="_content/Syncfusion.Blazor/styles/fabric.css" rel="stylesheet" />
+    <!---CDN--->
+    @*<link href="https://cdn.syncfusion.com/blazor/18.1.44/styles/fabric.css" rel="stylesheet" />*@
+
+    @*底下為要相容於 IE11 要做的宣告*@
+    <script src="https://github.com/Daddoon/Blazor.Polyfill/releases/download/3.0.1/blazor.polyfill.min.js"></script>
+</head>
+<body>
+    <app>
+        <component type="typeof(App)" render-mode="ServerPrerendered" />
+    </app>
+
+    <div id="blazor-error-ui">
+        <environment include="Staging,Production">
+            An error has occurred. This application may no longer respond until reloaded.
+        </environment>
+        <environment include="Development">
+            An unhandled exception has occurred. See browser dev tools for details.
+        </environment>
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <script src="_framework/blazor.server.js"></script>
+</body>
+</html>
