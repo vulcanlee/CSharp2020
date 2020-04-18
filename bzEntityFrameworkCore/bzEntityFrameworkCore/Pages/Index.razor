@@ -1,0 +1,24 @@
+﻿@page "/"
+@using bzEntityFrameworkCore.Models
+@using Microsoft.EntityFrameworkCore
+@inject ContosoUniversityContext Context
+
+<h1>Hello, Entity Framework Core</h1>
+
+<button class="btn btn-primary" @onclick="LoadData">讀取資料庫</button>
+@foreach (var item in records)
+{
+    <div>@item</div>
+}
+@code{
+    List<string> records = new List<string>();
+    async void LoadData(MouseEventArgs e)
+    {
+       var allCourse = await Context.Course.ToListAsync();
+        foreach (var item in allCourse)
+        {
+            records.Add(item.Title);
+        }
+        StateHasChanged();
+    }
+}
