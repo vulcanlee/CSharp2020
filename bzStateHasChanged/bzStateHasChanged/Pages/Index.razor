@@ -13,7 +13,7 @@
     <span>
         <button class="btn btn-primary" @onclick="非同步方法void有StateHasChanged">4.非同步方法(回傳 void)有StateHasChanged</button>
         <button class="btn btn-primary" @onclick="非同步方法void但使用InvokeAsync方法">5.非同步方法void但使用InvokeAsync方法</button>
-        <button class="btn btn-primary" @onclick="非同步方法Task">6.非同步方法(回傳 Task)</button>
+        <button class="btn btn-primary" @onclick="非同步方法TaskAsync">6.非同步方法(回傳 Task)</button>
     </span>
 </div>
 <h3 class="text-danger">@message</h3>
@@ -69,7 +69,7 @@
         SyncContext = System.Threading.SynchronizationContext.Current == null ? "無 SynchronizationContext" : "有 SynchronizationContext";
         StateHasChanged();
     }
-    async Task 非同步方法Task()
+    async Task 非同步方法TaskAsync()
     {
         await Task.Delay(2000);
         message = "使用 async Task 方法簽章 與 await Task.Delay";
