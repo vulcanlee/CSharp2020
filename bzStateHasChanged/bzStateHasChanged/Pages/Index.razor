@@ -1,0 +1,78 @@
+﻿@page "/"
+
+<h1>Hello, StateHasChanged!</h1>
+
+<div>
+    <span>
+        <button class="btn btn-primary" @onclick="同步方法">1.同步方法</button>
+        <button class="btn btn-primary" @onclick="非同步方法void">2.非同步方法(回傳 void)</button>
+        <button class="btn btn-primary" @onclick="非同步方法void但使用Task委派方法">3.非同步方法void但使用Task委派方法</button>
+    </span>
+</div><br />
+<div>
+    <span>
+        <button class="btn btn-primary" @onclick="非同步方法void有StateHasChanged">4.非同步方法(回傳 void)有StateHasChanged</button>
+        <button class="btn btn-primary" @onclick="非同步方法void但使用InvokeAsync方法">5.非同步方法void但使用InvokeAsync方法</button>
+        <button class="btn btn-primary" @onclick="非同步方法Task">6.非同步方法(回傳 Task)</button>
+    </span>
+</div>
+<h3 class="text-danger">@message</h3>
+<p class="text-success">@SyncContext</p>
+<br />
+<h2>作業</h2>
+<p>請嘗試先點按鈕2，等3秒之後，再點選按鈕3，請觀察瀏覽器上面的變化(請注意點選按鈕後，當時即時網頁畫面)</p>
+@code{
+    string message = "";
+    string SyncContext = "";
+    void 同步方法()
+    {
+        System.Threading.Thread.Sleep(2000);
+        message = "使用 void 方法簽章 與 Thread.Sleep";
+        SyncContext = System.Threading.SynchronizationContext.Current == null ? "無 SynchronizationContext" : "有 SynchronizationContext";
+    }
+    async void 非同步方法void()
+    {
+        await Task.Delay(2000);
+        message = "使用 async void 方法簽章 與 await Task.Delay";
+        SyncContext = System.Threading.SynchronizationContext.Current == null ? "無 SynchronizationContext" : "有 SynchronizationContext";
+    }
+    async void 非同步方法void但使用Task委派方法()
+    {
+        var task = Task.Run(() =>
+        {
+            System.Threading.Thread.Sleep(2000);
+            message = "使用 void 方法簽章 與 Task委派方法 + Thread.Sleep";
+            SyncContext = System.Threading.SynchronizationContext.Current == null ? "無 SynchronizationContext" : "有 SynchronizationContext";
+            //在這裡若加上底下敘述，會如何呢？
+            StateHasChanged();
+        });
+        await task;
+    }
+    async void 非同步方法void但使用InvokeAsync方法()
+    {
+        var task = Task.Run(() =>
+        {
+            System.Threading.Thread.Sleep(2000);
+            message = "使用 void 方法簽章 與 Task委派方法 + Thread.Sleep+InvokeAsync方法";
+            SyncContext = System.Threading.SynchronizationContext.Current == null ? "無 SynchronizationContext" : "有 SynchronizationContext";
+            this.InvokeAsync(() =>
+            {
+                StateHasChanged();
+            });
+        });
+        await task;
+    }
+    async void 非同步方法void有StateHasChanged()
+    {
+        await Task.Delay(2000);
+        message = "使用 async void 方法簽章 與 await Task.Delay(最後呼叫 StateHasChanged)";
+        SyncContext = System.Threading.SynchronizationContext.Current == null ? "無 SynchronizationContext" : "有 SynchronizationContext";
+        StateHasChanged();
+    }
+    async Task 非同步方法Task()
+    {
+        await Task.Delay(2000);
+        message = "使用 async Task 方法簽章 與 await Task.Delay";
+        SyncContext = System.Threading.SynchronizationContext.Current == null ? "無 SynchronizationContext" : "有 SynchronizationContext";
+    }
+}
