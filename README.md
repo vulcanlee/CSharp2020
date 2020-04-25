@@ -3,7 +3,7 @@
 |專案名稱|說明|部落格網址|
 |-|-|-|
 |bzsfSimpleCRUD|使用 Syncfusion DataGrid 做出一個簡單 CRUD 應用||
-||||
+|bzsfCustomBindingCRUD|使用 Syncfusion 轉接器做出一個 CRUD 應用||
 ||||
 ||||
 ||||
