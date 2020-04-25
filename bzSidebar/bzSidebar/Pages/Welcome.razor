@@ -1,0 +1,8 @@
+﻿@page "/Welcome/{Message}"
+<h1>歡迎來到</h1>
+
+<p>@Message</p>
+@code {
+    [Parameter]
+    public string Message { get; set; }
+}
