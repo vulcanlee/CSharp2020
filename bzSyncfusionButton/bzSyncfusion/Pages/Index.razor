@@ -1,0 +1,43 @@
+﻿@page "/"
+@using Syncfusion.Blazor
+@using Syncfusion.Blazor.Buttons
+
+<h1>Hello, SfButton!</h1>
+
+<p>各種按鈕樣式</p>
+<SfButton @ref="ThisBtn" CssClass="e-primary" @onclick="OnClick" Content="@Content"></SfButton>
+<SfButton CssClass="e-success">Success</SfButton>
+<SfButton CssClass="e-info">Info</SfButton>
+<SfButton CssClass="e-warning">Warning</SfButton>
+<SfButton CssClass="e-danger">Danger</SfButton>
+<SfButton CssClass="e-link">Link</SfButton>
+<p>各種按鈕類型</p>
+<SfButton CssClass="e-flat">Flat</SfButton>
+<SfButton CssClass="e-outline">Outline</SfButton>
+<SfButton CssClass="e-round" IconCss="oi oi-plus" IsPrimary="true"></SfButton>
+<p>按鈕+圖形</p>
+<SfButton IconCss="e-icons e-play-icon" IconPosition="IconPosition.Right">PLAY</SfButton>
+<SfButton IconCss="e-icons e-pause-icon">PAUSE</SfButton>
+
+<p>各種 Bootstrap 4 的圖形 https://blazor.syncfusion.com/documentation/appearance/icons/#bootstrap-4 </p>
+<p>各種 Open Iconic 的圖形 https://useiconic.com/open</p>
+
+<style>
+
+    .e-play-icon:before {
+        content: '\e70b';
+    }
+
+    .e-pause-icon:before {
+        content: '\e757';
+    }
+</style>
+
+@code{
+    SfButton ThisBtn;
+    public string Content = "Primary";
+    private void OnClick(Microsoft.AspNetCore.Components.Web.MouseEventArgs args)
+    {
+        Content = "已經按下此按鈕";
+    }
+}
