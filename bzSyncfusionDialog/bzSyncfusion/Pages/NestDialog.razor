@@ -1,0 +1,49 @@
+﻿@page "/NestDialog"
+@using Syncfusion.Blazor
+@using Syncfusion.Blazor.Popups
+@using Syncfusion.Blazor.Buttons
+
+<h1>巢狀對話窗</h1>
+
+<SfButton @onclick="@OnClicked">開啟第一層對話窗</SfButton>
+<SfDialog ID="dialog" @bind-Visible="@isVisibleParent" IsModal="true"
+          ShowCloseIcon="true" Width="400px" Height="300px">
+    <DialogEvents OnOverlayClick="OnOuterOverlayclick">
+    </DialogEvents>
+    <DialogTemplates>
+        <Header>第一層對話窗</Header>
+        <Content><SfButton @onclick="@OnBtnClicked">開啟第二層對話窗</SfButton></Content>
+    </DialogTemplates>
+    <DialogPositionData X="center" Y="center"></DialogPositionData>
+</SfDialog>
+<SfDialog ID="innerDialog" @bind-Visible="@isVisibleChild" IsModal="true"
+          ShowCloseIcon="true" Width="500px" Height="350px">
+    <DialogEvents OnOverlayClick="OnInnerOverlayclick">
+    </DialogEvents>
+    <DialogTemplates>
+        <Header>第二層對話窗</Header>
+        <Content>這裡是 第二層對話窗</Content>
+    </DialogTemplates>
+    <DialogPositionData X="center" Y="center"></DialogPositionData>
+</SfDialog>
+
+@code {
+    private bool isVisibleParent { get; set; } = false;
+    private bool isVisibleChild { get; set; } = false;
+    private void OnClicked()
+    {
+        this.isVisibleParent = true;
+    }
+    private void OnBtnClicked()
+    {
+        this.isVisibleChild = true;
+    }
+    private void OnOuterOverlayclick(object arg)
+    {
+        this.isVisibleParent = false;
+    }
+    private void OnInnerOverlayclick(object arg)
+    {
+        this.isVisibleChild = false;
+    }
+}

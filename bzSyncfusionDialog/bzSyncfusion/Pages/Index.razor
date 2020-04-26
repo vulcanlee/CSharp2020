@@ -1,0 +1,38 @@
+﻿@page "/"
+@using Syncfusion.Blazor
+@using Syncfusion.Blazor.Popups
+@using Syncfusion.Blazor.Buttons
+@inject NavigationManager NavigationManager
+
+<h1>Hello, Dialog!</h1>
+
+<div class="m-1">
+    <SfButton CssClass="e-primary" @onclick="@OnClicked">Open Modal Dialog</SfButton>
+</div>
+<div class="m-1">
+    <SfButton CssClass="e-primary" @onclick="@OnNestClicked">Open Nest Dialog</SfButton>
+</div>
+
+<SfDialog @bind-Visible="@IsVisible" Width="250px" IsModal="true">
+    <DialogEvents OnOverlayClick="OnOverlayclick">
+    </DialogEvents>
+    <DialogTemplates>
+        <Content> This is a modal dialog</Content>
+    </DialogTemplates>
+</SfDialog>
+
+@code {
+    private bool IsVisible { get; set; } = false;
+    private void OnClicked()
+    {
+        this.IsVisible = true;
+    }
+    private void OnOverlayclick(object arg)
+    {
+        this.IsVisible = false;
+    }
+    private void OnNestClicked()
+    {
+        NavigationManager.NavigateTo("/NestDialog");
+    }
+}
