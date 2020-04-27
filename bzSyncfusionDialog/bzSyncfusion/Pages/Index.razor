@@ -15,6 +15,9 @@
 <div class="m-1">
     <SfButton CssClass="e-primary" @onclick="@OnScrollingClicked">Open Scrolling Dialog</SfButton>
 </div>
+<div class="m-1">
+    <SfButton CssClass="e-primary" @onclick="@OnConditionClicked">Open Condition Dialog</SfButton>
+</div>
 
 <SfDialog @bind-Visible="@IsVisible" Width="250px" IsModal="true">
     <DialogEvents OnOverlayClick="OnOverlayclick">
@@ -41,5 +44,9 @@
     private void OnScrollingClicked()
     {
         NavigationManager.NavigateTo("/Scroll");
+    }
+    private void OnConditionClicked()
+    {
+        NavigationManager.NavigateTo("/Condition");
     }
 }
