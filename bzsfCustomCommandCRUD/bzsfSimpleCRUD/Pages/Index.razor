@@ -1,0 +1,86 @@
+﻿@page "/"
+@using System.Threading
+@using Syncfusion.Blazor
+@using Syncfusion.Blazor.Buttons
+@using Syncfusion.Blazor.Data
+@using Syncfusion.Blazor.Grids
+@using bzsfSimpleCRUD.Data
+@inject OrderService OrderService
+
+
+<h1>Hello, world!</h1>
+
+@*<SfButton CssClass="e-primary" @onclick="OnAddClick">新增</SfButton>*@
+@*<SfDataManager AdaptorInstance="@typeof(CustomAdaptor)" Adaptor="Adaptors.CustomAdaptor"></SfDataManager>*@
+<SfGrid @ref="Grid" TValue="Order" ID="Grid"
+        AllowPaging="true"
+        Toolbar="@(new List<string>() { "新增","Search" })">
+    <SfDataManager Adaptor="Adaptors.CustomAdaptor">
+        <OrderServiceAdaptor></OrderServiceAdaptor>
+    </SfDataManager>
+    <GridEvents CommandClicked="OnCommandClicked" TValue="Order"
+                OnToolbarClick="ToolbarClickHandler"></GridEvents>
+    <GridPageSettings PageSize="8"></GridPageSettings>
+    <GridSearchSettings Fields=@InitSearch Operator=Syncfusion.Blazor.Operator.Contains IgnoreCase="true"></GridSearchSettings>
+    <GridColumns>
+        <GridColumn Field=@nameof(Order.OrderID) HeaderText="訂單編號" IsPrimaryKey="true" TextAlign="@TextAlign.Center" Width="140"></GridColumn>
+        <GridColumn Field=@nameof(Order.CustomerID) HeaderText="客戶名稱" Width="150"></GridColumn>
+        <GridColumn Field=@nameof(Order.Freight) HeaderText="貨物" Width="150"></GridColumn>
+        <GridColumn HeaderText="Manage Records" Width="150">
+            <GridCommandColumns>
+                <GridCommandColumn ButtonOption="@(new CommandButtonOptions() { Content = "修改", CssClass = "e-flat" })"></GridCommandColumn>
+                <GridCommandColumn ButtonOption="@(new CommandButtonOptions() { Content = "刪除", CssClass = "e-flat e-danger" })"></GridCommandColumn>
+            </GridCommandColumns>
+        </GridColumn>
+    </GridColumns>
+</SfGrid>
+
+@code{
+    SfGrid<Order> Grid;
+    int LastID = 6000;
+    string[] InitSearch = (new string[] { "CustomerID" });
+    protected override void OnInitialized()
+    {
+    }
+
+    async Task OnAddClick()
+    {
+        await OrderService.AddAsync(new Order()
+        {
+            OrderID = 100,
+            CustomerID = "New Record " + DateTime.Now.TimeOfDay.ToString(),
+            Freight = 32.5
+        });
+        Grid.Refresh();
+    }
+
+    async Task ToolbarClickHandler(Syncfusion.Blazor.Navigations.ClickEventArgs args)
+    {
+        if (args.Item.Text == "新增")
+        {
+            await OrderService.AddAsync(new Order()
+            {
+                OrderID = LastID++,
+                CustomerID = "New Record " + DateTime.Now.TimeOfDay.ToString(),
+                Freight = 32.5
+            });
+            Grid.Refresh();
+        }
+    }
+    public void OnCommandClicked(CommandClickEventArgs<Order> args)
+    {
+        // Perform required operations here
+        Order item = args.RowData as Order;
+        if (args.CommandColumn.ButtonOption.Content == "修改")
+        {
+            item.CustomerID = "Vulcan" + DateTime.Now.TimeOfDay.ToString();
+            OrderService.UpdateAsync(item);
+            Grid.Refresh();
+        }
+        else if (args.CommandColumn.ButtonOption.Content == "刪除")
+        {
+            OrderService.DeleteAsync(item);
+            Grid.Refresh();
+        }
+    }
+}
