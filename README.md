@@ -18,7 +18,7 @@
 |bzSyncfusionButton|使用 Syncfusion 的按鈕元件或指定按鈕代表圖形，有 Bootstrap 4 與 Open Iconic 兩種用法||
 |bzSyncfusionDialog|使用 Syncfusion 的各種對話窗的用法，包含巢狀對話窗||
 |bzsfCustomCommandCRUD|使用客製命令與轉接器做出一個 CRUD 應用||
-||||
-||||
+|bzFormValidation|Blazor 的表單驗證||
+|bzSyncfusionEssentialStudio|使用 Syncfusion Essential Studio for Blazor 建立一個專案||
 ||||
 
