@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace DBEntityFrameworkCore.Models
+namespace DatabaseModel.Models
 {
     public partial class ContosoUniversityContext : DbContext
     {
