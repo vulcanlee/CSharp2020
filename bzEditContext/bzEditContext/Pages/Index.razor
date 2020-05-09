@@ -1,0 +1,73 @@
+﻿@page "/"
+@using bzEditContext.Data
+
+<h1>Hello, 客製化進行表單資料輸入驗證 EditForm - EditContext !</h1>
+
+<EditForm Model="@Customer">
+    <DataAnnotationsValidator />
+
+    <InputWatcher EditContextActionChanged="@OnEditContestChanged" />
+
+    <div class="form-group row mb-1">
+        <label class="col-sm-3 col-form-label" for="FirstName">Name:</label>
+        <div class="col-sm-9">
+            <InputText class="form-control"
+                       @bind-Value="@Customer.Name" />
+            <ValidationMessage For="@(() => Customer.Name)" />
+        </div>
+    </div>
+    <div class="form-group row mb-1">
+        <label class="col-sm-3 col-form-label"
+               for="LastName">Street:</label>
+        <div class="col-sm-9">
+            <InputText class="form-control"
+                       @bind-Value="@Customer.Street" />
+            <ValidationMessage For="@(() => Customer.Street)" />
+        </div>
+    </div>
+    <div class="form-group row mb-1">
+        <label class="col-sm-3 col-form-label"
+               for="Birthday">City:</label>
+        <div class="col-sm-9">
+            <InputText class="form-control"
+                       @bind-Value="@Customer.City" />
+            <ValidationMessage For="@(() => Customer.City)" />
+        </div>
+    </div>
+</EditForm>
+
+<div>
+    <button class="btn btn-primary" @onclick="OnOK">確定</button>
+</div>
+
+<div class="display-4 text-secondary">
+    @ValidationMessage
+</div>
+
+
+@code {
+    public Customer Customer { get; set; }
+    public EditContext LocalEditContext { get; set; }
+    public string ValidationMessage { get; set; }
+
+    protected override void OnInitialized()
+    {
+        Customer = new Customer();
+    }
+    void OnOK()
+    {
+        if (LocalEditContext.Validate() == false)
+        {
+            ValidationMessage = "資料有錯，請重新修正";
+        }
+        else
+        {
+            ValidationMessage = "表單驗證正確無誤";
+        }
+    }
+    private void OnEditContestChanged(EditContext context)
+    {
+        LocalEditContext = context;
+    }
+
+}

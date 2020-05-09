@@ -6,7 +6,7 @@
 @using Syncfusion.Blazor.Inputs
 @using System.ComponentModel.DataAnnotations
 
-<EditForm Model="@Order" OnValidSubmit="HandleValidSubmit">
+<EditForm Model="@fooA" OnValidSubmit="HandleValidSubmit">
     <DataAnnotationsValidator />
     <ValidationSummary />
 
@@ -61,6 +61,11 @@
 
 @code{
     OrdersDetails Order = new OrdersDetails();
+    classA fooA = new classA();
+    class classA
+    {
+        public int MyProperty { get; set; }
+    }
 
     protected override void OnInitialized()
     {
