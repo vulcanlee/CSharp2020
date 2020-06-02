@@ -26,7 +26,7 @@
 |bzSyncfusionEssentialStudio|使用 Syncfusion Essential Studio for Blazor 建立一個專案||
 |bzEditContext|客製化進行表單資料輸入驗證 EditForm - EditContext||
 |bzMatBlazorStart|使用 MatBlazor 來開發 Blazor 專案||
-||||
+|xfNewDialogService|使用 Prism 7.2 提供的新對話窗服務||
 ||||
 ||||
 ||||

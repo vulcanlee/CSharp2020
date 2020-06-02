@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="xfNewDialogService.Dialogs.MessageDialog">
+    <StackLayout
+        Margin="20"
+        HorizontalOptions="Fill" VerticalOptions="Center"
+        Orientation="Vertical">
+        <Label Text="{Binding Title}"
+               FontSize="24" TextColor="White"/>
+        <Label Text="{Binding Message}" TextColor="Pink"/>
+        <StackLayout
+            HorizontalOptions="Center"
+            Orientation="Horizontal">
+            <Button Text="確定"
+                    HorizontalOptions="FillAndExpand"
+                    Command="{Binding OKCommand}"/>
+            <Button Text="取消"
+                    HorizontalOptions="FillAndExpand"
+                    Command="{Binding CancelCommand}"/>
+        </StackLayout>
+    </StackLayout>
+</ContentView>
