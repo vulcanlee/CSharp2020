@@ -28,7 +28,7 @@
 |bzMatBlazorStart|使用 MatBlazor 來開發 Blazor 專案||
 |xfNewDialogService|使用 Prism 7.2 提供的新對話窗服務||
 |xfQRCode3|使用 ZXing.Net.Mobile.Forms 3.0 Beta 版的測試效果||
-||||
+|xfFontIcon|使用字體圖片 Material Design Icons 的練習||
 ||||
 ||||
 ||||

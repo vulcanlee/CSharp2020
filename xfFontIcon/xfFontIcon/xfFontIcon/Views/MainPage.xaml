@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="xfFontIcon.Views.MainPage"
+             Title="使用字體圖片 Material Design Icons">
+
+    <StackLayout 
+        Margin="20,0"
+        HorizontalOptions="Fill" VerticalOptions="CenterAndExpand">
+        <Label Text="Welcome to Xamarin Forms and Prism!" />
+        <StackLayout
+            Orientation="Horizontal">
+            <Label
+                FontFamily="FontAwesome" FontSize="30" TextColor="Red" Text="&#xF0004;" />
+            <Entry Placeholder="請輸入帳號" HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+        <StackLayout
+            Orientation="Horizontal">
+            <Label
+                FontFamily="FontAwesome" FontSize="30" TextColor="Red" Text="&#xF07F5;" />
+            <Entry Placeholder="請輸入密碼" IsPassword="True" HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+        <Image>
+            <Image.Source>
+                <FontImageSource Glyph="&#xF05FC;" FontFamily="FontAwesome"
+                                 Size="60" Color="DodgerBlue"/>
+            </Image.Source>
+        </Image>
+    </StackLayout>
+
+</ContentPage>
