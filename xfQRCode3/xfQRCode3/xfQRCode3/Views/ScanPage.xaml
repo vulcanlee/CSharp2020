@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             xmlns:Zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="xfQRCode3.Views.ScanPage"
+             Title="進行條碼掃描中..."
+             >
+
+    <Grid
+        >
+        <Zxing:ZXingScannerView
+            x:Name="ZXingScannerView"
+            HorizontalOptions="Fill"
+            IsAnalyzing="{Binding IsAnalyzing}"
+            IsScanning="{Binding IsScanning}"
+            Result="{Binding ScanResult, Mode=TwoWay}" 
+            ScanResultCommand="{Binding ScanResultCommand}" 
+             />
+        <Button x:Name="FlashButton" Text="啟動LED燈光"
+                HorizontalOptions="End" VerticalOptions="Start"
+                Margin="0,10,10,0" Clicked="ZXingDefaultOverlay_FlashButtonClicked"/>
+        <!--<Zxing:ZXingDefaultOverlay Opacity="0" ShowFlashButton="True" 
+                                   FlashButtonClicked="ZXingDefaultOverlay_FlashButtonClicked"/>-->
+    </Grid>
+</ContentPage>
