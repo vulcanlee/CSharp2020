@@ -30,7 +30,7 @@
 |xfQRCode3|使用 ZXing.Net.Mobile.Forms 3.0 Beta 版的測試效果||
 |xfFontIcon|使用字體圖片 Material Design Icons 的練習||
 |xfSQLiteDB|使用 EF Core 存取 SQLite 資料庫||
-||||
+|XFNFC|透過 Xamarin.Forms 來讀取 NFC 裝置 Tag||
 ||||
 ||||
 ||||

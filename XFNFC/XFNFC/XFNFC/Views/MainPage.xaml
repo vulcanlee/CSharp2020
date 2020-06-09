@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFNFC.Views.MainPage"
+             Title="{Binding Title}">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Label Text="Welcome to Xamarin Forms and Prism!" />
+        <Label Text="{Binding Tag}"
+               FontSize="30" TextColor="Red"/>
+        <Button Text="感應 NFC" Command="{Binding ReadNFCCommand}"/>
+        <Button Text="停止感應 NFC" Command="{Binding StopReadNFCCommand}"/>
+    </StackLayout>
+
+</ContentPage>
