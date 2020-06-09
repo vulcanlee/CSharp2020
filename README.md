@@ -32,7 +32,7 @@
 |xfSQLiteDB|使用 EF Core 存取 SQLite 資料庫||
 |XFNFC|透過 Xamarin.Forms 來讀取 NFC 裝置 Tag||
 |xfLogin|使用者登入 (儲存登入帳密)||
-||||
+|xfCamera|使用鏡頭進行拍照||
 ||||
 ||||
 ||||
