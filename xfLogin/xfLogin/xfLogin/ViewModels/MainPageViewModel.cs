@@ -9,12 +9,14 @@ using System.Text;
 namespace xfLogin.ViewModels
 {
     using System.ComponentModel;
+    using System.IO;
     using System.Net.Http;
     using System.Threading.Tasks;
     using Newtonsoft.Json;
     using Prism.Events;
     using Prism.Navigation;
     using Prism.Services;
+    using Xamarin.Forms.Internals;
     using xfLogin.Models;
 
     public class MainPageViewModel : INotifyPropertyChanged, INavigationAware
@@ -26,6 +28,8 @@ namespace xfLogin.ViewModels
         public string Password { get; set; }
         public string Message { get; set; }
         public DelegateCommand LoginCommand { get; set; }
+       string dataFile= System.IO.Path.Combine(
+           System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "Account.txt");
 
         public MainPageViewModel(INavigationService navigationService)
         {
@@ -59,6 +63,7 @@ namespace xfLogin.ViewModels
                     if (standardResponse.Success == true)
                     {
                         Message = "登入驗證程序成功";
+                        File.WriteAllText(dataFile, postPayload);
                     }
                     else
                     {
@@ -68,8 +73,8 @@ namespace xfLogin.ViewModels
             });
 
 #if DEBUG
-            Account = "admin";
-            Password = "123";
+            //Account = "admin";
+            //Password = "123";
 #endif
         }
 
@@ -79,6 +84,18 @@ namespace xfLogin.ViewModels
 
         public void OnNavigatedTo(INavigationParameters parameters)
         {
+            try
+            {
+                var content =File.ReadAllText(dataFile);
+                if(string.IsNullOrEmpty(content) ==false)
+                {
+                    LoginQueryString loginQueryString = 
+                        JsonConvert.DeserializeObject<LoginQueryString>(content);
+                    Account = loginQueryString.Account;
+                    Password = loginQueryString.Password;
+                }
+            }
+            catch { }
         }
 
         public void OnNavigatingTo(INavigationParameters parameters)
