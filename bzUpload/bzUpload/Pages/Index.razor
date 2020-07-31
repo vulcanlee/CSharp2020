@@ -1,0 +1,33 @@
+﻿@page "/"
+@using Syncfusion.Blazor.Inputs
+@using System.IO
+
+    <h1>Hello, SfUploader!</h1>
+
+
+<SfUploader AutoUpload="false" AllowedExtensions=".png, .jpg, .jpeg">
+    <UploaderEvents ValueChange="OnChange"
+                    ></UploaderEvents>
+</SfUploader>
+
+<img src="@imageSource"/>
+
+@code {
+
+    string imageSource = "";
+    private void OnChange(UploadChangeEventArgs args)
+    {
+        foreach (var file in args.Files)
+        {
+            string imageFilename = Guid.NewGuid().ToString() +
+                $".{file.FileInfo.Type}";
+            var pathImage = Path.Combine(Directory.GetCurrentDirectory(), "Images", imageFilename);
+            imageSource = $"Images/{imageFilename}";
+
+            FileStream filestream = new FileStream(pathImage, FileMode.Create, FileAccess.Write);
+            file.Stream.WriteTo(filestream);
+            filestream.Close();
+            file.Stream.Close();
+        }
+    }
+}

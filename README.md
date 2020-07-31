@@ -34,6 +34,14 @@
 |xfLogin|使用者登入 (儲存登入帳密)||
 |xfCamera|使用鏡頭進行拍照||
 |bzsfTimePicker|使用 Syncfusion 設計 TimeSpan Picker||
+|bzUpload|使用 Syncfusion 設計 Server side 的檔案上傳功能||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
 ||||
 ||||
 
