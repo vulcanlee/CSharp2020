@@ -2,15 +2,19 @@
 @using Syncfusion.Blazor.Inputs
 @using System.IO
 
-    <h1>Hello, SfUploader!</h1>
+<h1>Hello, SfUploader!</h1>
 
+@*https://www.syncfusion.com/kb/11614/how-to-upload-files-to-the-server-with-the-blazor-file-upload-component?fbclid=IwAR0l7JZc1mdwZTGEuMN9SAw-6AHpOQEMT7tulNqB6pzsOVUb3KeKN6twr2o*@
 
+@*public async Task HandleValidSubmit()
+    {
+        await this.UploadObj.Upload(); // Upload the selected file manually
+    }*@
 <SfUploader AutoUpload="false" AllowedExtensions=".png, .jpg, .jpeg">
-    <UploaderEvents ValueChange="OnChange"
-                    ></UploaderEvents>
+    <UploaderEvents ValueChange="OnChange"></UploaderEvents>
 </SfUploader>
 
-<img src="@imageSource"/>
+<img src="@imageSource" width="320" />
 
 @code {
 
