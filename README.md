@@ -35,7 +35,7 @@
 |xfCamera|使用鏡頭進行拍照||
 |bzsfTimePicker|使用 Syncfusion 設計 TimeSpan Picker||
 |bzUpload|使用 Syncfusion 設計 Server side 的檔案上傳功能||
-||||
+|ImageSharpResize|.NET Core 的圖片放大與縮小||
 ||||
 ||||
 ||||

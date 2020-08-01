@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageSharpResize", "ImageSharpResize\ImageSharpResize.csproj", "{D4301C61-BE7F-4563-8165-C42320456353}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A45BF24F-57E8-4E71-AB88-64B1D57A7918}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4301C61-BE7F-4563-8165-C42320456353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4301C61-BE7F-4563-8165-C42320456353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4301C61-BE7F-4563-8165-C42320456353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4301C61-BE7F-4563-8165-C42320456353}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B6B8617-E7B3-4134-BC04-1FD9DE481EC4}
+	EndGlobalSection
+EndGlobal
