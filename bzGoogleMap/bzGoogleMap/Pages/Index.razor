@@ -1,0 +1,19 @@
+﻿@page "/"
+@inject IJSRuntime JSRuntime
+
+<h1>Hello, Google Map!</h1>
+
+<h1>這裡將會顯示 Google 地圖</h1>
+<div id="map" style="height:500px;width:100%;">
+</div>
+
+@code {
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("initialize", 22.6552899, 120.3039414);
+        }
+    }
+}

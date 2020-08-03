@@ -36,7 +36,7 @@
 |bzsfTimePicker|使用 Syncfusion 設計 TimeSpan Picker||
 |bzUpload|使用 Syncfusion 設計 Server side 的檔案上傳功能||
 |ImageSharpResize|.NET Core 的圖片放大與縮小||
-||||
+|bzGoogleMap|在 Blazor 中，顯示 Google 地圖 Map 的設計教學||
 ||||
 ||||
 ||||
