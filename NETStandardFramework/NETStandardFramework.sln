@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETStandardFramework", "NETStandardFramework\NETStandardFramework.csproj", "{08BBF0B8-F5D7-47E0-965B-11B85E3E59F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseJsonNET", "UseJsonNET\UseJsonNET.csproj", "{6C9BBCB3-FC72-419D-B3F3-7449ED8B086C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08BBF0B8-F5D7-47E0-965B-11B85E3E59F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08BBF0B8-F5D7-47E0-965B-11B85E3E59F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08BBF0B8-F5D7-47E0-965B-11B85E3E59F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08BBF0B8-F5D7-47E0-965B-11B85E3E59F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C9BBCB3-FC72-419D-B3F3-7449ED8B086C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9BBCB3-FC72-419D-B3F3-7449ED8B086C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9BBCB3-FC72-419D-B3F3-7449ED8B086C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9BBCB3-FC72-419D-B3F3-7449ED8B086C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D132A60F-19FB-453D-B30F-F50F8F79AB24}
+	EndGlobalSection
+EndGlobal
