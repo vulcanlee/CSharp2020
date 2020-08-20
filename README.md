@@ -39,7 +39,7 @@
 |bzGoogleMap|在 Blazor 中，顯示 Google 地圖 Map 的設計教學||
 |CodeFirstEntityFrameworkCore|使用 Console 專案與 Entity Freamework Core Code First 讀取 Contoso University 資料庫||
 |EFCoreReverseEngineering|使用資料庫反向工程，取得 EF Core 的資料模型||
-||||
+|EFRelation|讀取關聯式資料表的紀錄操作方式||
 ||||
 ||||
 ||||
