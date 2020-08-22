@@ -40,7 +40,7 @@
 |CodeFirstEntityFrameworkCore|使用 Console 專案與 Entity Freamework Core Code First 讀取 Contoso University 資料庫||
 |EFCoreReverseEngineering|使用資料庫反向工程，取得 EF Core 的資料模型||
 |EFRelation|讀取關聯式資料表的紀錄操作方式||
-||||
+|WhyAutoMapper|如何使用 AutoMapper ||
 ||||
 ||||
 ||||
