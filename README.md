@@ -44,7 +44,7 @@
 |efConcurrentAction|請觀察專案 - 同時多次進行異動，會發生甚麼問題||
 |efChangeTracker|體驗 ChangeTracker 運作模式||
 |efTrackCache|解釋 ChangeTracker 運作模式(快取機制)||
-||||
+|efCodeFirst|使用 Code First 建立 Entity Framework Core 應用專案||
 ||||
 ||||
 ||||
