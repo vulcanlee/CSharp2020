@@ -45,7 +45,7 @@
 |efChangeTracker|體驗 ChangeTracker 運作模式||
 |efTrackCache|解釋 ChangeTracker 運作模式(快取機制)||
 |efCodeFirst|使用 Code First 建立 Entity Framework Core 應用專案||
-||||
+|efLoggerFactory|使用 LoggerFactory 觀察送出的 SQL Statement||
 ||||
 ||||
 ||||
