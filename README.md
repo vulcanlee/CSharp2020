@@ -49,7 +49,7 @@
 |efAddRecord|EF Core 的 紀錄新增||
 |efUpdateRecord|EF Core 的 紀錄修改||
 |efDeleteRecord|EF Core 的 紀錄刪除||
-||||
+|efMultiThread|DbContext 在多執行緒環境下的運作情況||
 ||||
 ||||
 ||||
