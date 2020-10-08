@@ -10,6 +10,8 @@
 |DBEntityFrameworkCore|使用 Blazor 專案與 Entity Freamework Core 讀取已經存在的 Contoso University 資料庫|https://csharpkh.blogspot.com/2020/04/Blazor-Entity-Freamework-Core-SQL-Server-Database.html|
 |DBEntityFrameworkCore|使用 Console 專案與 Entity Freamework Core 讀取已經存在的 Contoso University 資料庫|https://csharpkh.blogspot.com/2020/04/CSharp-Console-Entity-Freamework-Core-SQL-Server-Database.html|
 ||使用 Visual Studio 建立 Contoso University 資料庫|https://csharpkh.blogspot.com/2020/04/Visual-Studio-Contoso-University-SQL-Server-Explorer.html|
+|efMultiThread|[文章](EFCore/Entity-Framework-Core-dbcontext-multi-thread-safty-InvalidOperationException-OnConfiguring.md)|DbContext 在多執行緒環境下的運作情況|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-dbcontext-multi-thread-safty-InvalidOperationException-OnConfiguring.html|
+|efMultiThread|DbContext 在多執行緒環境下的運作情況||
 ||||
 ||||
 ||||
@@ -49,7 +51,6 @@
 |efAddRecord|EF Core 的 紀錄新增||
 |efUpdateRecord|EF Core 的 紀錄修改||
 |efDeleteRecord|EF Core 的 紀錄刪除||
-|efMultiThread|DbContext 在多執行緒環境下的運作情況||
 ||||
 ||||
 ||||
