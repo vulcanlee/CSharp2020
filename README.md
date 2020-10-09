@@ -42,7 +42,6 @@
 |WhyAutoMapper|如何使用 AutoMapper ||
 |efChangeTracker|體驗 ChangeTracker 運作模式||
 |efTrackCache|解釋 ChangeTracker 運作模式(快取機制)||
-|efLoggerFactory|使用 LoggerFactory 觀察送出的 SQL Statement||
 |efAddRecord|EF Core 的 紀錄新增||
 |efUpdateRecord|EF Core 的 紀錄修改||
 |efDeleteRecord|EF Core 的 紀錄刪除||
@@ -56,6 +55,7 @@
 ||||
 
 
+|efLoggerFactory|使用 LoggerFactory 觀察送出的 SQL Statement||
 |efCodeFirst|使用 Code First 建立 Entity Framework Core 應用專案||
 |CodeFirstEntityFrameworkCore|使用 Console 專案與 Entity Freamework Core Code First 讀取 Contoso University 資料庫||
 |EFCoreReverseEngineering|使用資料庫反向工程，取得 EF Core 的資料模型||
