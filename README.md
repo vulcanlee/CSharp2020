@@ -10,8 +10,7 @@
 |DBEntityFrameworkCore|使用 Blazor 專案與 Entity Freamework Core 讀取已經存在的 Contoso University 資料庫|https://csharpkh.blogspot.com/2020/04/Blazor-Entity-Freamework-Core-SQL-Server-Database.html|
 |DBEntityFrameworkCore|使用 Console 專案與 Entity Freamework Core 讀取已經存在的 Contoso University 資料庫|https://csharpkh.blogspot.com/2020/04/CSharp-Console-Entity-Freamework-Core-SQL-Server-Database.html|
 ||使用 Visual Studio 建立 Contoso University 資料庫|https://csharpkh.blogspot.com/2020/04/Visual-Studio-Contoso-University-SQL-Server-Explorer.html|
-|efMultiThread|[文章](EFCore/Entity-Framework-Core-dbcontext-multi-thread-safty-InvalidOperationException-OnConfiguring.md)|DbContext 在多執行緒環境下的運作情況|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-dbcontext-multi-thread-safty-InvalidOperationException-OnConfiguring.html|
-|efMultiThread|DbContext 在多執行緒環境下的運作情況||
+|efMultiThread|DbContext 在多執行緒環境下的運作情況|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-dbcontext-multi-thread-safty-InvalidOperationException-OnConfiguring.html|
 ||||
 ||||
 ||||
@@ -39,14 +38,10 @@
 |bzUpload|使用 Syncfusion 設計 Server side 的檔案上傳功能||
 |ImageSharpResize|.NET Core 的圖片放大與縮小 ImageSharp||
 |bzGoogleMap|在 Blazor 中，顯示 Google 地圖 Map 的設計教學||
-|CodeFirstEntityFrameworkCore|使用 Console 專案與 Entity Freamework Core Code First 讀取 Contoso University 資料庫||
-|EFCoreReverseEngineering|使用資料庫反向工程，取得 EF Core 的資料模型||
 |EFRelation|讀取關聯式資料表的紀錄操作方式||
 |WhyAutoMapper|如何使用 AutoMapper ||
-|efConcurrentAction|請觀察專案 - 同時多次進行異動，會發生甚麼問題||
 |efChangeTracker|體驗 ChangeTracker 運作模式||
 |efTrackCache|解釋 ChangeTracker 運作模式(快取機制)||
-|efCodeFirst|使用 Code First 建立 Entity Framework Core 應用專案||
 |efLoggerFactory|使用 LoggerFactory 觀察送出的 SQL Statement||
 |efAddRecord|EF Core 的 紀錄新增||
 |efUpdateRecord|EF Core 的 紀錄修改||
@@ -60,3 +55,8 @@
 ||||
 ||||
 
+
+|efCodeFirst|使用 Code First 建立 Entity Framework Core 應用專案||
+|CodeFirstEntityFrameworkCore|使用 Console 專案與 Entity Freamework Core Code First 讀取 Contoso University 資料庫||
+|EFCoreReverseEngineering|使用資料庫反向工程，取得 EF Core 的資料模型||
+|efConcurrentAction|請觀察專案 - 同時多次進行異動，會發生甚麼問題||
