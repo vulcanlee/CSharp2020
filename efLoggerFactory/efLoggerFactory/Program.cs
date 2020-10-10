@@ -18,6 +18,7 @@ namespace efLoggerFactory
             string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=School";
             DbContextOptions<SchoolContext> options = new DbContextOptionsBuilder<SchoolContext>()
                 .UseLoggerFactory(MyLoggerFactory)
+                .EnableSensitiveDataLogging()
                 .UseSqlServer(connectionString)
                 .Options;
             using (var context = new SchoolContext(options))
