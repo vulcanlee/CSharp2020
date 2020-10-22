@@ -34,14 +34,18 @@ namespace bzsfSimpleCRUD
             services.AddControllers();
             services.AddLocalization(options => options.ResourcesPath = "Resources");
             services.AddSyncfusionBlazor();
+            // Register the Syncfusion locale service to customize the  SyncfusionBlazor component locale culture
+
+            services.AddSingleton(typeof(ISyncfusionStringLocalizer), typeof(SyncfusionLocalizer));
+
             services.Configure<RequestLocalizationOptions>(options =>
             {
                 // define the list of cultures your app will support
                 var supportedCultures = new List<CultureInfo>()
-            {
-                new CultureInfo("en-US"),
-                new CultureInfo("zh")
-            };
+                {
+                        new CultureInfo("en-US"),
+                        new CultureInfo("zh-TW")
+                };
 
                 // set the default culture
                 options.DefaultRequestCulture = new RequestCulture("zh-TW");
@@ -49,7 +53,6 @@ namespace bzsfSimpleCRUD
                 options.SupportedCultures = supportedCultures;
                 options.SupportedUICultures = supportedCultures;
             });
-            services.AddSingleton(typeof(ISyncfusionStringLocalizer), typeof(SampleLocalizer));
             #endregion
 
             services.AddRazorPages();

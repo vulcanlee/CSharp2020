@@ -12,12 +12,12 @@
 ||使用 Visual Studio 建立 Contoso University 資料庫|https://csharpkh.blogspot.com/2020/04/Visual-Studio-Contoso-University-SQL-Server-Explorer.html|
 |efMultiThread|DbContext 在多執行緒環境下的運作情況|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-dbcontext-multi-thread-safty-InvalidOperationException-OnConfiguring.html|
 |xfFontIcon|使用字體圖片 Material Design Icons 的練習||
+|bzsfSimpleCRUD|使用 Syncfusion DataGrid 做出一個具有中文語系的簡單 CRUD 應用|https://csharpkh.blogspot.com/2020/10/Xamarin-Forms-Material-Design-Icons-FontFamily-ExportFont.html|
 ||||
 ||||
 ||||
 ||||
 ||||
-|bzsfSimpleCRUD|使用 Syncfusion DataGrid 做出一個簡單 CRUD 應用||
 |bzsfCustomBindingCRUD|使用 Syncfusion 轉接器做出一個 CRUD 應用||
 |bzSidebar|使用 Syncfusion SfSidebar 建立一個版面功能表選項清單||
 |bzSyncfusion|如何使用 Syncfusion 在 Blazor 專案上||

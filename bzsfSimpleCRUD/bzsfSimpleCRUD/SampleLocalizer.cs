@@ -6,18 +6,21 @@ using System.Threading.Tasks;
 
 namespace bzsfSimpleCRUD
 {
-    public class SampleLocalizer : ISyncfusionStringLocalizer
+    public class SyncfusionLocalizer : ISyncfusionStringLocalizer
     {
-
-        public string Get(string key)
+        // To get the locale key from mapped resources file
+        public string GetText(string key)
         {
-            return this.Manager.GetString(key);
+            return this.ResourceManager.GetString(key);
         }
 
-        public System.Resources.ResourceManager Manager
+        // To access the resource file and get the exact value for locale key
+
+        public System.Resources.ResourceManager ResourceManager
         {
             get
             {
+                // Replace the ApplicationNamespace with your application name.
                 return bzsfSimpleCRUD.Resources.SfResources.ResourceManager;
             }
         }
