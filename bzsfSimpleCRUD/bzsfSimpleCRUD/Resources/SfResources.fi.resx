@@ -118,2710 +118,2050 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AutoComplete_ActionFailureTemplate" xml:space="preserve">
-    <value>Demande échoué</value>
+    <value>Pyyntö epäonnistui</value>
   </data>
   <data name="AutoComplete_NoRecordsTemplate" xml:space="preserve">
-    <value>Aucun enregistrement trouvé</value>
+    <value>Merkintöjä ei löydy</value>
   </data>
   <data name="Calendar_Today" xml:space="preserve">
-    <value>Aujourd'hui</value>
+    <value>Tänään</value>
   </data>
   <data name="ComboBox_ActionFailureTemplate" xml:space="preserve">
-    <value>Demande échoué</value>
+    <value>Pyyntö epäonnistui</value>
   </data>
   <data name="ComboBox_NoRecordsTemplate" xml:space="preserve">
-    <value>Aucun enregistrement trouvé</value>
+    <value>Merkintöjä ei löydy</value>
   </data>
   <data name="DatePicker_Placeholder" xml:space="preserve">
-    <value>Choisissez une date</value>
+    <value>Valitse päivämäärä</value>
   </data>
   <data name="DatePicker_Today" xml:space="preserve">
-    <value>Aujourd'hui</value>
+    <value>Tänään</value>
   </data>
   <data name="DateRangePicker_ApplyText" xml:space="preserve">
-    <value>Appliquer</value>
+    <value>Käytä</value>
   </data>
   <data name="DateRangePicker_CancelText" xml:space="preserve">
-    <value>Annuler</value>
+    <value>Peruuttaa</value>
   </data>
   <data name="DateRangePicker_CustomRange" xml:space="preserve">
-    <value>Gamme personnalisée</value>
+    <value>Mukautettu alue</value>
   </data>
   <data name="DateRangePicker_Days" xml:space="preserve">
-    <value>Journées</value>
+    <value>päivää</value>
   </data>
   <data name="DateRangePicker_EndLabel" xml:space="preserve">
-    <value>Date de fin</value>
+    <value>Päättymispäivä</value>
   </data>
   <data name="DateRangePicker_Placeholder" xml:space="preserve">
-    <value>Choisissez une plage de dates</value>
+    <value>Valitse ajanjakso</value>
   </data>
   <data name="DateRangePicker_SelectedDays" xml:space="preserve">
-    <value>Jours sélectionnés</value>
+    <value>Valitut päivät</value>
   </data>
   <data name="DateRangePicker_StartLabel" xml:space="preserve">
-    <value>Date de début</value>
+    <value>Aloituspäivämäärä</value>
   </data>
   <data name="DateTimePicker_Placeholder" xml:space="preserve">
-    <value>Choisissez une date et une heure</value>
+    <value>Valitse päivämäärä ja aika</value>
   </data>
   <data name="DateTimePicker_Today" xml:space="preserve">
-    <value>Aujourd'hui</value>
+    <value>Tänään</value>
   </data>
   <data name="DropDownList_ActionFailureTemplate" xml:space="preserve">
-    <value>Demande échoué</value>
+    <value>Pyyntö epäonnistui</value>
   </data>
   <data name="DropDownList_NoRecordsTemplate" xml:space="preserve">
-    <value>Aucun enregistrement trouvé</value>
+    <value>Merkintöjä ei löydy</value>
   </data>
   <data name="MultiSelect_ActionFailureTemplate" xml:space="preserve">
-    <value>Demande échoué</value>
+    <value>Pyyntö epäonnistui</value>
   </data>
   <data name="MultiSelect_NoRecordsTemplate" xml:space="preserve">
-    <value>Aucun enregistrement trouvé</value>
+    <value>Merkintöjä ei löydy</value>
   </data>
   <data name="MultiSelect_OverflowCountTemplate" xml:space="preserve">
-    <value>+${count} de plus ..</value>
+    <value>+${count} lisää ..</value>
   </data>
   <data name="MultiSelect_SelectAllText" xml:space="preserve">
-    <value>Tout sélectionner</value>
+    <value>Valitse kaikki</value>
   </data>
   <data name="MultiSelect_TotalCountTemplate" xml:space="preserve">
-    <value>${count} sélectionné</value>
+    <value>${count} valittu</value>
   </data>
   <data name="MultiSelect_UnSelectAllText" xml:space="preserve">
-    <value>Tout déselectionner</value>
+    <value>Poista kaikki valinnat</value>
   </data>
   <data name="NumericTextBox_DecrementTitle" xml:space="preserve">
-    <value>Décrémenter la valeur</value>
+    <value>Vähennysarvo</value>
   </data>
   <data name="NumericTextBox_IncrementTitle" xml:space="preserve">
-    <value>Incrémenter la valeur</value>
+    <value>Lisäysarvo</value>
   </data>
   <data name="TimePicker_Placeholder" xml:space="preserve">
-    <value>Choisissez une heure</value>
+    <value>Valitse aika</value>
   </data>
   <data name="Uploader_Abort" xml:space="preserve">
-    <value>Avorter</value>
+    <value>Keskeyttää</value>
   </data>
   <data name="Uploader_Browse" xml:space="preserve">
-    <value>Feuilleter...</value>
+    <value>Selaa ...</value>
   </data>
   <data name="Uploader_Cancel" xml:space="preserve">
-    <value>Annuler</value>
+    <value>Peruuttaa</value>
   </data>
   <data name="Uploader_Clear" xml:space="preserve">
-    <value>Clair</value>
+    <value>Asia selvä</value>
   </data>
   <data name="Uploader_Delete" xml:space="preserve">
-    <value>Supprimer le fichier</value>
+    <value>Poista tiedosto</value>
   </data>
   <data name="Uploader_DropFilesHint" xml:space="preserve">
-    <value>Ou déposez des fichiers ici</value>
+    <value>Tai pudota tiedostot tähän</value>
   </data>
   <data name="Uploader_FileUploadCancel" xml:space="preserve">
-    <value>Téléchargement du fichier annulé</value>
+    <value>Tiedoston lataus peruutettu</value>
   </data>
   <data name="Uploader_InProgress" xml:space="preserve">
-    <value>Téléchargement</value>
+    <value>lataaminen</value>
   </data>
   <data name="Uploader_InvalidFileType" xml:space="preserve">
-    <value>Le type de fichier n'est pas autorisé</value>
+    <value>Tiedostotyyppi ei ole sallittu</value>
   </data>
   <data name="Uploader_InvalidMaxFileSize" xml:space="preserve">
-    <value>La taille du fichier est trop grande</value>
+    <value>Tiedoston koko on liian suuri</value>
   </data>
   <data name="Uploader_invalidMinFileSize" xml:space="preserve">
-    <value>La taille du fichier est trop petite</value>
+    <value>Tiedoston koko on liian pieni</value>
   </data>
   <data name="Uploader_Pause" xml:space="preserve">
-    <value>Pause</value>
+    <value>Tauko</value>
   </data>
   <data name="Uploader_PauseUpload" xml:space="preserve">
-    <value>Téléchargement du fichier interrompu</value>
+    <value>Tiedoston lataus keskeytetty</value>
   </data>
   <data name="Uploader_ReadyToUploadMessage" xml:space="preserve">
-    <value>Prêt à télécharger</value>
+    <value>Valmiina lähetettäväksi</value>
   </data>
   <data name="Uploader_Remove" xml:space="preserve">
-    <value>Retirer</value>
+    <value>Poista</value>
   </data>
   <data name="Uploader_RemovedFailedMessage" xml:space="preserve">
-    <value>Impossible de supprimer le fichier</value>
+    <value>Tiedostoa ei voi poistaa</value>
   </data>
   <data name="Uploader_RemovedSuccessMessage" xml:space="preserve">
-    <value>Fichier supprimé avec succès</value>
+    <value>Tiedosto poistettu onnistuneesti</value>
   </data>
   <data name="Uploader_Resume" xml:space="preserve">
-    <value>Reprendre</value>
+    <value>Resume</value>
   </data>
   <data name="Uploader_Retry" xml:space="preserve">
-    <value>Retenter</value>
+    <value>Retry</value>
   </data>
   <data name="Uploader_Upload" xml:space="preserve">
-    <value>Télécharger</value>
+    <value>upload</value>
   </data>
   <data name="Uploader_UploadFailedMessage" xml:space="preserve">
-    <value>Échec du téléchargement du fichier</value>
+    <value>Tiedoston lähettäminen epäonnistui</value>
   </data>
   <data name="Uploader_UploadSuccessMessage" xml:space="preserve">
-    <value>Fichier supprimé avec succès</value>
-  </data>
-  <data name="Chart_Pan" xml:space="preserve">
-    <value>La poêle</value>
-  </data>
-  <data name="Chart_Reset" xml:space="preserve">
-    <value>Réinitialiser</value>
-  </data>
-  <data name="Chart_ResetZoom" xml:space="preserve">
-    <value>Réinitialiser le zoom</value>
-  </data>
-  <data name="Chart_Zoom" xml:space="preserve">
-    <value>Zoom</value>
-  </data>
-  <data name="Chart_ZoomIn" xml:space="preserve">
-    <value>Agrandir</value>
-  </data>
-  <data name="Chart_ZoomOut" xml:space="preserve">
-    <value>Dézoomer</value>
-  </data>
-  <data name="ColorPicker_Apply" xml:space="preserve">
-    <value>Appliquer</value>
-  </data>
-  <data name="ColorPicker_Cancel" xml:space="preserve">
-    <value>Annuler</value>
-  </data>
-  <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
-    <value>Mode de commutation</value>
-  </data>
-  <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
-    <value>Demande échoué</value>
-  </data>
-  <data name="ListBox_MoveAllFrom" xml:space="preserve">
-    <value>Tout déplacer de</value>
-  </data>
-  <data name="ListBox_MoveAllTo" xml:space="preserve">
-    <value>Déplacer tout vers</value>
-  </data>
-  <data name="ListBox_MoveDown" xml:space="preserve">
-    <value>Descendre</value>
-  </data>
-  <data name="ListBox_MoveFrom" xml:space="preserve">
-    <value>Déplacer de</value>
-  </data>
-  <data name="ListBox_MoveTo" xml:space="preserve">
-    <value>Déménager à</value>
-  </data>
-  <data name="ListBox_MoveUp" xml:space="preserve">
-    <value>Déplacer vers le haut</value>
-  </data>
-  <data name="ListBox_NoRecordsTemplate" xml:space="preserve">
-    <value>Aucun enregistrement trouvé</value>
-  </data>
-  <data name="ListBox_SelectAllText" xml:space="preserve">
-    <value>Tout sélectionner</value>
-  </data>
-  <data name="ListBox_UnSelectAllText" xml:space="preserve">
-    <value>Tout déselectionner</value>
-  </data>
-  <data name="QueryBuilder_AddCondition" xml:space="preserve">
-    <value>Ajouter une condition</value>
-  </data>
-  <data name="QueryBuilder_AddGroup" xml:space="preserve">
-    <value>Ajouter un groupe</value>
-  </data>
-  <data name="QueryBuilder_AND" xml:space="preserve">
-    <value>ET</value>
-  </data>
-  <data name="QueryBuilder_Between" xml:space="preserve">
-    <value>Entre</value>
-  </data>
-  <data name="QueryBuilder_Contains" xml:space="preserve">
-    <value>Contient</value>
-  </data>
-  <data name="QueryBuilder_DeleteGroup" xml:space="preserve">
-    <value>Supprimer le groupe</value>
-  </data>
-  <data name="QueryBuilder_DeleteRule" xml:space="preserve">
-    <value>Supprimer cette condition</value>
-  </data>
-  <data name="QueryBuilder_Edit" xml:space="preserve">
-    <value>ÉDITER</value>
-  </data>
-  <data name="QueryBuilder_Empty" xml:space="preserve">
-    <value>Vide</value>
-  </data>
-  <data name="QueryBuilder_EndsWith" xml:space="preserve">
-    <value>Se termine par</value>
-  </data>
-  <data name="QueryBuilder_Equal" xml:space="preserve">
-    <value>Égal</value>
-  </data>
-  <data name="QueryBuilder_GreaterThan" xml:space="preserve">
-    <value>Plus grand que</value>
-  </data>
-  <data name="QueryBuilder_GreaterThanOrEqual" xml:space="preserve">
-    <value>Meilleur que ou égal</value>
-  </data>
-  <data name="QueryBuilder_In" xml:space="preserve">
-    <value>Dans</value>
-  </data>
-  <data name="QueryBuilder_LessThan" xml:space="preserve">
-    <value>Moins que</value>
-  </data>
-  <data name="QueryBuilder_LessThanOrEqual" xml:space="preserve">
-    <value>Inférieur ou égal</value>
-  </data>
-  <data name="QueryBuilder_NotBetween" xml:space="preserve">
-    <value>Pas entre</value>
-  </data>
-  <data name="QueryBuilder_NotContains" xml:space="preserve">
-    <value>Ne contient pas</value>
-  </data>
-  <data name="QueryBuilder_NotEmpty" xml:space="preserve">
-    <value>Pas vide</value>
-  </data>
-  <data name="QueryBuilder_NotEqual" xml:space="preserve">
-    <value>Inégal</value>
-  </data>
-  <data name="QueryBuilder_NotIn" xml:space="preserve">
-    <value>Pas dedans</value>
-  </data>
-  <data name="QueryBuilder_OR" xml:space="preserve">
-    <value>OU</value>
-  </data>
-  <data name="QueryBuilder_OtherFields" xml:space="preserve">
-    <value>Autres domaines</value>
-  </data>
-  <data name="QueryBuilder_Remove" xml:space="preserve">
-    <value>RETIRER</value>
-  </data>
-  <data name="QueryBuilder_SelectField" xml:space="preserve">
-    <value>Sélectionnez un champ</value>
-  </data>
-  <data name="QueryBuilder_SelectOperator" xml:space="preserve">
-    <value>Sélectionnez un opérateur</value>
-  </data>
-  <data name="QueryBuilder_SelectValue" xml:space="preserve">
-    <value>Entrez une valeur</value>
-  </data>
-  <data name="QueryBuilder_StartsWith" xml:space="preserve">
-    <value>Commence avec</value>
-  </data>
-  <data name="QueryBuilder_SummaryViewTitle" xml:space="preserve">
-    <value>Vue récapitulative</value>
-  </data>
-  <data name="QueryBuilder_ValidationMessage" xml:space="preserve">
-    <value>Ce champ est requis</value>
+    <value>Tiedosto ladattu onnistuneesti</value>
   </data>
   <data name="FileManager_NewFolder" xml:space="preserve">
-    <value>Nouveau dossier</value>
+    <value>Uusi kansio</value>
   </data>
   <data name="FileManager_Upload" xml:space="preserve">
-    <value>Télécharger</value>
+    <value>upload</value>
   </data>
   <data name="FileManager_Delete" xml:space="preserve">
-    <value>Supprimer</value>
+    <value>Poistaa</value>
   </data>
   <data name="FileManager_Rename" xml:space="preserve">
-    <value>Renommer</value>
+    <value>Nimeä uudelleen</value>
   </data>
   <data name="FileManager_Download" xml:space="preserve">
-    <value>Télécharger</value>
+    <value>ladata</value>
   </data>
   <data name="FileManager_Cut" xml:space="preserve">
-    <value>Couper</value>
+    <value>Leikata</value>
   </data>
   <data name="FileManager_Copy" xml:space="preserve">
-    <value>Copie</value>
+    <value>Kopio</value>
   </data>
   <data name="FileManager_Paste" xml:space="preserve">
-    <value>Pâte</value>
+    <value>liitä</value>
   </data>
   <data name="FileManager_SortBy" xml:space="preserve">
-    <value>Trier par</value>
+    <value>Järjestä</value>
   </data>
   <data name="FileManager_Refresh" xml:space="preserve">
-    <value>Rafraîchir</value>
+    <value>virkistää</value>
   </data>
   <data name="FileManager_ItemSelection" xml:space="preserve">
-    <value>élément sélectionné</value>
+    <value>kohde valittu</value>
   </data>
   <data name="FileManager_ItemsSelection" xml:space="preserve">
-    <value>éléments sélectionnés</value>
+    <value>kohteet valittu</value>
   </data>
   <data name="FileManager_View" xml:space="preserve">
-    <value>Vue</value>
+    <value>näkymä</value>
   </data>
   <data name="FileManager_Details" xml:space="preserve">
-    <value>Détails</value>
+    <value>Yksityiskohdat</value>
   </data>
   <data name="FileManager_SelectAll" xml:space="preserve">
-    <value>Tout sélectionner</value>
+    <value>Valitse kaikki</value>
   </data>
   <data name="FileManager_Open" xml:space="preserve">
-    <value>Ouvert</value>
+    <value>Avata</value>
   </data>
   <data name="FileManager_TooltipNewFolder" xml:space="preserve">
-    <value>Nouveau dossier</value>
+    <value>Uusi kansio</value>
   </data>
   <data name="FileManager_TooltipUpload" xml:space="preserve">
-    <value>Télécharger</value>
+    <value>upload</value>
   </data>
   <data name="FileManager_TooltipDelete" xml:space="preserve">
-    <value>Supprimer</value>
+    <value>Poistaa</value>
   </data>
   <data name="FileManager_TooltipRename" xml:space="preserve">
-    <value>Renommer</value>
+    <value>Nimeä uudelleen</value>
   </data>
   <data name="FileManager_TooltipDownload" xml:space="preserve">
-    <value>Télécharger</value>
+    <value>ladata</value>
   </data>
   <data name="FileManager_TooltipCut" xml:space="preserve">
-    <value>Couper</value>
+    <value>Leikata</value>
   </data>
   <data name="FileManager_TooltipCopy" xml:space="preserve">
-    <value>Copie</value>
+    <value>Kopio</value>
   </data>
   <data name="FileManager_TooltipPaste" xml:space="preserve">
-    <value>Pâte</value>
+    <value>liitä</value>
   </data>
   <data name="FileManager_TooltipSortBy" xml:space="preserve">
-    <value>Trier par</value>
+    <value>Järjestä</value>
   </data>
   <data name="FileManager_TooltipRefresh" xml:space="preserve">
-    <value>Rafraîchir</value>
+    <value>virkistää</value>
   </data>
   <data name="FileManager_TooltipSelection" xml:space="preserve">
-    <value>Effacer la sélection</value>
+    <value>Tyhjennä valinta</value>
   </data>
   <data name="FileManager_TooltipView" xml:space="preserve">
-    <value>Vue</value>
+    <value>näkymä</value>
   </data>
   <data name="FileManager_TooltipDetails" xml:space="preserve">
-    <value>Détails</value>
+    <value>Yksityiskohdat</value>
   </data>
   <data name="FileManager_TooltipSelectAll" xml:space="preserve">
-    <value>Tout sélectionner</value>
+    <value>Valitse kaikki</value>
   </data>
   <data name="FileManager_Name" xml:space="preserve">
-    <value>Nom</value>
+    <value>Nimi</value>
   </data>
   <data name="FileManager_Size" xml:space="preserve">
-    <value>Taille</value>
+    <value>Koko</value>
   </data>
   <data name="FileManager_DateModified" xml:space="preserve">
-    <value>Modifié</value>
+    <value>Modified</value>
   </data>
   <data name="FileManager_DateCreated" xml:space="preserve">
-    <value>Date créée</value>
+    <value>Päivämäärä luotu</value>
   </data>
   <data name="FileManager_Path" xml:space="preserve">
-    <value>Chemin</value>
+    <value>polku</value>
   </data>
   <data name="FileManager_Modified" xml:space="preserve">
-    <value>Modifié</value>
+    <value>Modified</value>
   </data>
   <data name="FileManager_Created" xml:space="preserve">
-    <value>Créé</value>
+    <value>Luotu</value>
   </data>
   <data name="FileManager_Location" xml:space="preserve">
-    <value>Emplacement</value>
+    <value>Sijainti</value>
   </data>
   <data name="FileManager_Type" xml:space="preserve">
-    <value>Type</value>
+    <value>Tyyppi</value>
   </data>
   <data name="FileManager_Permission" xml:space="preserve">
-    <value>Autorisation</value>
+    <value>Lupa</value>
   </data>
   <data name="FileManager_Ascending" xml:space="preserve">
-    <value>Ascendant</value>
+    <value>nouseva</value>
   </data>
   <data name="FileManager_Descending" xml:space="preserve">
-    <value>Descendant</value>
+    <value>Laskeva</value>
   </data>
   <data name="FileManager_None" xml:space="preserve">
-    <value>Aucune</value>
+    <value>Ei mitään</value>
   </data>
   <data name="FileManager_ViewLargeIcons" xml:space="preserve">
-    <value>Grandes icônes</value>
+    <value>Suuret kuvakkeet</value>
   </data>
   <data name="FileManager_ViewDetails" xml:space="preserve">
-    <value>Détails</value>
+    <value>Yksityiskohdat</value>
   </data>
   <data name="FileManager_Search" xml:space="preserve">
-    <value>Chercher</value>
+    <value>Hae</value>
   </data>
   <data name="FileManager_ButtonOk" xml:space="preserve">
-    <value>D'accord</value>
+    <value>kunnossa</value>
   </data>
   <data name="FileManager_ButtonCancel" xml:space="preserve">
-    <value>Annuler</value>
+    <value>Peruuttaa</value>
   </data>
   <data name="FileManager_ButtonYes" xml:space="preserve">
-    <value>Oui</value>
+    <value>Joo</value>
   </data>
   <data name="FileManager_ButtonNo" xml:space="preserve">
-    <value>Non</value>
+    <value>Ei</value>
   </data>
   <data name="FileManager_ButtonCreate" xml:space="preserve">
-    <value>Créer</value>
+    <value>Luoda</value>
   </data>
   <data name="FileManager_ButtonSave" xml:space="preserve">
-    <value>sauvegarder</value>
+    <value>Tallentaa</value>
   </data>
   <data name="FileManager_HeaderNewFolder" xml:space="preserve">
-    <value>Dossier</value>
+    <value>Kansio</value>
   </data>
   <data name="FileManager_ContentNewFolder" xml:space="preserve">
-    <value>Entrez le nom de votre dossier</value>
+    <value>Kirjoita kansion nimi</value>
   </data>
   <data name="FileManager_HeaderRename" xml:space="preserve">
-    <value>Renommer</value>
+    <value>Nimeä uudelleen</value>
   </data>
   <data name="FileManager_ContentRename" xml:space="preserve">
-    <value>Entrez votre nouveau nom</value>
+    <value>Kirjoita uusi nimesi</value>
   </data>
   <data name="FileManager_HeaderRenameConfirmation" xml:space="preserve">
-    <value>Renommer la confirmation</value>
+    <value>Nimeä vahvistus uudelleen</value>
   </data>
   <data name="FileManager_ContentRenameConfirmation" xml:space="preserve">
-    <value>Si vous modifiez une extension de nom de fichier, le fichier peut devenir instable. Voulez-vous vraiment le modifier?</value>
+    <value>Jos muutat tiedostotunnistetta, tiedosto saattaa tulla epävakaa. Haluatko varmasti muuttaa sen?</value>
   </data>
   <data name="FileManager_HeaderDelete" xml:space="preserve">
-    <value>Supprimer le fichier</value>
+    <value>Poista tiedosto</value>
   </data>
   <data name="FileManager_ContentDelete" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer ce fichier?</value>
+    <value>Haluatko varmasti poistaa tämän tiedoston?</value>
   </data>
   <data name="FileManager_HeaderFolderDelete" xml:space="preserve">
-    <value>Supprimer le dossier</value>
+    <value>Poista kansio</value>
   </data>
   <data name="FileManager_ContentFolderDelete" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer ce dossier?</value>
+    <value>Haluatko varmasti poistaa tämän kansion?</value>
   </data>
   <data name="FileManager_HeaderMultipleDelete" xml:space="preserve">
-    <value>Supprimer plusieurs éléments</value>
+    <value>Poista useita kohteita</value>
   </data>
   <data name="FileManager_ContentMultipleDelete" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer ces {0} éléments?</value>
+    <value>Haluatko varmasti poistaa nämä {0} kohdetta?</value>
   </data>
   <data name="FileManager_HeaderDuplicate" xml:space="preserve">
-    <value>Le fichier / dossier existe</value>
+    <value>Tiedosto / kansio on olemassa</value>
   </data>
   <data name="FileManager_ContentDuplicate" xml:space="preserve">
-    <value>{0} existe déjà. Voulez-vous renommer et coller?</value>
+    <value>{0} on jo olemassa. Haluatko nimetä uudelleen ja liittää?</value>
   </data>
   <data name="FileManager_HeaderUpload" xml:space="preserve">
-    <value>Télécharger des fichiers</value>
+    <value>Lataa tiedostot</value>
   </data>
   <data name="FileManager_Error" xml:space="preserve">
-    <value>Erreur</value>
+    <value>Virhe</value>
   </data>
   <data name="FileManager_ValidationEmpty" xml:space="preserve">
-    <value>Le nom du fichier ou du dossier ne peut pas être vide.</value>
+    <value>Tiedoston tai kansion nimi ei voi olla tyhjä.</value>
   </data>
   <data name="FileManager_ValidationInvalid" xml:space="preserve">
-    <value>Le nom de fichier ou de dossier {0} contient des caractères non valides. Veuillez utiliser un nom différent. Les noms de fichiers ou de dossiers valides ne peuvent pas se terminer par un point ou un espace.</value>
+    <value>Tiedoston tai kansion nimi {0} sisältää virheellisiä merkkejä. Käytä toista nimeä. Voimassa olevat tiedoston tai kansion nimet eivät voi päättyä pisteellä tai välilyönnillä.</value>
   </data>
   <data name="FileManager_ValidationNewFolderExists" xml:space="preserve">
-    <value>Un fichier ou un dossier portant le nom {0} existe déjà.</value>
+    <value>Tiedosto tai kansio nimellä {0} on jo olemassa.</value>
   </data>
   <data name="FileManager_ValidationRenameExists" xml:space="preserve">
-    <value>Impossible de renommer {0} en {1}: la destination existe déjà.</value>
+    <value>{0} ei voida nimetä uudelleen uudeksi {1}: kohde on jo olemassa.</value>
   </data>
   <data name="FileManager_FolderEmpty" xml:space="preserve">
-    <value>Ce dossier est vide</value>
+    <value>Tämä kansio on tyhjä</value>
   </data>
   <data name="FileManager_FileUpload" xml:space="preserve">
-    <value>Faites glisser les fichiers ici pour les télécharger</value>
+    <value>Lataa tiedosto vetämällä tänne</value>
   </data>
   <data name="FileManager_SearchEmpty" xml:space="preserve">
-    <value>Aucun résultat trouvé</value>
+    <value>Ei tuloksia</value>
   </data>
   <data name="FileManager_SearchKey" xml:space="preserve">
-    <value>Essayez avec différents mots clés</value>
+    <value>Kokeile eri avainsanoilla</value>
   </data>
   <data name="FileManager_FilterEmpty" xml:space="preserve">
-    <value>Aucun résultat trouvé</value>
+    <value>Ei tuloksia</value>
   </data>
   <data name="FileManager_FilterKey" xml:space="preserve">
-    <value>Essayez avec un filtre différent</value>
+    <value>Kokeile eri suodattimilla</value>
   </data>
   <data name="FileManager_SubFolderError" xml:space="preserve">
-    <value>Le dossier de destination est le sous-dossier du dossier source.</value>
+    <value>Kohdekansio on lähdekansion alikansio.</value>
   </data>
   <data name="FileManager_AccessDenied" xml:space="preserve">
-    <value>Accès refusé</value>
+    <value>Pääsy evätty</value>
   </data>
   <data name="FileManager_AccessDetails" xml:space="preserve">
-    <value>Vous n'êtes pas autorisé à accéder à ce dossier.</value>
+    <value>Sinulla ei ole lupaa käyttää tätä kansiota.</value>
   </data>
   <data name="FileManager_HeaderRetry" xml:space="preserve">
-    <value>Le fichier existe déjà</value>
+    <value>Tiedosto on jo olemassa</value>
   </data>
   <data name="FileManager_ContentRetry" xml:space="preserve">
-    <value>Un fichier portant ce nom existe déjà dans ce dossier. Qu'est-ce que tu aimerais faire?</value>
+    <value>Tällä nimellä on jo tiedosto tällä nimellä. Mitä haluaisit tehdä?</value>
   </data>
   <data name="FileManager_ButtonKeepBoth" xml:space="preserve">
-    <value>Garde les deux</value>
+    <value>Pidä molemmat</value>
   </data>
   <data name="FileManager_ButtonReplace" xml:space="preserve">
-    <value>Remplacer</value>
+    <value>Korvata</value>
   </data>
   <data name="FileManager_ButtonSkip" xml:space="preserve">
-    <value>Sauter</value>
+    <value>Ohita</value>
   </data>
   <data name="FileManager_ApplyAllLabel" xml:space="preserve">
-    <value>Faites ceci pour tous les articles actuels</value>
+    <value>Tee tämä kaikille nykyisille esineille</value>
   </data>
   <data name="FileManager_KB" xml:space="preserve">
-    <value>Ko</value>
+    <value>KB</value>
   </data>
   <data name="FileManager_AccessMessage" xml:space="preserve">
-    <value>{0} n'est pas accessible. vous avez besoin d'une autorisation pour effectuer l'action {1}.</value>
+    <value>{0} ei ole käytettävissä. Tarvitset luvan {1} -toiminnan suorittamiseen.</value>
   </data>
   <data name="FileManager_NetworkError" xml:space="preserve">
-    <value>NetworkError: échec d'envoi sur XMLHTTPRequest: échec de chargement</value>
+    <value>NetworkError: XMLHTTPRequest-lähetys epäonnistui: Lataus epäonnistui</value>
   </data>
   <data name="FileManager_ServerError" xml:space="preserve">
-    <value>ServerError: réponse non valide de</value>
+    <value>ServerError: virheellinen vastaus käyttäjältä</value>
+  </data>
+  <data name="Chart_Zoom" xml:space="preserve">
+    <value>Zoomaus</value>
+  </data>
+  <data name="Chart_ZoomIn" xml:space="preserve">
+    <value>Lähennä</value>
+  </data>
+  <data name="Chart_ZoomOut" xml:space="preserve">
+    <value>Loitontaa</value>
+  </data>
+  <data name="Chart_Reset" xml:space="preserve">
+    <value>Nollaa</value>
+  </data>
+  <data name="Chart_Pan" xml:space="preserve">
+    <value>Panoroida</value>
+  </data>
+  <data name="Chart_ResetZoom" xml:space="preserve">
+    <value>Nollaa zoomaus</value>
   </data>
   <data name="Slider_DecrementTitle" xml:space="preserve">
-    <value>diminuer</value>
+    <value>vähennys</value>
   </data>
   <data name="Slider_IncrementTitle" xml:space="preserve">
-    <value>augmenter</value>
+    <value>Lisääntyä</value>
   </data>
   <data name="Maps_Zoom" xml:space="preserve">
-    <value>Zoom</value>
+    <value>Zoomaus</value>
   </data>
   <data name="Maps_ZoomIn" xml:space="preserve">
-      <value>Agrandir</value>
+    <value>Lähennä</value>
   </data>
   <data name="Maps_ZoomOut" xml:space="preserve">
-      <value>Dézoomer</value>
+    <value>Loitontaa</value>
   </data>
   <data name="Maps_Reset" xml:space="preserve">
-      <value>Réinitialiser</value>
+    <value>Nollaa</value>
   </data>
   <data name="Maps_Pan" xml:space="preserve">
-      <value>La poêle</value>
+    <value>Panoroida</value>
   </data>
   <data name="Gantt_EmptyRecord" xml:space="preserve">
-    <value>Aucun enregistrement à afficher</value>
+    <value>Ei näytettäviä tietueita</value>
   </data>
   <data name="Gantt_Id" xml:space="preserve">
-    <value>Identifiant</value>
+    <value>ID</value>
   </data>
   <data name="Gantt_Name" xml:space="preserve">
-    <value>Nom</value>
+    <value>Nimi</value>
   </data>
   <data name="Gantt_StartDate" xml:space="preserve">
-    <value>Date de début</value>
+    <value>Aloituspäivämäärä</value>
   </data>
   <data name="Gantt_EndDate" xml:space="preserve">
-    <value>Date de fin</value>
+    <value>Päättymispäivä</value>
   </data>
   <data name="Gantt_Duration" xml:space="preserve">
-    <value>Durée</value>
+    <value>Kesto</value>
   </data>
   <data name="Gantt_Progress" xml:space="preserve">
-    <value>Le progrès</value>
+    <value>edistyminen</value>
   </data>
   <data name="Gantt_Dependency" xml:space="preserve">
-    <value>Dépendance</value>
+    <value>riippuvuus</value>
   </data>
   <data name="Gantt_Notes" xml:space="preserve">
-    <value>Remarques</value>
+    <value>Huomautuksia</value>
   </data>
   <data name="Gantt_BaselineStartDate" xml:space="preserve">
-    <value>Date de début de référence</value>
+    <value>Perustilan alkamispäivä</value>
   </data>
   <data name="Gantt_BaselineEndDate" xml:space="preserve">
-    <value>Date de fin de référence</value>
+    <value>Perustilan päättymispäivä</value>
   </data>
   <data name="Gantt_Type" xml:space="preserve">
-    <value>Type</value>
+    <value>Tyyppi</value>
   </data>
   <data name="Gantt_Offset" xml:space="preserve">
-    <value>Décalage</value>
+    <value>Offset</value>
   </data>
   <data name="Gantt_ResourceName" xml:space="preserve">
-    <value>Ressources</value>
+    <value>voimavarat</value>
   </data>
   <data name="Gantt_ResourceID" xml:space="preserve">
-    <value>ID de ressource</value>
+    <value>Resurssin tunnus</value>
   </data>
   <data name="Gantt_Day" xml:space="preserve">
-    <value>journée</value>
+    <value>päivä</value>
   </data>
   <data name="Gantt_Hour" xml:space="preserve">
-    <value>heure</value>
+    <value>tunnin</value>
   </data>
   <data name="Gantt_Minute" xml:space="preserve">
-    <value>minute</value>
+    <value>minuutti</value>
   </data>
   <data name="Gantt_Days" xml:space="preserve">
-    <value>journées</value>
+    <value>päivää</value>
   </data>
   <data name="Gantt_Hours" xml:space="preserve">
-    <value>heures</value>
+    <value>tuntia</value>
   </data>
   <data name="Gantt_Minutes" xml:space="preserve">
-    <value>minutes</value>
+    <value>pöytäkirja</value>
   </data>
   <data name="Gantt_GeneralTab" xml:space="preserve">
-    <value>Général</value>
+    <value>yleinen</value>
   </data>
   <data name="Gantt_CustomTab" xml:space="preserve">
-    <value>Colonnes personnalisées</value>
+    <value>Muokatut sarakkeet</value>
   </data>
   <data name="Gantt_WriteNotes" xml:space="preserve">
-    <value>Rédiger des notes</value>
+    <value>Kirjoita muistiinpanoja</value>
   </data>
   <data name="Gantt_AddDialogTitle" xml:space="preserve">
-    <value>Nouvelle tâche</value>
+    <value>Uusi tehtävä</value>
   </data>
   <data name="Gantt_EditDialogTitle" xml:space="preserve">
-    <value>Informations sur la tâche</value>
+    <value>Tehtävätiedot</value>
   </data>
   <data name="Gantt_SaveButton" xml:space="preserve">
-    <value>sauvegarder</value>
+    <value>Tallentaa</value>
   </data>
   <data name="Gantt_Add" xml:space="preserve">
-    <value>Ajouter</value>
+    <value>Lisätä</value>
   </data>
   <data name="Gantt_Edit" xml:space="preserve">
-    <value>Éditer</value>
+    <value>Muokata</value>
   </data>
   <data name="Gantt_Update" xml:space="preserve">
-    <value>Mise à jour</value>
+    <value>Päivittää</value>
   </data>
   <data name="Gantt_Delete" xml:space="preserve">
-    <value>Supprimer</value>
+    <value>Poistaa</value>
   </data>
   <data name="Gantt_Cancel" xml:space="preserve">
-    <value>Annuler</value>
+    <value>Peruuttaa</value>
   </data>
   <data name="Gantt_Search" xml:space="preserve">
-    <value>Chercher</value>
+    <value>Hae</value>
   </data>
   <data name="Gantt_Task" xml:space="preserve">
-    <value> tâche</value>
+    <value>tehtävä</value>
   </data>
   <data name="Gantt_Tasks" xml:space="preserve">
-    <value> Tâches</value>
+    <value>tehtävät</value>
   </data>
   <data name="Gantt_ZoomIn" xml:space="preserve">
-    <value>Agrandir</value>
+    <value>Lähennä</value>
   </data>
   <data name="Gantt_ZoomOut" xml:space="preserve">
-    <value>Dézoomer</value>
+    <value>Loitontaa</value>
   </data>
   <data name="Gantt_ZoomToFit" xml:space="preserve">
-    <value>Zoom pour s'adapter</value>
+    <value>Zoomaus sopivaksi</value>
   </data>
   <data name="Gantt_ExcelExport" xml:space="preserve">
-    <value>Exportation Excel</value>
+    <value>Excel-vienti</value>
   </data>
   <data name="Gantt_CsvExport" xml:space="preserve">
-    <value>Exportation CSV</value>
+    <value>CSV Export</value>
   </data>
   <data name="Gantt_ExpandAll" xml:space="preserve">
-    <value>Développer tout</value>
+    <value>Laajenna kaikki</value>
   </data>
   <data name="Gantt_CollapseAll" xml:space="preserve">
-    <value>Réduire tout</value>
+    <value>Kutista kaikki</value>
   </data>
   <data name="Gantt_NextTimeSpan" xml:space="preserve">
-    <value>Période suivante</value>
+    <value>Seuraava aikajakso</value>
   </data>
   <data name="Gantt_PrevTimeSpan" xml:space="preserve">
-    <value>Période précédente</value>
+    <value>Aikaisempi aikajakso</value>
   </data>
   <data name="Gantt_OkText" xml:space="preserve">
-    <value>D'accord</value>
+    <value>kunnossa</value>
   </data>
   <data name="Gantt_ConfirmDelete" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer l'enregistrement?</value>
+    <value>Haluatko varmasti poistaa tietueen?</value>
   </data>
   <data name="Gantt_From" xml:space="preserve">
-    <value>De</value>
+    <value>alkaen</value>
   </data>
   <data name="Gantt_To" xml:space="preserve">
-    <value>À</value>
+    <value>jotta</value>
   </data>
   <data name="Gantt_TaskLink" xml:space="preserve">
-    <value>Lien de tâche</value>
+    <value>Tehtävälinkki</value>
   </data>
   <data name="Gantt_Lag" xml:space="preserve">
-    <value>Décalage</value>
+    <value>viive</value>
   </data>
   <data name="Gantt_Start" xml:space="preserve">
-    <value>Début</value>
+    <value>alkaa</value>
   </data>
   <data name="Gantt_Finish" xml:space="preserve">
-    <value>terminer</value>
+    <value>Suorittaa loppuun</value>
   </data>
   <data name="Gantt_EnterValue" xml:space="preserve">
-    <value>Entrez la valeur</value>
+    <value>Kirjoita arvo</value>
   </data>
   <data name="Gantt_TaskBeforePredecessor_FS" xml:space="preserve">
-    <value>Vous avez déplacé «{0}» pour commencer avant la fin de «{1}» et les deux tâches sont liées. Par conséquent, les liens ne peuvent pas être honorés. Sélectionnez une action ci-dessous pour effectuer</value>
+    <value>Siirrit '{0}' aloittaaksesi ennen kuin '{1}' päättyy ja kaksi tehtävää yhdistetään. Seurauksena on, että linkkejä ei voida kunnioittaa. Valitse yksi alla olevista toimista suorittaaksesi</value>
   </data>
   <data name="Gantt_TaskAfterPredecessor_FS" xml:space="preserve">
-    <value>Vous avez déplacé '{0}' de '{1}' et les deux tâches sont liées. Par conséquent, les liens ne peuvent pas être honorés. Sélectionnez une action ci-dessous pour effectuer</value>
+    <value>Siirrit '{0}' pois kohdasta {1} ja molemmat tehtävät ovat linkitettyinä. Seurauksena on, että linkkejä ei voida kunnioittaa. Valitse yksi alla olevista toimista suorittaaksesi</value>
   </data>
   <data name="Gantt_TaskBeforePredecessor_SS" xml:space="preserve">
-    <value>Vous avez déplacé '{0}' pour démarrer avant le démarrage de '{1}' et les deux tâches sont liées. Par conséquent, les liens ne peuvent pas être honorés. Sélectionnez une action ci-dessous pour effectuer</value>
+    <value>Siirrit '{0}' aloittaaksesi ennen kuin '{1}' alkaa ja kaksi tehtävää yhdistetään. Seurauksena on, että linkkejä ei voida kunnioittaa. Valitse yksi alla olevista toimista suorittaaksesi</value>
   </data>
   <data name="Gantt_TaskAfterPredecessor_SS" xml:space="preserve">
-    <value>Vous avez déplacé '{0}' pour démarrer après le démarrage de '{1}' et les deux tâches sont liées. Par conséquent, les liens ne peuvent pas être honorés. Sélectionnez une action ci-dessous pour effectuer</value>
+    <value>Siirrit '{0}' aloittaaksesi '{1}' alkamisen ja kahden tehtävän linkittämisen jälkeen. Seurauksena on, että linkkejä ei voida kunnioittaa. Valitse yksi alla olevista toimista suorittaaksesi</value>
   </data>
   <data name="Gantt_TaskBeforePredecessor_FF" xml:space="preserve">
-    <value>Vous avez déplacé '{0}' pour terminer avant la fin de '{1}' et les deux tâches sont liées. Par conséquent, les liens ne peuvent pas être honorés. Sélectionnez une action ci-dessous pour effectuer</value>
+    <value>Siirrit '{0}' loppuun ennen kuin '{1}' päättyy ja kaksi tehtävää yhdistetään. Seurauksena on, että linkkejä ei voida kunnioittaa. Valitse yksi alla olevista toimista suorittaaksesi</value>
   </data>
   <data name="Gantt_TaskAfterPredecessor_FF" xml:space="preserve">
-    <value>Vous avez déplacé «{0}» pour terminer une fois «{1}» terminé et les deux tâches sont liées. Par conséquent, les liens ne peuvent pas être honorés. Sélectionnez une action ci-dessous pour effectuer</value>
+    <value>Siirrit '{0}' loppuun, kun '{1}' on valmis ja kaksi tehtävää on linkitetty. Seurauksena on, että linkkejä ei voida kunnioittaa. Valitse yksi alla olevista toimista suorittaaksesi</value>
   </data>
   <data name="Gantt_TaskBeforePredecessor_SF" xml:space="preserve">
-    <value>Vous avez déplacé '{0}' de '{1}' vers le début et les deux tâches sont liées. Par conséquent, les liens ne peuvent pas être honorés. Sélectionnez une action ci-dessous pour effectuer</value>
+    <value>Siirrit '{0}' pois kohdasta {1} aloitussivulle ja kaksi tehtävää yhdistetään. Seurauksena on, että linkkejä ei voida kunnioittaa. Valitse yksi alla olevista toimista suorittaaksesi</value>
   </data>
   <data name="Gantt_TaskAfterPredecessor_SF" xml:space="preserve">
-    <value>Vous avez déplacé '{0}' pour terminer après le démarrage de '{1}' et les deux tâches sont liées. Par conséquent, les liens ne peuvent pas être honorés. Sélectionnez une action ci-dessous pour effectuer</value>
+    <value>Siirrit '{0}' loppuun '{1}' alkamisen jälkeen ja kaksi tehtävää yhdistetään. Seurauksena on, että linkkejä ei voida kunnioittaa. Valitse yksi alla olevista toimista suorittaaksesi</value>
   </data>
   <data name="Gantt_TaskInformation" xml:space="preserve">
-    <value>Informations sur la tâche</value>
+    <value>Tehtävätiedot</value>
   </data>
   <data name="Gantt_DeleteTask" xml:space="preserve">
-    <value>Supprimer la tâche</value>
+    <value>Poista tehtävä</value>
   </data>
   <data name="Gantt_DeleteDependency" xml:space="preserve">
-    <value>Supprimer la dépendance</value>
+    <value>Poista riippuvuus</value>
   </data>
   <data name="Gantt_Convert" xml:space="preserve">
-    <value>Convertir</value>
+    <value>Muuntaa</value>
   </data>
   <data name="Gantt_Save" xml:space="preserve">
-    <value>sauvegarder</value>
+    <value>Tallentaa</value>
   </data>
   <data name="Gantt_Above" xml:space="preserve">
-    <value>Au dessus</value>
+    <value>Edellä</value>
   </data>
   <data name="Gantt_Below" xml:space="preserve">
-    <value>Au dessous de</value>
+    <value>Alla</value>
   </data>
   <data name="Gantt_Child" xml:space="preserve">
-    <value>Enfant</value>
+    <value>Lapsi</value>
   </data>
   <data name="Gantt_Milestone" xml:space="preserve">
-    <value>Étape importante</value>
+    <value>Virstanpylväs</value>
   </data>
   <data name="Gantt_ToTask" xml:space="preserve">
-    <value>À la tâche</value>
+    <value>Tehtävään</value>
   </data>
   <data name="Gantt_ToMilestone" xml:space="preserve">
-    <value>Vers Milestone</value>
+    <value>Milestone</value>
   </data>
   <data name="Gantt_EventMarkers" xml:space="preserve">
-    <value>Marqueurs d'événement</value>
+    <value>Tapahtuman merkit</value>
   </data>
   <data name="Gantt_LeftTaskLabel" xml:space="preserve">
-    <value>Étiquette de tâche gauche</value>
+    <value>Vasemman tehtävän etiketti</value>
   </data>
   <data name="Gantt_RightTaskLabel" xml:space="preserve">
-    <value>Étiquette de tâche droite</value>
+    <value>Oikea tehtävämerkki</value>
   </data>
   <data name="Gantt_TimelineCell" xml:space="preserve">
-    <value>Cellule de chronologie</value>
+    <value>Aikajanan solu</value>
   </data>
   <data name="Gantt_ConfirmPredecessorDelete" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer le lien de dépendance?</value>
+    <value>Haluatko varmasti poistaa riippuvuuslinkin?</value>
+  </data>
+  <data name="ColorPicker_Apply" xml:space="preserve">
+    <value>Käytä</value>
+  </data>
+  <data name="ColorPicker_Cancel" xml:space="preserve">
+    <value>Peruuttaa</value>
+  </data>
+  <data name="ColorPicker_ModeSwitcher" xml:space="preserve">
+    <value>Vaihda tila</value>
+  </data>
+  <data name="ListBox_ActionFailureTemplate" xml:space="preserve">
+    <value>Pyyntö epäonnistui</value>
+  </data>
+  <data name="ListBox_MoveAllFrom" xml:space="preserve">
+    <value>Siirrä kaikki</value>
+  </data>
+  <data name="ListBox_MoveAllTo" xml:space="preserve">
+    <value>Siirrä kaikki kohtaan</value>
+  </data>
+  <data name="ListBox_MoveDown" xml:space="preserve">
+    <value>Siirry alas</value>
+  </data>
+  <data name="ListBox_MoveFrom" xml:space="preserve">
+    <value>Siirry</value>
+  </data>
+  <data name="ListBox_MoveTo" xml:space="preserve">
+    <value>Muuttaa</value>
+  </data>
+  <data name="ListBox_MoveUp" xml:space="preserve">
+    <value>Liiku ylös</value>
+  </data>
+  <data name="ListBox_NoRecordsTemplate" xml:space="preserve">
+    <value>Merkintöjä ei löydy</value>
+  </data>
+  <data name="ListBox_SelectAllText" xml:space="preserve">
+    <value>Valitse kaikki</value>
+  </data>
+  <data name="ListBox_UnSelectAllText" xml:space="preserve">
+    <value>Poista kaikki valinnat</value>
   </data>
   <data name="PivotFieldList_Add" xml:space="preserve">
-    <value>ajouter</value>
+    <value>lisätä</value>
   </data>
   <data name="PivotFieldList_AddFieldMessage" xml:space="preserve">
-    <value>Ajouter un champ ici</value>
+    <value>Lisää kenttä tähän</value>
   </data>
   <data name="PivotFieldList_After" xml:space="preserve">
-    <value>Après</value>
+    <value>Jälkeen</value>
   </data>
   <data name="PivotFieldList_AfterOrEqualTo" xml:space="preserve">
-    <value>Après ou égal à</value>
+    <value>Jälkeen tai samanarvoinen</value>
   </data>
   <data name="PivotFieldList_Alert" xml:space="preserve">
-    <value>Alerte</value>
+    <value>hälytys</value>
   </data>
   <data name="PivotFieldList_All" xml:space="preserve">
-    <value>Tout</value>
+    <value>Kaikki</value>
   </data>
   <data name="PivotFieldList_AllFields" xml:space="preserve">
-    <value>Tous les champs</value>
+    <value>Kaikki kentät</value>
   </data>
   <data name="PivotFieldList_And" xml:space="preserve">
-    <value>et</value>
+    <value>ja</value>
   </data>
   <data name="PivotFieldList_Apply" xml:space="preserve">
-    <value>APPLIQUER</value>
+    <value>KÄYTÄ</value>
   </data>
   <data name="PivotFieldList_Avg" xml:space="preserve">
-    <value>Moy.</value>
+    <value>avg</value>
   </data>
   <data name="PivotFieldList_BaseField" xml:space="preserve">
-    <value>Champ de base</value>
+    <value>Peruskenttä:</value>
   </data>
   <data name="PivotFieldList_BaseItem" xml:space="preserve">
-    <value>Élément de base</value>
+    <value>Perusaine</value>
   </data>
   <data name="PivotFieldList_Before" xml:space="preserve">
-    <value>Avant</value>
+    <value>Ennen</value>
   </data>
   <data name="PivotFieldList_BeforeOrEqualTo" xml:space="preserve">
-    <value>Avant ou égal à</value>
+    <value>Ennen tai samanarvoista</value>
   </data>
   <data name="PivotFieldList_BeginWith" xml:space="preserve">
-    <value>Commence par</value>
+    <value>Alkaa jollakin</value>
   </data>
   <data name="PivotFieldList_Between" xml:space="preserve">
-    <value>Entre</value>
+    <value>Välillä</value>
   </data>
   <data name="PivotFieldList_Blank" xml:space="preserve">
-    <value>(Vide)</value>
+    <value>(Tyhjä)</value>
   </data>
   <data name="PivotFieldList_By" xml:space="preserve">
-    <value>par</value>
+    <value>mennessä</value>
   </data>
   <data name="PivotFieldList_CalculatedField" xml:space="preserve">
-    <value>Champ calculé</value>
+    <value>Laskettu kenttä</value>
   </data>
   <data name="PivotFieldList_CalculatedField_ConfirmMessage" xml:space="preserve">
-    <value>Un champ de calcul existe déjà sous ce nom. Voulez-vous le remplacer?</value>
+    <value>Laskentakenttä on jo olemassa tässä nimessä. Haluatko korvata sen?</value>
   </data>
   <data name="PivotFieldList_CalculatedField_DragDropMessage" xml:space="preserve">
-    <value>Glissez et déposez les champs dans la formule</value>
+    <value>Vedä ja pudota kentät kaavaan</value>
   </data>
   <data name="PivotFieldList_CalculatedField_DragMessage" xml:space="preserve">
-    <value>Faites glisser le champ vers la formule</value>
+    <value>Vedä kenttä kaavaan</value>
   </data>
   <data name="PivotFieldList_CalculatedField_DropMessage" xml:space="preserve">
-    <value>Le champ calculé ne peut être placé dans aucune autre région à l'exception de l'axe des valeurs.</value>
+    <value>Laskettua kenttää ei voi sijoittaa mihinkään muuhun alueeseen lukuun ottamatta arvo-akselia.</value>
   </data>
   <data name="PivotFieldList_CalculatedField_ExampleWatermark" xml:space="preserve">
-    <value>Exemple: ('Sum (Order_Count)' + 'Sum (In_Stock)' ') * 250</value>
+    <value>Esimerkki: ('Sum(Order_Count)' + 'Sum(In_Stock)'') * 250</value>
   </data>
   <data name="PivotFieldList_CalculatedField_ExistMessage" xml:space="preserve">
-    <value>Un champ existe déjà sous ce nom. Veuillez saisir un nom différent.</value>
+    <value>Kenttä on jo olemassa tässä nimessä. Anna toinen nimi.</value>
   </data>
   <data name="PivotFieldList_CalculatedField_MobileWatermark" xml:space="preserve">
-    <value>Ajoutez des champs et modifiez la formule ici.</value>
+    <value>Lisää kentät ja muokkaa kaavaa tähän.</value>
   </data>
   <data name="PivotFieldList_CalculatedField_NameWatermark" xml:space="preserve">
-    <value>Entrez le nom du champ</value>
+    <value>Kirjoita kentän nimi</value>
   </data>
   <data name="PivotFieldList_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
-    <value>Exemple: [Mesures]. [Quantité de commande] + ([Mesures]. [Quantité de commande] * 0,10)</value>
+    <value>Esimerkki: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
   </data>
   <data name="PivotFieldList_CalculatedField_Tooltip" xml:space="preserve">
-    <value>Faites glisser et déposez les champs pour créer une expression. Et, si vous souhaitez modifier les champs calculés existants! Vous pouvez y parvenir en sélectionnant simplement le champ sous «Membres calculés».</value>
+    <value>Luo lauseke vetämällä ja pudottamalla kenttiä. Ja jos haluat muokata olemassa olevia laskettuja kenttiä! Voit saavuttaa sen valitsemalla kentän 'Lasketut jäsenet' -kohdasta.</value>
   </data>
   <data name="PivotFieldList_Cancel" xml:space="preserve">
-    <value>Annuler</value>
+    <value>Peruuttaa</value>
   </data>
   <data name="PivotFieldList_ChooseFieldMessage" xml:space="preserve">
-    <value>Choisissez un champ</value>
+    <value>Valitse kenttä</value>
   </data>
   <data name="PivotFieldList_Clear" xml:space="preserve">
-    <value>Clair</value>
+    <value>Asia selvä</value>
   </data>
   <data name="PivotFieldList_ClearFilter" xml:space="preserve">
-    <value>Clair</value>
+    <value>Asia selvä</value>
   </data>
   <data name="PivotFieldList_Close" xml:space="preserve">
-    <value>Fermer</value>
+    <value>kiinni</value>
   </data>
   <data name="PivotFieldList_ColumnAxisWatermark" xml:space="preserve">
-    <value>Déposer la colonne ici</value>
+    <value>Pudota sarake tähän</value>
   </data>
   <data name="PivotFieldList_Columns" xml:space="preserve">
-    <value>Colonnes</value>
+    <value>pylväät</value>
   </data>
   <data name="PivotFieldList_Contains" xml:space="preserve">
-    <value>Contient</value>
+    <value>Sisältää</value>
   </data>
   <data name="PivotFieldList_Copy" xml:space="preserve">
-    <value>Copie</value>
+    <value>Kopio</value>
   </data>
   <data name="PivotFieldList_Count" xml:space="preserve">
-    <value>Compter</value>
+    <value>Kreivi</value>
   </data>
   <data name="PivotFieldList_CreateCalculatedField" xml:space="preserve">
-    <value>Créer un champ calculé</value>
+    <value>Luo laskettu kenttä</value>
   </data>
   <data name="PivotFieldList_Currency" xml:space="preserve">
-    <value>Devise</value>
+    <value>valuutta</value>
   </data>
   <data name="PivotFieldList_Custom" xml:space="preserve">
-    <value>Douane</value>
+    <value>Mukautettu</value>
   </data>
   <data name="PivotFieldList_CustomFormat" xml:space="preserve">
-    <value>Entrez une chaîne de format personnalisé</value>
+    <value>Kirjoita mukautettu muodon merkkijono</value>
   </data>
   <data name="PivotFieldList_Date" xml:space="preserve">
-    <value>Date</value>
+    <value>Päivämäärä</value>
   </data>
   <data name="PivotFieldList_DateTextMessage" xml:space="preserve">
-    <value>Afficher les éléments pour lesquels la date</value>
+    <value>Näytä kohteet, joille päivämäärä</value>
   </data>
   <data name="PivotFieldList_Days" xml:space="preserve">
-    <value>Journées</value>
+    <value>päivää</value>
   </data>
   <data name="PivotFieldList_DeferLayoutUpdate" xml:space="preserve">
-    <value>Différer la mise à jour de la mise en page</value>
+    <value>Viivästytä asettelun päivitystä</value>
   </data>
   <data name="PivotFieldList_Delete" xml:space="preserve">
-    <value>Supprimer</value>
+    <value>Poistaa</value>
   </data>
   <data name="PivotFieldList_DifferenceFrom" xml:space="preserve">
-    <value>Différence de</value>
+    <value>Ero verrattuna</value>
   </data>
   <data name="PivotFieldList_Dimension" xml:space="preserve">
-    <value>Dimension</value>
+    <value>Ulottuvuus</value>
   </data>
   <data name="PivotFieldList_DistinctCount" xml:space="preserve">
-    <value>Nombre distinct</value>
+    <value>Erottu määrä</value>
   </data>
   <data name="PivotFieldList_DoesNotBeginWith" xml:space="preserve">
-    <value>Ne commence pas par</value>
+    <value>Ei alka</value>
   </data>
   <data name="PivotFieldList_DoesNotContains" xml:space="preserve">
-    <value>Ne contient pas</value>
+    <value>Ei sisällä</value>
   </data>
   <data name="PivotFieldList_DoesNotEndsWith" xml:space="preserve">
-    <value>Ne se termine pas par</value>
+    <value>Ei lopu</value>
   </data>
   <data name="PivotFieldList_DoesNotEquals" xml:space="preserve">
-    <value>N'est pas égal</value>
+    <value>Ei ole sama</value>
   </data>
   <data name="PivotFieldList_Drag" xml:space="preserve">
-    <value>Traîne</value>
+    <value>Raahata</value>
   </data>
   <data name="PivotFieldList_DragFieldsMessage" xml:space="preserve">
-    <value>Faites glisser les champs entre les axes ci-dessous:</value>
+    <value>Vedä kenttiä akselien välillä alla:</value>
   </data>
   <data name="PivotFieldList_Edit" xml:space="preserve">
-    <value>Éditer</value>
+    <value>Muokata</value>
   </data>
   <data name="PivotFieldList_EndsWith" xml:space="preserve">
-    <value>Se termine par</value>
+    <value>Loppuu</value>
   </data>
   <data name="PivotFieldList_EnterDate" xml:space="preserve">
-    <value>Entrez la date</value>
+    <value>Syötä päivämäärä</value>
   </data>
   <data name="PivotFieldList_EnterValue" xml:space="preserve">
-    <value>Entrez une valeur</value>
+    <value>Kirjoita arvo</value>
   </data>
   <data name="PivotFieldList_Equals" xml:space="preserve">
-    <value>Équivaut à</value>
+    <value>equals</value>
   </data>
   <data name="PivotFieldList_Error" xml:space="preserve">
-    <value>Erreur</value>
+    <value>Virhe</value>
   </data>
   <data name="PivotFieldList_Example" xml:space="preserve">
-    <value>par exemple:</value>
+    <value>esim:</value>
   </data>
   <data name="PivotFieldList_Expression" xml:space="preserve">
-    <value>Expression</value>
+    <value>Ilmaisu</value>
   </data>
   <data name="PivotFieldList_FieldCaption" xml:space="preserve">
-    <value>Légende de champ</value>
+    <value>Kenttäkuvateksti</value>
   </data>
   <data name="PivotFieldList_FieldCaptionMessage" xml:space="preserve">
-    <value>Légende du champ</value>
+    <value>Kenttäkuvateksti</value>
   </data>
   <data name="PivotFieldList_FieldDropErrorMessage" xml:space="preserve">
-    <value>Le champ que vous déplacez ne peut pas être placé dans cette zone du rapport</value>
+    <value>Siirtämääsi kenttää ei voida sijoittaa raportin sille alueelle</value>
   </data>
   <data name="PivotFieldList_FieldList" xml:space="preserve">
-    <value>Liste de champ</value>
+    <value>Kenttälista</value>
   </data>
   <data name="PivotFieldList_FieldName" xml:space="preserve">
-    <value>Nom de domaine</value>
+    <value>kenttä nimi</value>
   </data>
   <data name="PivotFieldList_FieldNameMessage" xml:space="preserve">
-    <value>Nom de domaine :</value>
+    <value>kenttä nimi</value>
   </data>
   <data name="PivotFieldList_FieldType" xml:space="preserve">
-    <value>Type de champ</value>
+    <value>Kenttätyyppi</value>
   </data>
   <data name="PivotFieldList_Filter" xml:space="preserve">
-    <value>Filtre</value>
+    <value>Suodattaa</value>
   </data>
   <data name="PivotFieldList_FilterAxisWatermark" xml:space="preserve">
-    <value>Déposer le filtre ici</value>
+    <value>Pudota suodatin tähän</value>
   </data>
   <data name="PivotFieldList_Filtered" xml:space="preserve">
-    <value>Filtré</value>
+    <value>suodatettu</value>
   </data>
   <data name="PivotFieldList_Filters" xml:space="preserve">
-    <value>Filtres</value>
+    <value>Suodattimet</value>
   </data>
   <data name="PivotFieldList_FormatString" xml:space="preserve">
-    <value>Format de chaîne</value>
+    <value>Muoto merkkijono</value>
   </data>
   <data name="PivotFieldList_Formula" xml:space="preserve">
-    <value>Formule</value>
+    <value>Kaava</value>
   </data>
   <data name="PivotFieldList_GreaterThan" xml:space="preserve">
-    <value>Plus grand que</value>
+    <value>Suurempi kuin</value>
   </data>
   <data name="PivotFieldList_GreaterThanOrEqualTo" xml:space="preserve">
-    <value>Plus grand ou égal à</value>
+    <value>Suurempi tai yhtä suuri kuin</value>
   </data>
   <data name="PivotFieldList_Group" xml:space="preserve">
-    <value>Groupe</value>
+    <value>Ryhmä</value>
   </data>
   <data name="PivotFieldList_Hours" xml:space="preserve">
-    <value>Heures</value>
+    <value>tuntia</value>
   </data>
   <data name="PivotFieldList_Index" xml:space="preserve">
-    <value>Indice</value>
+    <value>Indeksi</value>
   </data>
   <data name="PivotFieldList_InvalidFormula" xml:space="preserve">
-    <value>Formule non valide.</value>
+    <value>Virheellinen kaava.</value>
   </data>
   <data name="PivotFieldList_Label" xml:space="preserve">
-    <value>Étiquette</value>
+    <value>etiketti</value>
   </data>
   <data name="PivotFieldList_LabelTextMessage" xml:space="preserve">
-    <value>Afficher les éléments pour lesquels l'étiquette</value>
+    <value>Näytä tuotteet, joille etiketti</value>
   </data>
   <data name="PivotFieldList_LessThan" xml:space="preserve">
-    <value>Moins que</value>
+    <value>Vähemmän kuin</value>
   </data>
   <data name="PivotFieldList_LessThanOrEqualTo" xml:space="preserve">
-    <value>Inférieur ou égal à</value>
+    <value>Pienempi kuin tai yhtä suuri kuin</value>
   </data>
   <data name="PivotFieldList_Max" xml:space="preserve">
     <value>Max</value>
   </data>
   <data name="PivotFieldList_Measure" xml:space="preserve">
-    <value>Mesure</value>
+    <value>Mitata</value>
   </data>
   <data name="PivotFieldList_Member" xml:space="preserve">
-    <value>Membre</value>
+    <value>Jäsen</value>
   </data>
   <data name="PivotFieldList_MemberLimitMessage" xml:space="preserve">
-    <value> Plus d'articles. Recherchez pour affiner davantage.</value>
+    <value>lisää kohteita. Etsi tarkentaaksesi tarkemmin.</value>
   </data>
   <data name="PivotFieldList_Min" xml:space="preserve">
     <value>Min</value>
   </data>
   <data name="PivotFieldList_Minutes" xml:space="preserve">
-    <value>Minutes</value>
+    <value>Pöytäkirja</value>
   </data>
   <data name="PivotFieldList_Months" xml:space="preserve">
-    <value>Mois</value>
+    <value>Kuukaudet</value>
   </data>
   <data name="PivotFieldList_MoreOption" xml:space="preserve">
-    <value>Plus...</value>
+    <value>Lisää...</value>
   </data>
   <data name="PivotFieldList_MultipleItems" xml:space="preserve">
-    <value>Articles multiples</value>
+    <value>Useita kohteita</value>
   </data>
   <data name="PivotFieldList_NoMatchesMessage" xml:space="preserve">
-    <value>Pas de correspondance</value>
+    <value>Ei tuloksia</value>
   </data>
   <data name="PivotFieldList_NotBetween" xml:space="preserve">
-    <value>Pas entre</value>
+    <value>Ei välillä</value>
   </data>
   <data name="PivotFieldList_Null" xml:space="preserve">
-    <value>nul</value>
+    <value>tyhjä</value>
   </data>
   <data name="PivotFieldList_OK" xml:space="preserve">
-    <value>D'accord</value>
+    <value>kunnossa</value>
   </data>
   <data name="PivotFieldList_OutOfRange" xml:space="preserve">
-    <value>Hors de portée</value>
+    <value>Toimialueen ulkopuolella</value>
   </data>
   <data name="PivotFieldList_ParentHierarchy" xml:space="preserve">
-    <value>Hiérarchie parente</value>
+    <value>Vanhempien hierarkia</value>
   </data>
   <data name="PivotFieldList_Percent" xml:space="preserve">
-    <value>Pour cent</value>
+    <value>prosentti</value>
   </data>
   <data name="PivotFieldList_PercentageOfColumnTotal" xml:space="preserve">
-    <value>% du grand total</value>
+    <value>% sarakkeen kokonaismäärästä</value>
   </data>
   <data name="PivotFieldList_PercentageOfDifferenceFrom" xml:space="preserve">
-    <value>% de différence par rapport à</value>
+    <value>% eroa</value>
   </data>
   <data name="PivotFieldList_PercentageOfGrandTotal" xml:space="preserve">
-    <value>% du total de la colonne</value>
+    <value>% Grand Totalista</value>
   </data>
   <data name="PivotFieldList_PercentageOfParentColumnTotal" xml:space="preserve">
-    <value>% du total de la colonne parent</value>
+    <value>% emolevyn kokonaismäärästä</value>
   </data>
   <data name="PivotFieldList_PercentageOfParentRowTotal" xml:space="preserve">
-    <value>% du total de la ligne parent</value>
+    <value>% rivin kokonaismäärästä</value>
   </data>
   <data name="PivotFieldList_PercentageOfParentTotal" xml:space="preserve">
-    <value>% du total des parents</value>
+    <value>% vanhempien kokonaismäärästä</value>
   </data>
   <data name="PivotFieldList_PercentageOfRowTotal" xml:space="preserve">
-    <value>% du total des lignes</value>
+    <value>% vanhemman rivin kokonaismäärästä</value>
   </data>
   <data name="PivotFieldList_PopulationStDev" xml:space="preserve">
-    <value>La population de StDev</value>
+    <value>Väestö StDev</value>
   </data>
   <data name="PivotFieldList_PopulationVar" xml:space="preserve">
-    <value>Population Var</value>
+    <value>Väestö Var</value>
   </data>
   <data name="PivotFieldList_Product" xml:space="preserve">
-    <value>Produit</value>
+    <value>Tuote</value>
   </data>
   <data name="PivotFieldList_Quarters" xml:space="preserve">
-    <value>Quartiers</value>
+    <value>neljäsosaa</value>
   </data>
   <data name="PivotFieldList_QuarterYear" xml:space="preserve">
-    <value>Trimestre année</value>
+    <value>Neljännesvuosi</value>
   </data>
   <data name="PivotFieldList_Remove" xml:space="preserve">
-    <value>Retirer</value>
+    <value>Poista</value>
   </data>
   <data name="PivotFieldList_RowAxisWatermark" xml:space="preserve">
-    <value>Déposer la ligne ici</value>
+    <value>Pudota rivi tänne</value>
   </data>
   <data name="PivotFieldList_Rows" xml:space="preserve">
-    <value>Lignes</value>
+    <value>riviä</value>
   </data>
   <data name="PivotFieldList_RunningTotals" xml:space="preserve">
-    <value>Totaux en cours d'exécution</value>
+    <value>Käynnissä olevat kokonaismäärät</value>
   </data>
   <data name="PivotFieldList_SampleStDev" xml:space="preserve">
-    <value>Exemple StDev</value>
+    <value>Näyte StDev</value>
   </data>
   <data name="PivotFieldList_SampleVar" xml:space="preserve">
-    <value>Échantillon Var</value>
+    <value>Näyte Var</value>
   </data>
   <data name="PivotFieldList_Search" xml:space="preserve">
-    <value>Chercher</value>
+    <value>Hae</value>
   </data>
   <data name="PivotFieldList_Seconds" xml:space="preserve">
-    <value>Secondes</value>
+    <value>sekuntia</value>
   </data>
   <data name="PivotFieldList_Sort" xml:space="preserve">
-    <value>Trier</value>
+    <value>Järjestellä</value>
   </data>
   <data name="PivotFieldList_Standard" xml:space="preserve">
-    <value>la norme</value>
+    <value>standardi</value>
   </data>
   <data name="PivotFieldList_StaticFieldList" xml:space="preserve">
-    <value>Liste des champs de pivot</value>
+    <value>Pivot-kenttäluettelo</value>
   </data>
   <data name="PivotFieldList_Sum" xml:space="preserve">
-    <value>Somme</value>
+    <value>Summa</value>
   </data>
   <data name="PivotFieldList_Summaries" xml:space="preserve">
-    <value>Résume les valeurs par</value>
+    <value>Yhteenveto arvoista</value>
   </data>
   <data name="PivotFieldList_SummarizeValuesBy" xml:space="preserve">
-    <value>Résumez les valeurs en</value>
+    <value>Yhteenveto arvoista</value>
   </data>
   <data name="PivotFieldList_Undefined" xml:space="preserve">
-    <value>indéfini</value>
+    <value>määrittelemätön</value>
   </data>
   <data name="PivotFieldList_Value" xml:space="preserve">
-    <value>Valeur</value>
+    <value>Arvo</value>
   </data>
   <data name="PivotFieldList_ValueAxisWatermark" xml:space="preserve">
-    <value>Déposer la valeur ici</value>
+    <value>Pudota arvo tähän</value>
   </data>
   <data name="PivotFieldList_ValueFieldSettings" xml:space="preserve">
-    <value>Paramètres de champ de valeur</value>
+    <value>Arvokentän asetukset</value>
   </data>
   <data name="PivotFieldList_Values" xml:space="preserve">
-    <value>Valeurs</value>
+    <value>arvot</value>
   </data>
   <data name="PivotFieldList_ValueTextMessage" xml:space="preserve">
-    <value>Afficher les articles pour lesquels</value>
+    <value>Näytä tuotteet, joita varten</value>
   </data>
   <data name="PivotFieldList_Warning" xml:space="preserve">
-    <value>avertissement</value>
+    <value>Varoitus</value>
   </data>
   <data name="PivotFieldList_Years" xml:space="preserve">
-    <value>Ans</value>
+    <value>vuotta</value>
   </data>
   <data name="PivotFieldList_CalculatedField_RemoveMessage" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer ce champ calculé?</value>
+    <value>Haluatko varmasti poistaa tämän lasketun kentän?</value>
   </data>
   <data name="PivotFieldList_Yes" xml:space="preserve">
-    <value>Oui</value>
+    <value>Joo</value>
   </data>
   <data name="PivotFieldList_No" xml:space="preserve">
-    <value>Non</value>
+    <value>EI</value>
   </data>
   <data name="PivotFieldList_Of" xml:space="preserve">
-    <value>de</value>
+    <value>of</value>
   </data>
   <data name="PivotFieldList_NumberFormat_ExampleWatermark" xml:space="preserve">
-    <value>Exemple: C, P, 0000 %, ###0.##0#, etc.</value>
+    <value>Esimerkki: C, P, 0000 %, ###0.##0#, etc.</value>
   </data>
   <data name="PivotFieldList_SortNone_TooltipMessage" xml:space="preserve">
-    <value>Trier l'ordre des données</value>
+    <value>Lajittele tietojen järjestys</value>
   </data>
   <data name="PivotFieldList_SortAscending_TooltipMessage" xml:space="preserve">
-    <value>Trier l'ordre croissant</value>
+    <value>Lajittele nousevaan järjestykseen</value>
   </data>
   <data name="PivotFieldList_SortDescending_TooltipMessage" xml:space="preserve">
-    <value>Trier l'ordre décroissant</value>
+    <value>Lajittele laskevaan järjestykseen</value>
   </data>
   <data name="PivotFieldList_CalculatedField_EditTooltipMessage" xml:space="preserve">
-    <value>Modifier le champ calculé</value>
+    <value>Muokkaa laskettua kenttää</value>
   </data>
   <data name="PivotFieldList_CalculatedField_ClearTooltipMessage" xml:space="preserve">
-    <value>Effacer les informations des champs modifiés</value>
+    <value>Tyhjennä muokatut kentätiedot</value>
   </data>
   <data name="PivotFieldList_Format" xml:space="preserve">
-    <value>Format</value>
+    <value>Muoto</value>
   </data>
   <data name="PivotView_AddCondition" xml:space="preserve">
-    <value>Ajouter une condition</value>
+    <value>Lisää ehto</value>
   </data>
   <data name="PivotView_AddToColumn" xml:space="preserve">
-    <value>Ajouter à la colonne</value>
+    <value>Lisää sarakkeeseen</value>
   </data>
   <data name="PivotView_AddToFilter" xml:space="preserve">
-    <value>Ajouter au filtre</value>
+    <value>Lisää suodattimeen</value>
   </data>
   <data name="PivotView_AddToRow" xml:space="preserve">
-    <value>Ajouter à la ligne</value>
+    <value>Lisää riviin</value>
   </data>
   <data name="PivotView_AddToValue" xml:space="preserve">
-    <value>Ajouter à la valeur</value>
+    <value>Lisää arvoon</value>
   </data>
   <data name="PivotView_After" xml:space="preserve">
-    <value>Après</value>
+    <value>Jälkeen</value>
   </data>
   <data name="PivotView_AfterOrEqualTo" xml:space="preserve">
-    <value>Après ou égal à</value>
+    <value>Jälkeen tai samanarvoinen</value>
   </data>
   <data name="PivotView_Aggregate" xml:space="preserve">
-    <value>Agrégat</value>
+    <value>Aggregaatti</value>
   </data>
   <data name="PivotView_Alert" xml:space="preserve">
-    <value>Alerte</value>
+    <value>hälytys</value>
   </data>
   <data name="PivotView_All" xml:space="preserve">
-    <value>Tout</value>
+    <value>Kaikki</value>
   </data>
   <data name="PivotView_AllFields" xml:space="preserve">
-    <value>Tous les champs</value>
+    <value>Kaikki kentät</value>
   </data>
   <data name="PivotView_AllValues" xml:space="preserve">
-    <value>Toutes les valeurs</value>
+    <value>Kaikki arvot</value>
   </data>
   <data name="PivotView_And" xml:space="preserve">
-    <value>et</value>
+    <value>ja</value>
   </data>
   <data name="PivotView_Apply" xml:space="preserve">
-    <value>APPLIQUER</value>
+    <value>KÄYTÄ</value>
   </data>
   <data name="PivotView_Area" xml:space="preserve">
-    <value>Zone</value>
+    <value>alue</value>
   </data>
   <data name="PivotView_Ascending" xml:space="preserve">
-    <value>Ascendant</value>
+    <value>nouseva</value>
   </data>
   <data name="PivotView_Avg" xml:space="preserve">
-    <value>Moy.</value>
+    <value>avg</value>
   </data>
   <data name="PivotView_Bar" xml:space="preserve">
-    <value>Bar</value>
+    <value>Baari</value>
   </data>
   <data name="PivotView_BaseField" xml:space="preserve">
-    <value>Champ de base</value>
+    <value>Peruskenttä:</value>
   </data>
   <data name="PivotView_BaseItem" xml:space="preserve">
-    <value>Élément de base</value>
+    <value>Perusaine:</value>
   </data>
   <data name="PivotView_Before" xml:space="preserve">
-    <value>Avant</value>
+    <value>Ennen</value>
   </data>
   <data name="PivotView_BeforeOrEqualTo" xml:space="preserve">
-    <value>Avant ou égal à</value>
+    <value>Ennen tai samanarvoista</value>
   </data>
   <data name="PivotView_BeginWith" xml:space="preserve">
-    <value>Commence par</value>
+    <value>Alkaa jollakin</value>
   </data>
   <data name="PivotView_Between" xml:space="preserve">
-    <value>Entre</value>
+    <value>Välillä</value>
   </data>
   <data name="PivotView_Blank" xml:space="preserve">
-    <value>(Vide)</value>
+    <value>(Tyhjä)</value>
   </data>
   <data name="PivotView_By" xml:space="preserve">
-    <value>par</value>
+    <value>mennessä</value>
   </data>
   <data name="PivotView_CalculatedField" xml:space="preserve">
-    <value>Champ calculé</value>
+    <value>Laskettu kenttä</value>
   </data>
   <data name="PivotView_CalculatedField_ConfirmMessage" xml:space="preserve">
-    <value>Un champ de calcul existe déjà sous ce nom. Voulez-vous le remplacer?</value>
+    <value>Laskentakenttä on jo olemassa tässä nimessä. Haluatko korvata sen?</value>
   </data>
   <data name="PivotView_CalculatedField_DragDropMessage" xml:space="preserve">
-    <value>Glissez et déposez les champs dans la formule</value>
+    <value>Vedä ja pudota kentät kaavaan</value>
   </data>
   <data name="PivotView_CalculatedField_DragMessage" xml:space="preserve">
-    <value>Faites glisser le champ vers la formule</value>
+    <value>Vedä kenttä kaavaan</value>
   </data>
   <data name="PivotView_CalculatedField_DropMessage" xml:space="preserve">
-    <value>Le champ calculé ne peut être placé dans aucune autre région à l'exception de l'axe des valeurs.</value>
+    <value>Laskettua kenttää ei voi sijoittaa mihinkään muuhun alueeseen lukuun ottamatta arvo-akselia.</value>
   </data>
   <data name="PivotView_CalculatedField_ExampleWatermark" xml:space="preserve">
-    <value>Exemple: ('Sum (Order_Count)' + 'Sum (In_Stock)') * 250</value>
+    <value>Esimerkki: ('Sum(Order_Count)' + 'Sum(In_Stock)') * 250</value>
   </data>
   <data name="PivotView_CalculatedField_ExistMessage" xml:space="preserve">
-    <value>Un champ existe déjà sous ce nom. Veuillez saisir un nom différent.</value>
+    <value>Kenttä on jo olemassa tässä nimessä. Anna toinen nimi.</value>
   </data>
   <data name="PivotView_CalculatedField_MobileWatermark" xml:space="preserve">
-    <value>Ajoutez des champs et modifiez la formule ici.</value>
+    <value>Lisää kentät ja muokkaa kaavaa tähän.</value>
   </data>
   <data name="PivotView_CalculatedField_NameWatermark" xml:space="preserve">
-    <value>Entrez le nom du champ</value>
+    <value>Kirjoita kentän nimi</value>
   </data>
   <data name="PivotView_CalculatedField_OLAPExampleWatermark" xml:space="preserve">
-    <value>Exemple: [Mesures]. [Quantité de commande] + ([Mesures]. [Quantité de commande] * 0,10)</value>
+    <value>Esimerkki: [Measures].[Order Quantity] + ([Measures].[Order Quantity] * 0.10)</value>
   </data>
   <data name="PivotView_CalculatedField_Tooltip" xml:space="preserve">
-    <value>Faites glisser et déposez les champs pour créer une expression. Et, si vous souhaitez modifier les champs calculés existants! Ensuite, vous pouvez y parvenir en sélectionnant simplement le champ sous «Membres calculés».</value>
+    <value>Luo lauseke vetämällä ja pudottamalla kenttiä. Ja jos haluat muokata olemassa olevia laskettuja kenttiä! Sitten voit saavuttaa sen valitsemalla kentän 'Lasketut jäsenet' -kohdasta.</value>
   </data>
   <data name="PivotView_Cancel" xml:space="preserve">
-    <value>Annuler</value>
+    <value>Peruuttaa</value>
   </data>
   <data name="PivotView_Chart" xml:space="preserve">
-    <value>Graphique</value>
+    <value>Kartoittaa</value>
   </data>
   <data name="PivotView_Clear" xml:space="preserve">
-    <value>Clair</value>
+    <value>Asia selvä</value>
   </data>
   <data name="PivotView_ClearFilter" xml:space="preserve">
-    <value>Clair</value>
+    <value>Asia selvä</value>
   </data>
   <data name="PivotView_Close" xml:space="preserve">
-    <value>Fermer</value>
+    <value>kiinni</value>
   </data>
   <data name="PivotView_Collapse" xml:space="preserve">
-    <value>Effondrer</value>
+    <value>Romahtaa</value>
   </data>
   <data name="PivotView_Column" xml:space="preserve">
-    <value>Colonne</value>
+    <value>sarake</value>
   </data>
   <data name="PivotView_ColumnAxisWatermark" xml:space="preserve">
-    <value>Déposer la colonne ici</value>
+    <value>Pudota sarake tähän</value>
   </data>
   <data name="PivotView_Columns" xml:space="preserve">
-    <value>Colonnes</value>
+    <value>pylväät</value>
   </data>
   <data name="PivotView_ConditionalFormating" xml:space="preserve">
-    <value>Mise en forme conditionnelle</value>
+    <value>Ehdollinen muotoilu</value>
   </data>
   <data name="PivotView_ConditionalFormatting" xml:space="preserve">
-    <value>Mise en forme conditionnelle</value>
+    <value>Ehdollinen muotoilu</value>
   </data>
   <data name="PivotView_Contains" xml:space="preserve">
-    <value>Contient</value>
+    <value>Sisältää</value>
   </data>
   <data name="PivotView_Copy" xml:space="preserve">
-    <value>Copie</value>
+    <value>Kopio</value>
   </data>
   <data name="PivotView_Count" xml:space="preserve">
-    <value>Compter</value>
+    <value>Kreivi</value>
   </data>
   <data name="PivotView_CreateCalculatedField" xml:space="preserve">
-    <value>Créer un champ calculé</value>
+    <value>Luo laskettu kenttä</value>
   </data>
   <data name="PivotView_CSV" xml:space="preserve">
     <value>CSV</value>
   </data>
   <data name="PivotView_Currency" xml:space="preserve">
-    <value>Devise</value>
+    <value>valuutta</value>
   </data>
   <data name="PivotView_CurrencySymbol" xml:space="preserve">
-    <value>Symbole de la monnaie</value>
+    <value>Valuuttasymboli</value>
   </data>
   <data name="PivotView_Custom" xml:space="preserve">
-    <value>Douane</value>
+    <value>Mukautettu</value>
   </data>
   <data name="PivotView_CustomFormat" xml:space="preserve">
-    <value>Format personnalisé</value>
+    <value>Muokattu muoto</value>
   </data>
   <data name="PivotView_CustomFormatMessage" xml:space="preserve">
-    <value>Entrez une chaîne de format personnalisé</value>
+    <value>Kirjoita mukautettu muodon merkkijono</value>
   </data>
   <data name="PivotView_Date" xml:space="preserve">
-    <value>Date</value>
+    <value>Päivämäärä</value>
   </data>
   <data name="PivotView_DateTextMessage" xml:space="preserve">
-    <value>Afficher les éléments pour lesquels la date</value>
+    <value>Näytä kohteet, joille päivämäärä</value>
   </data>
   <data name="PivotView_Days" xml:space="preserve">
-    <value>Journées</value>
+    <value>päivää</value>
   </data>
   <data name="PivotView_DecimalPlaces" xml:space="preserve">
-    <value>Décimales</value>
+    <value>Desimaalin tarkkuudella</value>
   </data>
   <data name="PivotView_Delete" xml:space="preserve">
-    <value>Supprimer</value>
+    <value>Poistaa</value>
   </data>
   <data name="PivotView_DeleteReport" xml:space="preserve">
-    <value>Supprimer un rapport actuel</value>
+    <value>Poista nykyinen raportti</value>
   </data>
   <data name="PivotView_Descending" xml:space="preserve">
-    <value>Descendant</value>
+    <value>Laskeva</value>
   </data>
   <data name="PivotView_Details" xml:space="preserve">
-    <value>Détails</value>
+    <value>Yksityiskohdat</value>
   </data>
   <data name="PivotView_DifferenceFrom" xml:space="preserve">
-    <value>Différence de</value>
+    <value>Ero verrattuna</value>
   </data>
   <data name="PivotView_Dimension" xml:space="preserve">
-    <value>Dimension</value>
+    <value>Ulottuvuus</value>
   </data>
   <data name="PivotView_DistinctCount" xml:space="preserve">
-    <value>Nombre distinct</value>
+    <value>Erottu määrä</value>
   </data>
   <data name="PivotView_DoesNotBeginWith" xml:space="preserve">
-    <value>Ne commence pas par</value>
+    <value>Ei alka</value>
   </data>
   <data name="PivotView_DoesNotContains" xml:space="preserve">
-    <value>Ne contient pas</value>
+    <value>Ei sisällä</value>
   </data>
   <data name="PivotView_DoesNotEndsWith" xml:space="preserve">
-    <value>Ne se termine pas par</value>
+    <value>Ei lopu</value>
   </data>
   <data name="PivotView_DoesNotEquals" xml:space="preserve">
-    <value>N'est pas égal</value>
+    <value>Ei ole sama</value>
   </data>
   <data name="PivotView_DoNotShowGrandTotals" xml:space="preserve">
-    <value>Ne pas afficher les totaux généraux</value>
+    <value>Älä näytä suuria summia</value>
   </data>
   <data name="PivotView_DoNotShowSubtotals" xml:space="preserve">
-    <value>Ne pas afficher les sous-totaux</value>
+    <value>Älä näytä välisummia</value>
   </data>
   <data name="PivotView_Drag" xml:space="preserve">
-    <value>Traîne</value>
+    <value>Raahata</value>
   </data>
   <data name="PivotView_DrillThrough" xml:space="preserve">
-    <value>Percer à travers</value>
+    <value>Porata läpi</value>
   </data>
   <data name="PivotView_DrillThroughErrorMessage" xml:space="preserve">
-    <value>Impossible d'afficher les éléments bruts des champs calculés.</value>
+    <value>Laskettujen kenttien raakatuotteita ei voida näyttää.</value>
   </data>
   <data name="PivotView_Edit" xml:space="preserve">
-    <value>Éditer</value>
+    <value>Muokata</value>
   </data>
   <data name="PivotView_EmptyRecordsMessage" xml:space="preserve">
-    <value>Aucun enregistrement à afficher</value>
+    <value>Ei näytettäviä tietueita</value>
   </data>
   <data name="PivotView_EmptyReportMessage" xml:space="preserve">
-    <value>Aucun rapport trouvé !!</value>
+    <value>Raportteja ei löytynyt!</value>
   </data>
   <data name="PivotView_EndAt" xml:space="preserve">
-    <value>Se terminant à</value>
+    <value>Päättyy klo</value>
   </data>
   <data name="PivotView_EndsWith" xml:space="preserve">
-    <value>Se termine par</value>
+    <value>Loppuu</value>
   </data>
   <data name="PivotView_EnterDate" xml:space="preserve">
-    <value>Entrez la date</value>
+    <value>Syötä päivämäärä</value>
   </data>
   <data name="PivotView_EnterReportNameMessage" xml:space="preserve">
-    <value>Entrez un nom de rapport</value>
+    <value>Kirjoita raportin nimi</value>
   </data>
   <data name="PivotView_EnterValue" xml:space="preserve">
-    <value>Entrez une valeur</value>
+    <value>Syötä arvo</value>
   </data>
   <data name="PivotView_Equals" xml:space="preserve">
-    <value>Équivaut à</value>
+    <value>equals</value>
   </data>
   <data name="PivotView_Error" xml:space="preserve">
-    <value>Erreur</value>
+    <value>Virhe</value>
   </data>
   <data name="PivotView_Example" xml:space="preserve">
-    <value>par exemple:</value>
+    <value>esim:</value>
   </data>
   <data name="PivotView_Excel" xml:space="preserve">
-    <value>Exceller</value>
+    <value>Excel</value>
   </data>
   <data name="PivotView_Expand" xml:space="preserve">
-    <value>Développer</value>
+    <value>Laajentaa</value>
   </data>
   <data name="PivotView_Export" xml:space="preserve">
-    <value>Exportation</value>
+    <value>Viedä</value>
   </data>
   <data name="PivotView_Expression" xml:space="preserve">
-    <value>Expression</value>
+    <value>Ilmaisu</value>
   </data>
   <data name="PivotView_False" xml:space="preserve">
-    <value>Faux</value>
+    <value>väärä</value>
   </data>
   <data name="PivotView_FieldCaption" xml:space="preserve">
-    <value>Légende de champ</value>
+    <value>Kenttäkuvateksti</value>
   </data>
   <data name="PivotView_FieldCaptionMessage" xml:space="preserve">
-    <value>Légende du champ</value>
+    <value>Kenttäkuvateksti</value>
   </data>
   <data name="PivotView_FieldDropErrorMessage" xml:space="preserve">
-    <value>Le champ que vous déplacez ne peut pas être placé dans cette zone du rapport</value>
+    <value>Siirtämääsi kenttää ei voida sijoittaa raportin sille alueelle</value>
   </data>
   <data name="PivotView_FieldName" xml:space="preserve">
-    <value>Nom de domaine</value>
+    <value>Kenttä nimi</value>
   </data>
   <data name="PivotView_FieldNameMessage" xml:space="preserve">
-    <value>Nom de domaine :</value>
+    <value>Kenttä nimi:</value>
   </data>
   <data name="PivotView_FieldType" xml:space="preserve">
-    <value>Type de champ</value>
+    <value>Kenttätyyppi</value>
   </data>
   <data name="PivotView_Filter" xml:space="preserve">
-    <value>Filtre</value>
+    <value>Suodattaa</value>
   </data>
   <data name="PivotView_FilterAxisWatermark" xml:space="preserve">
-    <value>Déposer le filtre ici</value>
+    <value>Pudota suodatin tähän</value>
   </data>
   <data name="PivotView_Filtered" xml:space="preserve">
-    <value>Filtré</value>
+    <value>suodatettu</value>
   </data>
   <data name="PivotView_Filters" xml:space="preserve">
-    <value>Filtres</value>
+    <value>Suodattimet</value>
   </data>
   <data name="PivotView_Format" xml:space="preserve">
-    <value>Format</value>
+    <value>Muoto</value>
   </data>
   <data name="PivotView_FormatString" xml:space="preserve">
-    <value>Format de chaîne</value>
+    <value>Muoto merkkijono</value>
   </data>
   <data name="PivotView_FormatType" xml:space="preserve">
-    <value>Type de format</value>
+    <value>Muoto Tyyppi</value>
   </data>
   <data name="PivotView_Formula" xml:space="preserve">
-    <value>Formule</value>
+    <value>Kaava</value>
   </data>
   <data name="PivotView_GrandTotal" xml:space="preserve">
-    <value>somme finale</value>
+    <value>Loppusumma</value>
   </data>
   <data name="PivotView_GrandTotals" xml:space="preserve">
-    <value>Totaux généraux</value>
+    <value>Suuret kokonaissummat</value>
   </data>
   <data name="PivotView_GreaterThan" xml:space="preserve">
-    <value>Plus grand que</value>
+    <value>Suurempi kuin</value>
   </data>
   <data name="PivotView_GreaterThanOrEqualTo" xml:space="preserve">
-    <value>Plus grand ou égal à</value>
+    <value>Suurempi kuin tai yhtä suuri</value>
   </data>
   <data name="PivotView_Group" xml:space="preserve">
-    <value>Groupe</value>
+    <value>Ryhmä</value>
   </data>
   <data name="PivotView_GroupCaptionMessage" xml:space="preserve">
-    <value>Entrez la légende à afficher dans l'en-tête</value>
+    <value>Kirjoita otsikko näytettävä kuvateksti</value>
   </data>
   <data name="PivotView_GroupFieldCaption" xml:space="preserve">
-    <value>Légende de champ</value>
+    <value>Kenttäkuvateksti</value>
   </data>
   <data name="PivotView_GroupFieldCaptionMessage" xml:space="preserve">
-    <value>Entrez la légende pour le champ de groupe</value>
+    <value>Enter the caption for group field</value>
   </data>
   <data name="PivotView_Grouping" xml:space="preserve">
-    <value>Regroupement</value>
+    <value>ryhmittely</value>
   </data>
   <data name="PivotView_GroupName" xml:space="preserve">
-    <value>Nom de groupe</value>
+    <value>ryhmän nimi</value>
   </data>
   <data name="PivotView_Hours" xml:space="preserve">
-    <value>Heures</value>
+    <value>tuntia</value>
   </data>
   <data name="PivotView_Index" xml:space="preserve">
-    <value>Indice</value>
+    <value>Indeksi</value>
   </data>
   <data name="PivotView_IntervalBy" xml:space="preserve">
-    <value>Intervalle de</value>
+    <value>intervalli mennessä</value>
   </data>
   <data name="PivotView_InvalidFormat" xml:space="preserve">
-    <value>Format invalide.</value>
+    <value>Väärä muoto.</value>
   </data>
   <data name="PivotView_InvalidFormula" xml:space="preserve">
-    <value>Formule non valide.</value>
+    <value>Virheellinen kaava.</value>
   </data>
   <data name="PivotView_InvalidGroupSelectionMessage" xml:space="preserve">
-    <value>Impossible de regrouper cette sélection.</value>
+    <value>Valintaa ei voida ryhmitellä.</value>
   </data>
   <data name="PivotView_JPEG" xml:space="preserve">
     <value>JPEG</value>
   </data>
   <data name="PivotView_Label" xml:space="preserve">
-    <value>Étiquette</value>
+    <value>etiketti</value>
   </data>
   <data name="PivotView_LabelTextMessage" xml:space="preserve">
-    <value>Afficher les éléments pour lesquels l'étiquette</value>
+    <value>Näytä tuotteet, joille etiketti</value>
   </data>
   <data name="PivotView_Left" xml:space="preserve">
-    <value>La gauche</value>
+    <value>Vasen</value>
   </data>
   <data name="PivotView_LessThan" xml:space="preserve">
-    <value>Moins que</value>
+    <value>Vähemmän kuin</value>
   </data>
   <data name="PivotView_LessThanOrEqualTo" xml:space="preserve">
-    <value>Inférieur ou égal à</value>
+    <value>Pienempi kuin tai yhtä suuri kuin</value>
   </data>
   <data name="PivotView_Line" xml:space="preserve">
-    <value>Ligne</value>
+    <value>Linja</value>
   </data>
   <data name="PivotView_LoadReport" xml:space="preserve">
-    <value>Charge</value>
+    <value>Ladata</value>
   </data>
-  <data name="PivotView_Manage Records" xml:space="preserve">
-    <value>Gérer les enregistrements</value>
+  <data name="PivotView_ManageRecords" xml:space="preserve">
+    <value>Hallinnoi tietueita</value>
   </data>
   <data name="PivotView_Max" xml:space="preserve">
     <value>Max</value>
   </data>
   <data name="PivotView_MdxQuery" xml:space="preserve">
-    <value>Requête MDX</value>
+    <value>MDX-kysely</value>
   </data>
   <data name="PivotView_Measure" xml:space="preserve">
-    <value>Mesure</value>
+    <value>Mitata</value>
   </data>
   <data name="PivotView_Member" xml:space="preserve">
-    <value>Membre</value>
+    <value>Jäsen</value>
   </data>
   <data name="PivotView_MemberLimitMessage" xml:space="preserve">
-    <value> Plus d'articles. Recherchez pour affiner davantage.</value>
+    <value>lisää kohteita. Etsi tarkentaaksesi tarkemmin.</value>
   </data>
   <data name="PivotView_Min" xml:space="preserve">
     <value>Min</value>
   </data>
   <data name="PivotView_Minutes" xml:space="preserve">
-    <value>Minutes</value>
+    <value>Pöytäkirja</value>
   </data>
   <data name="PivotView_Months" xml:space="preserve">
-    <value>Mois</value>
+    <value>Kuukaudet</value>
   </data>
   <data name="PivotView_MoreOption" xml:space="preserve">
-    <value>Plus...</value>
+    <value>Lisää...</value>
   </data>
   <data name="PivotView_MultipleItems" xml:space="preserve">
-    <value>Articles multiples</value>
+    <value>Useita kohteita</value>
   </data>
   <data name="PivotView_NewReport" xml:space="preserve">
-    <value>Créer un nouveau rapport</value>
+    <value>Luo uusi raportti</value>
   </data>
   <data name="PivotView_NewReportConfirmMessage" xml:space="preserve">
-    <value>Vous souhaitez enregistrer les modifications à signaler?</value>
+    <value>Haluatko tallentaa muutokset raportoitavaksi?</value>
   </data>
   <data name="PivotView_NoFormatMessage" xml:space="preserve">
-    <value>Aucun format trouvé !!!</value>
+    <value>Muotoa ei löytynyt !!!</value>
   </data>
   <data name="PivotView_NoInputMessage" xml:space="preserve">
-    <value>Entrez une valeur</value>
+    <value>Kirjoita arvo</value>
   </data>
   <data name="PivotView_NoMatchesMessage" xml:space="preserve">
-    <value>Pas de correspondance</value>
+    <value>Ei tuloksia</value>
   </data>
   <data name="PivotView_NotBetween" xml:space="preserve">
-    <value>Pas entre</value>
+    <value>Ei välillä</value>
   </data>
   <data name="PivotView_NotEquals" xml:space="preserve">
-    <value>Pas égal</value>
+    <value>Ei yhtä suuri</value>
   </data>
   <data name="PivotView_NoValue" xml:space="preserve">
-    <value>Aucune valeur</value>
+    <value>Ei arvoa</value>
   </data>
   <data name="PivotView_Null" xml:space="preserve">
-    <value>nul</value>
+    <value>tyhjä</value>
   </data>
   <data name="PivotView_Number" xml:space="preserve">
-    <value>Nombre</value>
+    <value>Määrä</value>
   </data>
   <data name="PivotView_NumberFormatting" xml:space="preserve">
-    <value>Formatage des nombres</value>
+    <value>Numeron muotoilu</value>
   </data>
   <data name="PivotView_Of" xml:space="preserve">
-    <value>de</value>
+    <value>of</value>
   </data>
   <data name="PivotView_OK" xml:space="preserve">
-    <value>D'accord</value>
+    <value>kunnossa</value>
   </data>
   <data name="PivotView_OutOfRange" xml:space="preserve">
-    <value>Hors de portée</value>
+    <value>Toimialueen ulkopuolella</value>
   </data>
   <data name="PivotView_ParentHierarchy" xml:space="preserve">
-    <value>Hiérarchie parente</value>
+    <value>Vanhempien hierarkia</value>
   </data>
   <data name="PivotView_PDF" xml:space="preserve">
     <value>PDF</value>
   </data>
   <data name="PivotView_Percent" xml:space="preserve">
-    <value>Pour cent</value>
+    <value>prosentti</value>
   </data>
   <data name="PivotView_Percentage" xml:space="preserve">
-    <value>Pourcentage</value>
+    <value>prosenttimäärä</value>
   </data>
   <data name="PivotView_PercentageOfColumnTotal" xml:space="preserve">
-    <value>% du total de la colonne</value>
+    <value>% sarakkeen kokonaismäärästä</value>
   </data>
   <data name="PivotView_PercentageOfDifferenceFrom" xml:space="preserve">
-    <value>% de différence par rapport à</value>
+    <value>% eroa</value>
   </data>
   <data name="PivotView_PercentageOfGrandTotal" xml:space="preserve">
-    <value>% du grand total</value>
+    <value>% Grand Totalista</value>
   </data>
   <data name="PivotView_PercentageOfParentColumnTotal" xml:space="preserve">
-    <value>% du total de la colonne parent</value>
+    <value>% emolevyn kokonaismäärästä</value>
   </data>
   <data name="PivotView_PercentageOfParentRowTotal" xml:space="preserve">
-    <value>% du total de la ligne parent</value>
+    <value>% vanhemman rivin kokonaismäärästä</value>
   </data>
   <data name="PivotView_PercentageOfParentTotal" xml:space="preserve">
-    <value>% du total des parents</value>
+    <value>% vanhempien kokonaismäärästä</value>
   </data>
   <data name="PivotView_PercentageOfRowTotal" xml:space="preserve">
-    <value>% du total des lignes</value>
+    <value>% rivin kokonaismäärästä</value>
   </data>
   <data name="PivotView_PNG" xml:space="preserve">
     <value>PNG</value>
   </data>
   <data name="PivotView_Polar" xml:space="preserve">
-    <value>Polaire</value>
+    <value>polaarinen</value>
   </data>
   <data name="PivotView_PopulationStDev" xml:space="preserve">
-    <value>La population de StDev</value>
+    <value>Väestö StDev</value>
   </data>
   <data name="PivotView_PopulationVar" xml:space="preserve">
-    <value>Population Var</value>
+    <value>Väestö Var</value>
   </data>
   <data name="PivotView_Product" xml:space="preserve">
-    <value>Produit</value>
+    <value>Tuote</value>
   </data>
   <data name="PivotView_Quarter" xml:space="preserve">
     <value>Qtr</value>
   </data>
   <data name="PivotView_Quarters" xml:space="preserve">
-    <value>Quartiers</value>
+    <value>neljäsosaa</value>
   </data>
   <data name="PivotView_QuarterYear" xml:space="preserve">
-    <value>Trimestre année</value>
+    <value>Neljännesvuosi</value>
   </data>
   <data name="PivotView_Remove" xml:space="preserve">
-    <value>Retirer</value>
+    <value>Poista</value>
   </data>
   <data name="PivotView_RemoveReportConfirmMessage" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer ce rapport?</value>
+    <value>Haluatko varmasti poistaa tämän raportin?</value>
   </data>
   <data name="PivotView_RenameReport" xml:space="preserve">
-    <value>Renommer un rapport actuel</value>
+    <value>Nimeä nykyinen raportti uudelleen</value>
   </data>
   <data name="PivotView_ReportList" xml:space="preserve">
-    <value>Liste des rapports</value>
+    <value>Raporttiluettelo</value>
   </data>
   <data name="PivotView_ReportNameMessage" xml:space="preserve">
-    <value>Nom du rapport:</value>
+    <value>Raportin nimi:</value>
   </data>
   <data name="PivotView_Right" xml:space="preserve">
-    <value>Droite</value>
+    <value>oikea</value>
   </data>
   <data name="PivotView_Row" xml:space="preserve">
-    <value>Rangée</value>
+    <value>Rivi</value>
   </data>
   <data name="PivotView_RowAxisWatermark" xml:space="preserve">
-    <value>Déposer la ligne ici</value>
+    <value>Pudota rivi tänne</value>
   </data>
   <data name="PivotView_Rows" xml:space="preserve">
-    <value>Lignes</value>
+    <value>riviä</value>
   </data>
   <data name="PivotView_RunningTotals" xml:space="preserve">
-    <value>Totaux en cours d'exécution</value>
+    <value>Käynnissä olevat kokonaismäärät</value>
   </data>
   <data name="PivotView_SampleReport" xml:space="preserve">
-    <value>Rapport par défaut</value>
+    <value>Näyteraportti</value>
   </data>
   <data name="PivotView_SampleStDev" xml:space="preserve">
-    <value>Exemple StDev</value>
+    <value>Näyte StDev</value>
   </data>
   <data name="PivotView_SampleVar" xml:space="preserve">
-    <value>Échantillon Var</value>
+    <value>Näyte Var</value>
   </data>
   <data name="PivotView_SaveAsReport" xml:space="preserve">
-    <value>Enregistrer en tant que rapport actuel</value>
+    <value>Tallenna nykyisenä raporttina</value>
   </data>
   <data name="PivotView_SaveReport" xml:space="preserve">
-    <value>Enregistrer un rapport</value>
+    <value>Tallenna raportti</value>
   </data>
   <data name="PivotView_Scatter" xml:space="preserve">
-    <value>Dispersion</value>
+    <value>Hajaantua</value>
   </data>
   <data name="PivotView_Search" xml:space="preserve">
-    <value>Chercher</value>
+    <value>Hae</value>
   </data>
   <data name="PivotView_Seconds" xml:space="preserve">
-    <value>Secondes</value>
+    <value>sekuntia</value>
   </data>
   <data name="PivotView_SelectedItems" xml:space="preserve">
-    <value>Éléments sélectionnés</value>
+    <value>Valitut tuotteet</value>
   </data>
   <data name="PivotView_SelectGroups" xml:space="preserve">
-    <value>Sélectionnez des groupes</value>
+    <value>Valitse ryhmät</value>
   </data>
   <data name="PivotView_ShowColumnGrandTotalsOnly" xml:space="preserve">
-    <value>Afficher uniquement les colonnes des totaux généraux</value>
+    <value>Näytä vain suuret kokonaismäärät -sarakkeet</value>
   </data>
   <data name="PivotView_ShowColumnSubtotalsOnly" xml:space="preserve">
-    <value>Afficher uniquement les colonnes de sous-totaux</value>
+    <value>Näytä vain välisummien sarakkeet</value>
   </data>
   <data name="PivotView_ShowFieldList" xml:space="preserve">
-    <value>Afficher la liste des champs</value>
+    <value>Show fieldlist</value>
   </data>
   <data name="PivotView_ShowGrandTotals" xml:space="preserve">
-    <value>Afficher les totaux généraux</value>
+    <value>Näytä suuret kokonaissummat</value>
   </data>
   <data name="PivotView_ShowRowGrandTotalsOnly" xml:space="preserve">
-    <value>Afficher uniquement les lignes des totaux généraux</value>
+    <value>Näytä vain suuret kokonaismäärät</value>
   </data>
   <data name="PivotView_ShowRowSubtotalsOnly" xml:space="preserve">
-    <value>Afficher uniquement les lignes de sous-totaux</value>
+    <value>Näytä vain alarivit vain</value>
   </data>
   <data name="PivotView_ShowSubtotals" xml:space="preserve">
-    <value>Afficher les sous-totaux</value>
+    <value>Näytä välisummat</value>
   </data>
   <data name="PivotView_ShowTable" xml:space="preserve">
-    <value>Afficher le tableau</value>
+    <value>Näytä pöytä</value>
   </data>
   <data name="PivotView_Sort" xml:space="preserve">
-    <value>Trier</value>
+    <value>Järjestellä</value>
   </data>
   <data name="PivotView_Standard" xml:space="preserve">
-    <value>la norme</value>
+    <value>standardi</value>
   </data>
   <data name="PivotView_StartAt" xml:space="preserve">
-    <value>À partir de</value>
+    <value>Alkaen</value>
   </data>
   <data name="PivotView_Subtotals" xml:space="preserve">
-    <value>Sous-totaux</value>
+    <value>Välisummat</value>
   </data>
   <data name="PivotView_Sum" xml:space="preserve">
-    <value>Somme</value>
+    <value>Summa</value>
   </data>
   <data name="PivotView_Summaries" xml:space="preserve">
-    <value>Résume les valeurs par</value>
+    <value>Yhteenveto arvoista</value>
   </data>
   <data name="PivotView_SummarizeValuesBy" xml:space="preserve">
-    <value>Résumez les valeurs en</value>
+    <value>Yhteenveto arvoista</value>
   </data>
   <data name="PivotView_SVG" xml:space="preserve">
     <value>SVG</value>
   </data>
   <data name="PivotView_SymbolPosition" xml:space="preserve">
-    <value>Position du symbole</value>
+    <value>Symbolin sijainti</value>
   </data>
   <data name="PivotView_Total" xml:space="preserve">
-    <value>Total</value>
+    <value>Kaikki yhteensä</value>
   </data>
   <data name="PivotView_True" xml:space="preserve">
-    <value>Vrai</value>
+    <value>Totta</value>
   </data>
   <data name="PivotView_Undefined" xml:space="preserve">
-    <value>indéfini</value>
+    <value>määrittelemätön</value>
   </data>
   <data name="PivotView_Ungroup" xml:space="preserve">
-    <value>Dissocier</value>
+    <value>Pura</value>
   </data>
   <data name="PivotView_ValidReportNameMessage" xml:space="preserve">
-    <value>Veuillez entrer le nom du rapport vaild !!!</value>
+    <value>Muotoa ei löytynyt !!!</value>
   </data>
   <data name="PivotView_Value" xml:space="preserve">
-    <value>Valeur</value>
+    <value>Arvo</value>
   </data>
   <data name="PivotView_ValueAxisWatermark" xml:space="preserve">
-    <value>Déposer la valeur ici</value>
+    <value>Pudota arvo tähän</value>
   </data>
   <data name="PivotView_ValueFieldSettings" xml:space="preserve">
-    <value>Paramètres de champ de valeur</value>
+    <value>Arvokentän asetukset</value>
   </data>
   <data name="PivotView_Values" xml:space="preserve">
-    <value>Valeurs</value>
+    <value>arvot</value>
   </data>
   <data name="PivotView_ValueTextMessage" xml:space="preserve">
-    <value>Afficher les articles pour lesquels</value>
+    <value>Näytä tuotteet, joita varten</value>
   </data>
   <data name="PivotView_Warning" xml:space="preserve">
-    <value>avertissement</value>
+    <value>Varoitus</value>
   </data>
   <data name="PivotView_Years" xml:space="preserve">
-    <value>Ans</value>
+    <value>vuotta</value>
   </data>
   <data name="PivotView_MultipleAxes" xml:space="preserve">
-    <value>Plusieurs axes</value>
+    <value>Useita akseleita</value>
   </data>
   <data name="PivotView_ChartTypeSettings" xml:space="preserve">
-    <value>Paramètres de type de graphique</value>
+    <value>Karttatyypin asetukset</value>
   </data>
   <data name="PivotView_ChartType" xml:space="preserve">
-    <value>Type de graphique</value>
+    <value>Kaavion tyyppi</value>
   </data>
   <data name="PivotView_Yes" xml:space="preserve">
-    <value>Oui</value>
+    <value>Joo</value>
   </data>
   <data name="PivotView_No" xml:space="preserve">
-    <value>Non</value>
+    <value>Ei</value>
   </data>
   <data name="PivotView_NumberFormatMenu" xml:space="preserve">
-    <value>Formatage des nombres ...</value>
+    <value>Numeron muotoilu...</value>
   </data>
   <data name="PivotView_ConditionalFormatingMenu" xml:space="preserve">
-    <value>Mise en forme conditionnelle...</value>
+    <value>Ehdollinen muotoilu...</value>
   </data>
   <data name="PivotView_CalculatedField_RemoveMessage" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer ce champ calculé?</value>
+    <value>Haluatko varmasti poistaa tämän lasketun kentän?</value>
   </data>
   <data name="PivotView_StackedArea" xml:space="preserve">
-    <value>Zone empilée</value>
+    <value>Pinottu alue</value>
   </data>
   <data name="PivotView_StackedColumn" xml:space="preserve">
-    <value>Colonne empilée</value>
+    <value>Pinottu sarake</value>
   </data>
   <data name="PivotView_StackedBar" xml:space="preserve">
-    <value>Bar empilé</value>
+    <value>Pinottu baari</value>
   </data>
   <data name="PivotView_StepLine" xml:space="preserve">
-    <value>Step Line</value>
+    <value>Askellinja</value>
   </data>
   <data name="PivotView_StepArea" xml:space="preserve">
-    <value>Zone de l'étape</value>
+    <value>Vaihealue</value>
   </data>
   <data name="PivotView_SplineArea" xml:space="preserve">
-    <value>Zone de spline</value>
+    <value>Spline-alue</value>
   </data>
   <data name="PivotView_Spline" xml:space="preserve">
     <value>Spline</value>
   </data>
   <data name="PivotView_StackedColumn100" xml:space="preserve">
-    <value>Colonne empilée à 100%</value>
+    <value>100% pinottu sarake</value>
   </data>
   <data name="PivotView_StackedBar100" xml:space="preserve">
-    <value>Barre 100% empilée</value>
+    <value>100% pinottu baari</value>
   </data>
   <data name="PivotView_StackedArea100" xml:space="preserve">
-    <value>Zone 100% empilée</value>
+    <value>100% pinottu alue</value>
   </data>
   <data name="PivotView_Bubble" xml:space="preserve">
-    <value>Bulle</value>
+    <value>Kupla</value>
   </data>
   <data name="PivotView_Pareto" xml:space="preserve">
     <value>Pareto</value>
   </data>
   <data name="PivotView_Radar" xml:space="preserve">
-    <value>Radar</value>
+    <value>Tutka</value>
   </data>
   <data name="PivotView_CalculatedField_EditTooltipMessage" xml:space="preserve">
-    <value>Modifier le champ calculé</value>
+    <value>Muokkaa laskettua kenttää</value>
   </data>
   <data name="PivotView_CalculatedField_ClearTooltipMessage" xml:space="preserve">
-    <value>Effacer les informations des champs modifiés</value>
+    <value>Tyhjennä muokatut kentätiedot</value>
   </data>
-  <data name="Diagram_BringToFront" xml:space="preserve">
-    <value>Mettre au premier plan</value>
+  <data name="QueryBuilder_AddCondition" xml:space="preserve">
+    <value>Lisää ehto</value>
   </data>
-  <data name="Diagram_Copy" xml:space="preserve">
-    <value>Copie</value>
+  <data name="QueryBuilder_AddGroup" xml:space="preserve">
+    <value>Lisää ryhmä</value>
   </data>
-  <data name="Diagram_Cut" xml:space="preserve">
-    <value>Coupe</value>
+  <data name="QueryBuilder_AND" xml:space="preserve">
+    <value>JA</value>
   </data>
-  <data name="Diagram_Group" xml:space="preserve">
-    <value>Groupe</value>
+  <data name="QueryBuilder_Between" xml:space="preserve">
+    <value>Välillä</value>
   </data>
-  <data name="Diagram_Grouping" xml:space="preserve">
-    <value>Regroupement</value>
+  <data name="QueryBuilder_Contains" xml:space="preserve">
+    <value>Sisältää</value>
   </data>
-  <data name="Diagram_MoveForward" xml:space="preserve">
-    <value>Avance</value>
+  <data name="QueryBuilder_DeleteGroup" xml:space="preserve">
+    <value>Poista ryhmä</value>
   </data>
-  <data name="Diagram_Order" xml:space="preserve">
-    <value>Commande</value>
+  <data name="QueryBuilder_DeleteRule" xml:space="preserve">
+    <value>Poista tämä ehto</value>
   </data>
-  <data name="Diagram_Paste" xml:space="preserve">
-    <value>Pâte</value>
+  <data name="QueryBuilder_Edit" xml:space="preserve">
+    <value>MUOKATA</value>
   </data>
-  <data name="Diagram_Redo" xml:space="preserve">
-    <value>Refaire</value>
+  <data name="QueryBuilder_Empty" xml:space="preserve">
+    <value>Tyhjä</value>
   </data>
-  <data name="Diagram_SelectAll" xml:space="preserve">
-    <value>Sélectionner tout</value>
+  <data name="QueryBuilder_EndsWith" xml:space="preserve">
+    <value>Loppuu</value>
   </data>
-  <data name="Diagram_SendBackward" xml:space="preserve">
-    <value>Envoyer vers l'arrière</value>
+  <data name="QueryBuilder_Equal" xml:space="preserve">
+    <value>Yhtä suuri</value>
   </data>
-  <data name="Diagram_SendToBack" xml:space="preserve">
-    <value>Envoyer au fond</value>
+  <data name="QueryBuilder_GreaterThan" xml:space="preserve">
+    <value>Suurempi kuin</value>
   </data>
-  <data name="Diagram_Undo" xml:space="preserve">
-    <value>annuler</value>
+  <data name="QueryBuilder_GreaterThanOrEqual" xml:space="preserve">
+    <value>Suurempi kuin tai yhtä suuri</value>
   </data>
-  <data name="Diagram_UnGroup" xml:space="preserve">
-    <value>Dissocier</value>
+  <data name="QueryBuilder_In" xml:space="preserve">
+    <value>Sisään</value>
   </data>
-  <data name="Grid_EmptyRecord" xml:space="preserve">
-    <value>Aucun enregistrement à afficher</value>
+  <data name="QueryBuilder_LessThan" xml:space="preserve">
+    <value>Vähemmän kuin</value>
   </data>
-  <data name="Grid_True" xml:space="preserve">
-    <value>vrai</value>
+  <data name="QueryBuilder_LessThanOrEqual" xml:space="preserve">
+    <value>Vähemmän kuin yhtäsuuri</value>
   </data>
-  <data name="Grid_False" xml:space="preserve">
-    <value>faux</value>
+  <data name="QueryBuilder_NotBetween" xml:space="preserve">
+    <value>Ei välillä</value>
   </data>
-  <data name="Grid_InvalidFilterMessage" xml:space="preserve">
-    <value>Données de filtre non valides</value>
+  <data name="QueryBuilder_NotContains" xml:space="preserve">
+    <value>Ei sisällä</value>
   </data>
-  <data name="Grid_GroupDropArea" xml:space="preserve">
-    <value>Faites glisser un en-tête de colonne ici pour regrouper sa colonne</value>
+  <data name="QueryBuilder_NotEmpty" xml:space="preserve">
+    <value>Ei tyhjä</value>
   </data>
-  <data name="Grid_UnGroupButton" xml:space="preserve">
-    <value>Cliquez ici pour dissocier</value>
+  <data name="QueryBuilder_NotEqual" xml:space="preserve">
+    <value>Ei yhtä</value>
   </data>
-  <data name="Grid_GroupDisable" xml:space="preserve">
-    <value>Le regroupement est désactivé pour cette colonne</value>
+  <data name="QueryBuilder_NotIn" xml:space="preserve">
+    <value>Ei mukana</value>
   </data>
-  <data name="Grid_FilterbarTitle" xml:space="preserve">
-    <value> Cellule de barre de filtre</value>
+  <data name="QueryBuilder_OR" xml:space="preserve">
+    <value>TAI</value>
   </data>
-  <data name="Grid_EmptyDataSourceError" xml:space="preserve">
-    <value>DataSource ne doit pas être vide lors du chargement initial car les colonnes sont générées à partir de dataSource dans AutoGenerate Column Grid</value>
+  <data name="QueryBuilder_OtherFields" xml:space="preserve">
+    <value>Muut kentät</value>
   </data>
-  <data name="Grid_Add" xml:space="preserve">
-    <value>Ajouter</value>
+  <data name="QueryBuilder_Remove" xml:space="preserve">
+    <value>POISTA</value>
   </data>
-  <data name="Grid_Edit" xml:space="preserve">
-    <value>Éditer</value>
+  <data name="QueryBuilder_SelectField" xml:space="preserve">
+    <value>Valitse kenttä</value>
   </data>
-  <data name="Grid_Cancel" xml:space="preserve">
-    <value>Annuler</value>
+  <data name="QueryBuilder_SelectOperator" xml:space="preserve">
+    <value>Valitse operaattori</value>
   </data>
-  <data name="Grid_Update" xml:space="preserve">
-    <value>Mise à jour</value>
+  <data name="QueryBuilder_SelectValue" xml:space="preserve">
+    <value>Anna arvo</value>
   </data>
-  <data name="Grid_Delete" xml:space="preserve">
-    <value>Supprimer</value>
+  <data name="QueryBuilder_StartsWith" xml:space="preserve">
+    <value>Alkaa</value>
   </data>
-  <data name="Grid_Print" xml:space="preserve">
-    <value>Impression</value>
+  <data name="QueryBuilder_SummaryViewTitle" xml:space="preserve">
+    <value>Yhteenveto-näkymä</value>
   </data>
-  <data name="Grid_Pdfexport" xml:space="preserve">
-    <value>Exportation PDF</value>
-  </data>
-  <data name="Grid_Excelexport" xml:space="preserve">
-    <value>Exportation Excel</value>
-  </data>
-  <data name="Grid_Wordexport" xml:space="preserve">
-    <value>Exportation de mots</value>
-  </data>
-  <data name="Grid_Csvexport" xml:space="preserve">
-    <value>Exportation CSV</value>
-  </data>
-  <data name="Grid_Search" xml:space="preserve">
-    <value>Chercher</value>
-  </data>
-  <data name="Grid_Columnchooser" xml:space="preserve">
-    <value>Colonnes</value>
-  </data>
-  <data name="Grid_Save" xml:space="preserve">
-    <value>Sauvegarder</value>
-  </data>
-  <data name="Grid_Item" xml:space="preserve">
-    <value>article</value>
-  </data>
-  <data name="Grid_Items" xml:space="preserve">
-    <value>articles</value>
-  </data>
-  <data name="Grid_EditOperationAlert" xml:space="preserve">
-    <value>Aucun enregistrement sélectionné pour l'opération d'édition</value>
-  </data>
-  <data name="Grid_DeleteOperationAlert" xml:space="preserve">
-    <value>Aucun enregistrement sélectionné pour l'opération de suppression</value>
-  </data>
-  <data name="Grid_SaveButton" xml:space="preserve">
-    <value>sauvegarder</value>
-  </data>
-  <data name="Grid_OKButton" xml:space="preserve">
-    <value>D'accord</value>
-  </data>
-  <data name="Grid_CancelButton" xml:space="preserve">
-    <value>Annuler</value>
-  </data>
-  <data name="Grid_EditFormTitle" xml:space="preserve">
-    <value>Les détails de</value>
-  </data>
-  <data name="Grid_AddFormTitle" xml:space="preserve">
-    <value>Ajouter un nouvel enregistrement</value>
-  </data>
-  <data name="Grid_BatchSaveConfirm" xml:space="preserve">
-    <value>Voulez-vous vraiment enregistrer les modifications?</value>
-  </data>
-  <data name="Grid_BatchSaveLostChanges" xml:space="preserve">
-    <value>Les modifications non enregistrées seront perdues. Es-tu sur de vouloir continuer?</value>
-  </data>
-  <data name="Grid_ConfirmDelete" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer l'enregistrement?</value>
-  </data>
-  <data name="Grid_CancelEdit" xml:space="preserve">
-    <value>Voulez-vous vraiment annuler les modifications?</value>
-  </data>
-  <data name="Grid_ChooseColumns" xml:space="preserve">
-    <value>Choisissez la colonne</value>
-  </data>
-  <data name="Grid_SearchColumns" xml:space="preserve">
-    <value>colonnes de recherche</value>
-  </data>
-  <data name="Grid_Matchs" xml:space="preserve">
-    <value>Aucun résultat</value>
-  </data>
-  <data name="Grid_FilterButton" xml:space="preserve">
-    <value>Filtre</value>
-  </data>
-  <data name="Grid_ClearButton" xml:space="preserve">
-    <value>Clair</value>
-  </data>
-  <data name="Grid_StartsWith" xml:space="preserve">
-    <value>Commence avec</value>
-  </data>
-  <data name="Grid_EndsWith" xml:space="preserve">
-    <value>Se termine par</value>
-  </data>
-  <data name="Grid_Contains" xml:space="preserve">
-    <value>Contient</value>
-  </data>
-  <data name="Grid_Equal" xml:space="preserve">
-    <value>Égal</value>
-  </data>
-  <data name="Grid_NotEqual" xml:space="preserve">
-    <value>Inégal</value>
-  </data>
-  <data name="Grid_LessThan" xml:space="preserve">
-    <value>Moins que</value>
-  </data>
-  <data name="Grid_LessThanOrEqual" xml:space="preserve">
-    <value>Inférieur ou égal</value>
-  </data>
-  <data name="Grid_GreaterThan" xml:space="preserve">
-    <value>Plus grand que</value>
-  </data>
-  <data name="Grid_GreaterThanOrEqual" xml:space="preserve">
-    <value>Meilleur que ou égal</value>
-  </data>
-  <data name="Grid_ChooseDate" xml:space="preserve">
-    <value>Choisissez une date</value>
-  </data>
-  <data name="Grid_EnterValue" xml:space="preserve">
-    <value>Entrez la valeur</value>
-  </data>
-  <data name="Grid_Copy" xml:space="preserve">
-    <value>Copie</value>
-  </data>
-  <data name="Grid_Group" xml:space="preserve">
-    <value>Regrouper par cette colonne</value>
-  </data>
-  <data name="Grid_Ungroup" xml:space="preserve">
-    <value>Dissocier par cette colonne</value>
-  </data>
-  <data name="Grid_AutoFitAll" xml:space="preserve">
-    <value>Ajuster automatiquement toutes les colonnes</value>
-  </data>
-  <data name="Grid_AutoFit" xml:space="preserve">
-    <value>Ajuster automatiquement cette colonne</value>
-  </data>
-  <data name="Grid_Export" xml:space="preserve">
-    <value>Exportation</value>
-  </data>
-  <data name="Grid_FirstPage" xml:space="preserve">
-    <value>Première page</value>
-  </data>
-  <data name="Grid_LastPage" xml:space="preserve">
-    <value>Dernière page</value>
-  </data>
-  <data name="Grid_PreviousPage" xml:space="preserve">
-    <value>Page précédente</value>
-  </data>
-  <data name="Grid_NextPage" xml:space="preserve">
-    <value>Page suivante</value>
-  </data>
-  <data name="Grid_SortAscending" xml:space="preserve">
-    <value>Trier par ordre croissant</value>
-  </data>
-  <data name="Grid_SortDescending" xml:space="preserve">
-    <value>Trier par ordre décroissant</value>
-  </data>
-  <data name="Grid_EditRecord" xml:space="preserve">
-    <value>Modifier l'enregistrement</value>
-  </data>
-  <data name="Grid_DeleteRecord" xml:space="preserve">
-    <value>Supprimer l'enregistrement</value>
-  </data>
-  <data name="Grid_FilterMenu" xml:space="preserve">
-    <value>Filtre</value>
-  </data>
-  <data name="Grid_SelectAll" xml:space="preserve">
-    <value>Tout sélectionner</value>
-  </data>
-  <data name="Grid_Blanks" xml:space="preserve">
-    <value>Blancs</value>
-  </data>
-  <data name="Grid_FilterTrue" xml:space="preserve">
-    <value>Vrai</value>
-  </data>
-  <data name="Grid_FilterFalse" xml:space="preserve">
-    <value>Faux</value>
-  </data>
-  <data name="Grid_NoResult" xml:space="preserve">
-    <value>Aucun résultat</value>
-  </data>
-  <data name="Grid_ClearFilter" xml:space="preserve">
-    <value>Effacer le filtre</value>
-  </data>
-  <data name="Grid_NumberFilter" xml:space="preserve">
-    <value>Filtres numériques</value>
-  </data>
-  <data name="Grid_TextFilter" xml:space="preserve">
-    <value>Filtres de texte</value>
-  </data>
-  <data name="Grid_DateFilter" xml:space="preserve">
-    <value>Filtres de date</value>
-  </data>
-  <data name="Grid_DateTimeFilter" xml:space="preserve">
-    <value>Filtres DateTime</value>
-  </data>
-  <data name="Grid_MatchCase" xml:space="preserve">
-    <value>Cas de correspondance</value>
-  </data>
-  <data name="Grid_Between" xml:space="preserve">
-    <value>Entre</value>
-  </data>
-  <data name="Grid_CustomFilter" xml:space="preserve">
-    <value>Filtre personnalisé</value>
-  </data>
-  <data name="Grid_CustomFilterPlaceHolder" xml:space="preserve">
-    <value>Entrez la valeur</value>
-  </data>
-  <data name="Grid_CustomFilterDatePlaceHolder" xml:space="preserve">
-    <value>Choisissez une date</value>
-  </data>
-  <data name="Grid_AND" xml:space="preserve">
-    <value>ET</value>
-  </data>
-  <data name="Grid_OR" xml:space="preserve">
-    <value>OU</value>
-  </data>
-  <data name="Grid_ShowRowsWhere" xml:space="preserve">
-    <value>Afficher les lignes où:</value>
-  </data>
-  <data name="Pager_CurrentPageInfo" xml:space="preserve">
-    <value>{0} de {1} pages</value>
-  </data>
-  <data name="Pager_TotalItemsInfo" xml:space="preserve">
-    <value>({0} éléments)</value>
-  </data>
-  <data name="Pager_FirstPageTooltip" xml:space="preserve">
-    <value>Aller à la première page</value>
-  </data>
-  <data name="Pager_LastPageTooltip" xml:space="preserve">
-    <value>Aller à la dernière page</value>
-  </data>
-  <data name="Pager_NextPageTooltip" xml:space="preserve">
-    <value>Aller à la page suivante</value>
-  </data>
-  <data name="Pager_PreviousPageTooltip" xml:space="preserve">
-    <value>Aller à la page précédente</value>
-  </data>
-  <data name="Pager_NextPagerTooltip" xml:space="preserve">
-    <value>Aller au téléavertisseur suivant</value>
-  </data>
-  <data name="Pager_PreviousPagerTooltip" xml:space="preserve">
-    <value>Aller au téléavertisseur précédent</value>
-  </data>
-  <data name="Pager_PagerDropDown" xml:space="preserve">
-    <value>objets par page</value>
-  </data>
-  <data name="Pager_PagerAllDropDown" xml:space="preserve">
-    <value>Articles</value>
-  </data>
-  <data name="Pager_All" xml:space="preserve">
-    <value>Tout</value>
-  </data>
-  <data name="RecurrenceEditor_Count" xml:space="preserve">
-    <value>Compter</value>
-  </data>
-  <data name="RecurrenceEditor_Daily" xml:space="preserve">
-    <value>du quotidien</value>
-  </data>
-  <data name="RecurrenceEditor_Days" xml:space="preserve">
-    <value>Journées)</value>
-  </data>
-  <data name="RecurrenceEditor_End" xml:space="preserve">
-    <value>Fin</value>
-  </data>
-  <data name="RecurrenceEditor_Every" xml:space="preserve">
-    <value>chaque</value>
-  </data>
-  <data name="RecurrenceEditor_First" xml:space="preserve">
-    <value>Premier</value>
-  </data>
-  <data name="RecurrenceEditor_Fourth" xml:space="preserve">
-    <value>Quatrième</value>
-  </data>
-  <data name="RecurrenceEditor_Last" xml:space="preserve">
-    <value>Dernier</value>
-  </data>
-  <data name="RecurrenceEditor_Month" xml:space="preserve">
-    <value>Mois</value>
-  </data>
-  <data name="RecurrenceEditor_MonthExpander" xml:space="preserve">
-    <value>Expander mois</value>
-  </data>
-  <data name="RecurrenceEditor_Monthly" xml:space="preserve">
-    <value>Mensuel</value>
-  </data>
-  <data name="RecurrenceEditor_MonthPosition" xml:space="preserve">
-    <value>Position du mois</value>
-  </data>
-  <data name="RecurrenceEditor_Months" xml:space="preserve">
-    <value>Mois)</value>
-  </data>
-  <data name="RecurrenceEditor_MonthWeek" xml:space="preserve">
-    <value>Mois Semaine</value>
-  </data>
-  <data name="RecurrenceEditor_Never" xml:space="preserve">
-    <value>Jamais</value>
-  </data>
-  <data name="RecurrenceEditor_None" xml:space="preserve">
-    <value>Aucun</value>
-  </data>
-  <data name="RecurrenceEditor_On" xml:space="preserve">
-    <value>Répéter sur</value>
-  </data>
-  <data name="RecurrenceEditor_OnDay" xml:space="preserve">
-    <value>journée</value>
-  </data>
-  <data name="RecurrenceEditor_Repeat" xml:space="preserve">
-    <value>Répéter</value>
-  </data>
-  <data name="RecurrenceEditor_RepeatEvery" xml:space="preserve">
-    <value>Répétez tous les</value>
-  </data>
-  <data name="RecurrenceEditor_RepeatInterval" xml:space="preserve">
-    <value>Intervalle de répétition</value>
-  </data>
-  <data name="RecurrenceEditor_Second" xml:space="preserve">
-    <value>Seconde</value>
-  </data>
-  <data name="RecurrenceEditor_SummaryDay" xml:space="preserve">
-    <value>journées)</value>
-  </data>
-  <data name="RecurrenceEditor_SummaryMonth" xml:space="preserve">
-    <value>mois)</value>
-  </data>
-  <data name="RecurrenceEditor_SummaryOn" xml:space="preserve">
-    <value>sur</value>
-  </data>
-  <data name="RecurrenceEditor_SummaryRepeat" xml:space="preserve">
-    <value>Répète</value>
-  </data>
-  <data name="RecurrenceEditor_SummaryTimes" xml:space="preserve">
-    <value>fois)</value>
-  </data>
-  <data name="RecurrenceEditor_SummaryUntil" xml:space="preserve">
-    <value>jusqu'à</value>
-  </data>
-  <data name="RecurrenceEditor_SummaryWeek" xml:space="preserve">
-    <value>semaines)</value>
-  </data>
-  <data name="RecurrenceEditor_SummaryYear" xml:space="preserve">
-    <value>ans)</value>
-  </data>
-  <data name="RecurrenceEditor_Third" xml:space="preserve">
-    <value>Troisième</value>
-  </data>
-  <data name="RecurrenceEditor_Until" xml:space="preserve">
-    <value>Jusqu'à</value>
-  </data>
-  <data name="RecurrenceEditor_Weekly" xml:space="preserve">
-    <value>Hebdomadaire</value>
-  </data>
-  <data name="RecurrenceEditor_Weeks" xml:space="preserve">
-    <value>Semaines)</value>
-  </data>
-  <data name="RecurrenceEditor_YearExpander" xml:space="preserve">
-    <value>Expander année</value>
-  </data>
-  <data name="RecurrenceEditor_Yearly" xml:space="preserve">
-    <value>Annuel</value>
-  </data>
-  <data name="RecurrenceEditor_Years" xml:space="preserve">
-    <value>Ans)</value>
-  </data>
-  <data name="Schedule_AddTitle" xml:space="preserve">
-    <value>Ajouter un titre</value>
-  </data>
-  <data name="Schedule_Agenda" xml:space="preserve">
-    <value>Ordre du jour</value>
-  </data>
-  <data name="Schedule_Alert" xml:space="preserve">
-    <value>Alerte</value>
-  </data>
-  <data name="Schedule_AllDay" xml:space="preserve">
-    <value>Toute la journée</value>
-  </data>
-  <data name="Schedule_BeginFrom" xml:space="preserve">
-    <value>Commencer à partir de</value>
-  </data>
-  <data name="Schedule_BlockAlert" xml:space="preserve">
-    <value>Les événements ne peuvent pas être planifiés dans l'intervalle de temps bloqué.</value>
-  </data>
-  <data name="Schedule_Cancel" xml:space="preserve">
-    <value>Annuler</value>
-  </data>
-  <data name="Schedule_CancelButton" xml:space="preserve">
-    <value>Annuler</value>
-  </data>
-  <data name="Schedule_Close" xml:space="preserve">
-    <value>Fermer</value>
-  </data>
-  <data name="Schedule_CreateError" xml:space="preserve">
-    <value>La durée de l'événement doit être plus courte que sa fréquence. Raccourcissez la durée ou modifiez le modèle de récurrence dans l'éditeur d'événements de récurrence.</value>
-  </data>
-  <data name="Schedule_CreateEvent" xml:space="preserve">
-    <value>Créer</value>
-  </data>
-  <data name="Schedule_Day" xml:space="preserve">
-    <value>journée</value>
-  </data>
-  <data name="Schedule_Delete" xml:space="preserve">
-    <value>Supprimer</value>
-  </data>
-  <data name="Schedule_DeleteButton" xml:space="preserve">
-    <value>Supprimer</value>
-  </data>
-  <data name="Schedule_DeleteContent" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer cet événement?</value>
-  </data>
-  <data name="Schedule_DeleteEvent" xml:space="preserve">
-    <value>Cet evènement</value>
-  </data>
-  <data name="Schedule_DeleteMultipleContent" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer les événements sélectionnés?</value>
-  </data>
-  <data name="Schedule_DeleteMultipleEvent" xml:space="preserve">
-    <value>Supprimer plusieurs événements</value>
-  </data>
-  <data name="Schedule_DeleteSeries" xml:space="preserve">
-    <value>Série entière</value>
-  </data>
-  <data name="Schedule_DeleteTitle" xml:space="preserve">
-    <value>Supprimer l'événement</value>
-  </data>
-  <data name="Schedule_Description" xml:space="preserve">
-    <value>La description</value>
-  </data>
-  <data name="Schedule_Edit" xml:space="preserve">
-    <value>Éditer</value>
-  </data>
-  <data name="Schedule_EditContent" xml:space="preserve">
-    <value>Comment aimeriez-vous changer le rendez-vous de la série?</value>
-  </data>
-  <data name="Schedule_EditEvent" xml:space="preserve">
-    <value>Cet evènement</value>
-  </data>
-  <data name="Schedule_EditFollowingEvent" xml:space="preserve">
-    <value>Événements suivants</value>
-  </data>
-  <data name="Schedule_EditRecurrence" xml:space="preserve">
-    <value>Modifier la récurrence</value>
-  </data>
-  <data name="Schedule_EditSeries" xml:space="preserve">
-    <value>Série entière</value>
-  </data>
-  <data name="Schedule_EditTitle" xml:space="preserve">
-    <value>Modifier l'événement</value>
-  </data>
-  <data name="Schedule_EmptyContainer" xml:space="preserve">
-    <value>Aucun événement n'est prévu ce jour-là.</value>
-  </data>
-  <data name="Schedule_End" xml:space="preserve">
-    <value>Fin</value>
-  </data>
-  <data name="Schedule_EndAt" xml:space="preserve">
-    <value>Fin à</value>
-  </data>
-  <data name="Schedule_EndTimezone" xml:space="preserve">
-    <value>Fin du fuseau horaire</value>
-  </data>
-  <data name="Schedule_InvalidDateError" xml:space="preserve">
-    <value>La valeur de date entrée n'est pas valide.</value>
-  </data>
-  <data name="Schedule_Location" xml:space="preserve">
-    <value>Emplacement</value>
-  </data>
-  <data name="Schedule_Month" xml:space="preserve">
-    <value>Mois</value>
-  </data>
-  <data name="Schedule_MonthAgenda" xml:space="preserve">
-    <value>Agenda du mois</value>
-  </data>
-  <data name="Schedule_More" xml:space="preserve">
-    <value>plus</value>
-  </data>
-  <data name="Schedule_MoreDetails" xml:space="preserve">
-    <value>Plus de détails</value>
-  </data>
-  <data name="Schedule_NewEvent" xml:space="preserve">
-    <value>Nouvel évènement</value>
-  </data>
-  <data name="Schedule_next" xml:space="preserve">
-    <value>Prochain</value>
-  </data>
-  <data name="Schedule_No" xml:space="preserve">
-    <value>Non</value>
-  </data>
-  <data name="Schedule_NoEvents" xml:space="preserve">
-    <value>Pas d'événements</value>
-  </data>
-  <data name="Schedule_NoTitle" xml:space="preserve">
-    <value>(Pas de titre)</value>
-  </data>
-  <data name="Schedule_Occurrence" xml:space="preserve">
-    <value>Occurrence</value>
-  </data>
-  <data name="Schedule_Ok" xml:space="preserve">
-    <value>D'accord</value>
-  </data>
-  <data name="Schedule_Previous" xml:space="preserve">
-    <value>précédent</value>
-  </data>
-  <data name="Schedule_Recurrence" xml:space="preserve">
-    <value>Récurrence</value>
-  </data>
-  <data name="Schedule_Repeat" xml:space="preserve">
-    <value>Répéter</value>
-  </data>
-  <data name="Schedule_Repeats" xml:space="preserve">
-    <value>Répète</value>
-  </data>
-  <data name="Schedule_SameDayAlert" xml:space="preserve">
-    <value>Deux occurrences du même événement ne peuvent pas se produire le même jour.</value>
-  </data>
-  <data name="Schedule_Save" xml:space="preserve">
-    <value>sauvegarder</value>
-  </data>
-  <data name="Schedule_SaveButton" xml:space="preserve">
-    <value>sauvegarder</value>
-  </data>
-  <data name="Schedule_SelectedItems" xml:space="preserve">
-    <value>Articles sélectionnés</value>
-  </data>
-  <data name="Schedule_Series" xml:space="preserve">
-    <value>Séries</value>
-  </data>
-  <data name="Schedule_SeriesChangeAlert" xml:space="preserve">
-    <value>Voulez-vous annuler les modifications apportées à des instances spécifiques de cette série et les associer à nouveau à l'ensemble de la série?</value>
-  </data>
-  <data name="Schedule_Start" xml:space="preserve">
-    <value>Début</value>
-  </data>
-  <data name="Schedule_StartEndError" xml:space="preserve">
-    <value>La date de fin sélectionnée se produit avant la date de début.</value>
-  </data>
-  <data name="Schedule_StartTimezone" xml:space="preserve">
-    <value>Démarrer le fuseau horaire</value>
-  </data>
-  <data name="Schedule_Subject" xml:space="preserve">
-    <value>Matière</value>
-  </data>
-  <data name="Schedule_TimelineDay" xml:space="preserve">
-    <value>Jour de la chronologie</value>
-  </data>
-  <data name="Schedule_TimelineMonth" xml:space="preserve">
-    <value>Mois de la chronologie</value>
-  </data>
-  <data name="Schedule_TimelineWeek" xml:space="preserve">
-    <value>Semaine chronologique</value>
-  </data>
-  <data name="Schedule_TimelineWorkWeek" xml:space="preserve">
-    <value>Semaine de travail</value>
-  </data>
-  <data name="Schedule_TimelineYear" xml:space="preserve">
-    <value>Année de la chronologie</value>
-  </data>
-  <data name="Schedule_Timezone" xml:space="preserve">
-    <value>Fuseau horaire</value>
-  </data>
-  <data name="Schedule_Title" xml:space="preserve">
-    <value>Titre</value>
-  </data>
-  <data name="Schedule_Today" xml:space="preserve">
-    <value>Aujourd'hui</value>
-  </data>
-  <data name="Schedule_Week" xml:space="preserve">
-    <value>La semaine</value>
-  </data>
-  <data name="Schedule_WeekAgenda" xml:space="preserve">
-    <value>Agenda de la semaine</value>
-  </data>
-  <data name="Schedule_WorkWeek" xml:space="preserve">
-    <value>Semaine de travail</value>
-  </data>
-  <data name="Schedule_WorkWeekAgenda" xml:space="preserve">
-    <value>Agenda de la semaine de travail</value>
-  </data>
-  <data name="Schedule_WrongPattern" xml:space="preserve">
-    <value>Le modèle de récurrence n'est pas valide.</value>
-  </data>
-  <data name="Schedule_Yes" xml:space="preserve">
-    <value>Oui</value>
-  </data>
-  <data name="Tab_CloseButtonTitle" xml:space="preserve">
-    <value>Fermer</value>
+  <data name="QueryBuilder_ValidationMessage" xml:space="preserve">
+    <value>Tämä kenttä pitää täyttää</value>
   </data>
   <data name="Dialog_Close" xml:space="preserve">
-    <value>Fermer</value>
+    <value>kiinni</value>
   </data>
   <data name="Toast_Close" xml:space="preserve">
-    <value>Fermer</value>
+    <value>kiinni</value>
   </data>
   <data name="InPlaceEditor_Save" xml:space="preserve">
-    <value>sauvegarder</value>
+    <value>Tallentaa</value>
   </data>
   <data name="InPlaceEditor_Cancel" xml:space="preserve">
-    <value>Annuler</value>
+    <value>Peruuttaa</value>
   </data>
   <data name="InPlaceEditor_LoadingText" xml:space="preserve">
-    <value>Chargement...</value>
+    <value>Ladataan...</value>
   </data>
   <data name="InPlaceEditor_EditIcon" xml:space="preserve">
-    <value>Cliquez pour modifier</value>
+    <value>Muokkaa napsauttamalla</value>
   </data>
   <data name="InPlaceEditor_EditAreaClick" xml:space="preserve">
-    <value>Cliquez pour modifier</value>
+    <value>Muokkaa napsauttamalla</value>
   </data>
   <data name="InPlaceEditor_EditAreaDoubleClick" xml:space="preserve">
-    <value>Double-cliquez pour modifier</value>
+    <value>Kaksoisnapsauta muokataksesi</value>
   </data>
   <data name="Kanban_Items" xml:space="preserve">
-    <value>articles</value>
+    <value>kohdetta</value>
   </data>
   <data name="Kanban_Item" xml:space="preserve">
-    <value>article</value>
+    <value>kohde</value>
   </data>
   <data name="Kanban_No_Cards" xml:space="preserve">
-    <value>Aucune carte à afficher</value>
+    <value>Ei näytettäviä kortteja</value>
   </data>
   <data name="Kanban_Min" xml:space="preserve">
     <value>Min</value>
@@ -2830,838 +2170,1498 @@
     <value>Max</value>
   </data>
   <data name="Kanban_CardsSelected" xml:space="preserve">
-    <value>Cartes sélectionnées</value>
+    <value>Kortit valittu</value>
   </data>
   <data name="Kanban_AddTitle" xml:space="preserve">
-    <value>Ajouter une nouvelle carte</value>
+    <value>Lisää uusi kortti</value>
   </data>
   <data name="Kanban_EditTitle" xml:space="preserve">
-    <value>Modifier les détails de la carte</value>
+    <value>Muokkaa kortin tietoja</value>
   </data>
   <data name="Kanban_DeleteTitle" xml:space="preserve">
-    <value>Supprimer la carte</value>
+    <value>Poista kortti</value>
   </data>
   <data name="Kanban_DeleteContent" xml:space="preserve">
-    <value>Voulez-vous vraiment supprimer cette carte?</value>
+    <value>Haluatko varmasti poistaa tämän kortin?</value>
   </data>
   <data name="Kanban_Save" xml:space="preserve">
-    <value>sauver</value>
+    <value>Tallentaa</value>
   </data>
   <data name="Kanban_Delete" xml:space="preserve">
-    <value>Effacer</value>
+    <value>Poistaa</value>
   </data>
   <data name="Kanban_Cancel" xml:space="preserve">
-    <value>Annuler</value>
+    <value>Peruuttaa</value>
   </data>
   <data name="Kanban_Yes" xml:space="preserve">
-    <value>Oui</value>
+    <value>Joo</value>
   </data>
   <data name="Kanban_No" xml:space="preserve">
-    <value>Non</value>
+    <value>Ei</value>
   </data>
   <data name="RichTextEditor_Alignments" xml:space="preserve">
-    <value>Alignments</value>
+    <value>rinnastuksia</value>
   </data>
   <data name="RichTextEditor_JustifyLeft" xml:space="preserve">
-    <value>Alignez à gauche</value>
+    <value>Tasaa vasemmalle</value>
   </data>
   <data name="RichTextEditor_JustifyCenter" xml:space="preserve">
-    <value>Aligner le centre</value>
+    <value>Kohdista keskusta</value>
   </data>
   <data name="RichTextEditor_JustifyRight" xml:space="preserve">
-    <value>Aligner à droite</value>
+    <value>Kohdista oikea</value>
   </data>
   <data name="RichTextEditor_JustifyFull" xml:space="preserve">
-    <value>Aligner Justifier</value>
+    <value>Kohdista perustelu</value>
   </data>
   <data name="RichTextEditor_FontName" xml:space="preserve">
-    <value>Nom de police</value>
+    <value>Fontin nimi</value>
   </data>
   <data name="RichTextEditor_FontSize" xml:space="preserve">
-    <value>Taille de police</value>
+    <value>Fonttikoko</value>
   </data>
   <data name="RichTextEditor_FontColor" xml:space="preserve">
-    <value>Couleur de la police</value>
+    <value>Fontin väri</value>
   </data>
   <data name="RichTextEditor_BackgroundColor" xml:space="preserve">
-    <value>Couleur de l'arrière plan</value>
+    <value>Taustaväri</value>
   </data>
   <data name="RichTextEditor_Bold" xml:space="preserve">
-    <value>Audacieux</value>
+    <value>Lihavoitu</value>
   </data>
   <data name="RichTextEditor_Italic" xml:space="preserve">
-    <value>Italique</value>
+    <value>kursivoitu</value>
   </data>
   <data name="RichTextEditor_Underline" xml:space="preserve">
-    <value>Souligner</value>
+    <value>Korostaa</value>
   </data>
   <data name="RichTextEditor_Strikethrough" xml:space="preserve">
-    <value>Barré</value>
+    <value>Yliviivaus</value>
   </data>
   <data name="RichTextEditor_ClearFormat" xml:space="preserve">
-    <value>Format clair</value>
+    <value>Tyhjennä muoto</value>
   </data>
   <data name="RichTextEditor_ClearAll" xml:space="preserve">
-    <value>Tout effacer</value>
+    <value>Tyhjennä</value>
   </data>
   <data name="RichTextEditor_Cut" xml:space="preserve">
-    <value>Couper</value>
+    <value>Leikata</value>
   </data>
   <data name="RichTextEditor_Copy" xml:space="preserve">
-    <value>Copie</value>
+    <value>Kopio</value>
   </data>
   <data name="RichTextEditor_Paste" xml:space="preserve">
-    <value>Pâte</value>
+    <value>liitä</value>
   </data>
   <data name="RichTextEditor_UnorderedList" xml:space="preserve">
-    <value>Liste à puces</value>
+    <value>Ranskalaiset viivat</value>
   </data>
   <data name="RichTextEditor_OrderedList" xml:space="preserve">
-    <value>Liste numérotée</value>
+    <value>Numeroitu luettelo</value>
   </data>
   <data name="RichTextEditor_Indent" xml:space="preserve">
-    <value>Augmenter le retrait</value>
+    <value>Lisää sisennettä</value>
   </data>
   <data name="RichTextEditor_Outdent" xml:space="preserve">
-    <value>Diminuer le retrait</value>
+    <value>Pienennä sisennystä</value>
   </data>
   <data name="RichTextEditor_Undo" xml:space="preserve">
-    <value>annuler</value>
+    <value>Kumoa</value>
   </data>
   <data name="RichTextEditor_Redo" xml:space="preserve">
-    <value>Refaire</value>
+    <value>Toista</value>
   </data>
   <data name="RichTextEditor_Superscript" xml:space="preserve">
-    <value>Exposant</value>
+    <value>Yläindeksi</value>
   </data>
   <data name="RichTextEditor_Subscript" xml:space="preserve">
-    <value>Indice</value>
+    <value>alaindeksi</value>
   </data>
   <data name="RichTextEditor_CreateLink" xml:space="preserve">
-    <value>Insérer un lien hypertexte</value>
+    <value>Lisää hyperlinkki</value>
   </data>
   <data name="RichTextEditor_OpenLink" xml:space="preserve">
-    <value>Ouvrir le lien</value>
+    <value>Avaa linkki</value>
   </data>
   <data name="RichTextEditor_EditLink" xml:space="preserve">
-    <value>Modifier le lien</value>
+    <value>Muokkaa linkkiä</value>
   </data>
   <data name="RichTextEditor_RemoveLink" xml:space="preserve">
-    <value>Supprimer le lien</value>
+    <value>Poista linkki</value>
   </data>
   <data name="RichTextEditor_Image" xml:space="preserve">
-    <value>Insérer une image</value>
+    <value>Lisää kuva</value>
   </data>
   <data name="RichTextEditor_Replace" xml:space="preserve">
-    <value>Remplacer</value>
+    <value>Korvata</value>
   </data>
   <data name="RichTextEditor_Align" xml:space="preserve">
-    <value>Aligner</value>
+    <value>Kohdistaa</value>
   </data>
   <data name="RichTextEditor_Caption" xml:space="preserve">
-    <value>Légende</value>
+    <value>Kuvan kuvateksti</value>
   </data>
   <data name="RichTextEditor_Remove" xml:space="preserve">
-    <value>Retirer</value>
+    <value>Poista</value>
   </data>
   <data name="RichTextEditor_InsertLink" xml:space="preserve">
-    <value>Insérer un lien</value>
+    <value>Lisää linkki</value>
   </data>
   <data name="RichTextEditor_Display" xml:space="preserve">
-    <value>Afficher</value>
+    <value>Näyttö</value>
   </data>
   <data name="RichTextEditor_AltText" xml:space="preserve">
-    <value>Texte alternatif</value>
+    <value>Vaihtoehtoinen teksti</value>
   </data>
   <data name="RichTextEditor_Dimension" xml:space="preserve">
-    <value>Changer la taille</value>
+    <value>Vaihda koko</value>
   </data>
   <data name="RichTextEditor_Fullscreen" xml:space="preserve">
-    <value>Maximiser</value>
+    <value>Maksimoida</value>
   </data>
   <data name="RichTextEditor_Maximize" xml:space="preserve">
-    <value>Maximiser</value>
+    <value>Maksimoida</value>
   </data>
   <data name="RichTextEditor_Minimize" xml:space="preserve">
-    <value>Minimiser</value>
+    <value>Minimoida</value>
   </data>
   <data name="RichTextEditor_LowerCase" xml:space="preserve">
-    <value>Minuscules</value>
+    <value>Pienet kirjaimet</value>
   </data>
   <data name="RichTextEditor_UpperCase" xml:space="preserve">
-    <value>Majuscules</value>
+    <value>Isot kotelot</value>
   </data>
   <data name="RichTextEditor_Print" xml:space="preserve">
-    <value>Impression</value>
+    <value>Tulosta</value>
   </data>
   <data name="RichTextEditor_Formats" xml:space="preserve">
-    <value>Les formats</value>
+    <value>formaatit</value>
   </data>
   <data name="RichTextEditor_Sourcecode" xml:space="preserve">
-    <value>Affichage du code</value>
+    <value>Koodinäkymä</value>
   </data>
   <data name="RichTextEditor_Preview" xml:space="preserve">
-    <value>Aperçu</value>
+    <value>esikatselu</value>
   </data>
   <data name="RichTextEditor_Viewside" xml:space="preserve">
-    <value>Vue latérale</value>
+    <value>Näkymäpuoli</value>
   </data>
   <data name="RichTextEditor_InsertCode" xml:space="preserve">
-    <value>Insérer le code</value>
+    <value>Syötä koodi</value>
   </data>
   <data name="RichTextEditor_LinkText" xml:space="preserve">
-    <value>Afficher le texte</value>
+    <value>Näytä teksti</value>
   </data>
   <data name="RichTextEditor_LinkTooltipLabel" xml:space="preserve">
-    <value>Titre</value>
+    <value>otsikko</value>
   </data>
   <data name="RichTextEditor_LinkWebUrl" xml:space="preserve">
-    <value>Adresse web</value>
+    <value>Nettiosoite</value>
   </data>
   <data name="RichTextEditor_LinkTitle" xml:space="preserve">
-    <value>Entrez un titre</value>
+    <value>Kirjoita otsikko</value>
   </data>
   <data name="RichTextEditor_LinkUrl" xml:space="preserve">
     <value>http://example.com</value>
   </data>
   <data name="RichTextEditor_LinkOpenInNewWindow" xml:space="preserve">
-    <value>Ouvre le lien dans une nouvelle fenêtre</value>
+    <value>Avaa linkki uudessa ikkunassa</value>
   </data>
   <data name="RichTextEditor_LinkHeader" xml:space="preserve">
-    <value>Insérer un lien</value>
+    <value>Lisää linkki</value>
   </data>
   <data name="RichTextEditor_DialogInsert" xml:space="preserve">
-    <value>Insérer</value>
+    <value>Insert</value>
   </data>
   <data name="RichTextEditor_DialogCancel" xml:space="preserve">
-    <value>Annuler</value>
+    <value>Peruuttaa</value>
   </data>
   <data name="RichTextEditor_DialogUpdate" xml:space="preserve">
-    <value>Mise à jour</value>
+    <value>Päivittää</value>
   </data>
   <data name="RichTextEditor_ImageHeader" xml:space="preserve">
-    <value>Insérer une image</value>
+    <value>Lisää kuva</value>
   </data>
   <data name="RichTextEditor_ImageLinkHeader" xml:space="preserve">
-    <value>Vous pouvez également fournir un lien à partir du Web</value>
+    <value>Voit myös tarjota linkin verkosta</value>
   </data>
   <data name="RichTextEditor_MdImageLink" xml:space="preserve">
-    <value>Veuillez fournir une URL pour votre image</value>
+    <value>Anna kuvan URL-osoite</value>
   </data>
   <data name="RichTextEditor_ImageUploadMessage" xml:space="preserve">
-    <value>Déposer l'image ici ou parcourir pour télécharger</value>
+    <value>Pudota kuva tähän tai selaa ladataksesi</value>
   </data>
   <data name="RichTextEditor_ImageDeviceUploadMessage" xml:space="preserve">
-    <value>Cliquez ici pour télécharger</value>
+    <value>Lataa tästä napsauttamalla tätä</value>
   </data>
   <data name="RichTextEditor_ImageAlternateText" xml:space="preserve">
-    <value>Texte alternatif</value>
+    <value>Vaihtoehtoinen teksti</value>
   </data>
   <data name="RichTextEditor_AlternateHeader" xml:space="preserve">
-    <value>Texte alternatif</value>
+    <value>Vaihtoehtoinen teksti</value>
   </data>
   <data name="RichTextEditor_Browse" xml:space="preserve">
-    <value>Feuilleter</value>
+    <value>Selaa</value>
   </data>
   <data name="RichTextEditor_ImageUrl" xml:space="preserve">
     <value>http://example.com/image.png</value>
   </data>
   <data name="RichTextEditor_ImageCaption" xml:space="preserve">
-    <value>Légende</value>
+    <value>kuvateksti</value>
   </data>
   <data name="RichTextEditor_ImageSizeHeader" xml:space="preserve">
-    <value>Taille de l'image</value>
+    <value>Kuvan koko</value>
   </data>
   <data name="RichTextEditor_ImageHeight" xml:space="preserve">
-    <value>la taille</value>
+    <value>Korkeus</value>
   </data>
   <data name="RichTextEditor_ImageWidth" xml:space="preserve">
-    <value>Largeur</value>
+    <value>Leveys</value>
   </data>
   <data name="RichTextEditor_TextPlaceholder" xml:space="preserve">
-    <value>Entrez du texte</value>
+    <value>Kirjoita teksti</value>
   </data>
   <data name="RichTextEditor_InsertTableBtn" xml:space="preserve">
-    <value>Insérer un tableau</value>
+    <value>Lisää taulukko</value>
   </data>
   <data name="RichTextEditor_TableDialogHeader" xml:space="preserve">
-    <value>Insérer un tableau</value>
+    <value>Lisää taulukko</value>
   </data>
   <data name="RichTextEditor_TableWidth" xml:space="preserve">
-    <value>Largeur</value>
+    <value>Leveys</value>
   </data>
   <data name="RichTextEditor_Cellpadding" xml:space="preserve">
-    <value>Rembourrage cellulaire</value>
+    <value>Solun tyyny</value>
   </data>
   <data name="RichTextEditor_Cellspacing" xml:space="preserve">
-    <value>Espacement des cellules</value>
+    <value>Soluväli</value>
   </data>
   <data name="RichTextEditor_Columns" xml:space="preserve">
-    <value>Le nombre de colonnes</value>
+    <value>Kolumnien numerot</value>
   </data>
   <data name="RichTextEditor_Rows" xml:space="preserve">
-    <value>Nombre de rangées</value>
+    <value>Rivien määrä</value>
   </data>
   <data name="RichTextEditor_TableRows" xml:space="preserve">
-    <value>Lignes de table</value>
+    <value>Taulukkorivit</value>
   </data>
   <data name="RichTextEditor_TableColumns" xml:space="preserve">
-    <value>Colonnes de table</value>
+    <value>Taulukon sarakkeet</value>
   </data>
   <data name="RichTextEditor_TableCellHorizontalAlign" xml:space="preserve">
-    <value>Alignement horizontal des cellules du tableau</value>
+    <value>Pöytäsolujen vaakasuuntainen kohdistus</value>
   </data>
   <data name="RichTextEditor_TableCellVerticalAlign" xml:space="preserve">
-    <value>Alignement vertical des cellules du tableau</value>
+    <value>Pöytäsolun pystysuuntainen kohdistus</value>
   </data>
   <data name="RichTextEditor_CreateTable" xml:space="preserve">
-    <value>Créer une table</value>
+    <value>Luo taulukko</value>
   </data>
   <data name="RichTextEditor_RemoveTable" xml:space="preserve">
-    <value>Supprimer le tableau</value>
+    <value>Poista taulukko</value>
   </data>
   <data name="RichTextEditor_TableHeader" xml:space="preserve">
-    <value>En-tête de tableau</value>
+    <value>Pöydän otsikko</value>
   </data>
   <data name="RichTextEditor_TableRemove" xml:space="preserve">
-    <value>Tableau Supprimer</value>
+    <value>Taulukko Poista</value>
   </data>
   <data name="RichTextEditor_TableCellBackground" xml:space="preserve">
-    <value>Fond de cellule de tableau</value>
+    <value>Taulukon solujen tausta</value>
   </data>
   <data name="RichTextEditor_TableEditProperties" xml:space="preserve">
-    <value>Propriétés de modification du tableau</value>
+    <value>Taulukon muokkausominaisuudet</value>
   </data>
   <data name="RichTextEditor_Styles" xml:space="preserve">
-    <value>modes</value>
+    <value>tyylit</value>
   </data>
   <data name="RichTextEditor_InsertColumnLeft" xml:space="preserve">
-    <value>Insérer une colonne à gauche</value>
+    <value>Aseta sarake vasemmalle</value>
   </data>
   <data name="RichTextEditor_InsertColumnRight" xml:space="preserve">
-    <value>Insérer une colonne à droite</value>
+    <value>Lisää sarake oikealle</value>
   </data>
   <data name="RichTextEditor_DeleteColumn" xml:space="preserve">
-    <value>Supprimer la colonne</value>
+    <value>Poista sarake</value>
   </data>
   <data name="RichTextEditor_InsertRowBefore" xml:space="preserve">
-    <value>Insérer une ligne avant</value>
+    <value>Lisää rivi ennen</value>
   </data>
   <data name="RichTextEditor_InsertRowAfter" xml:space="preserve">
-    <value>Insérer une ligne après</value>
+    <value>Lisää rivi jälkeen</value>
   </data>
   <data name="RichTextEditor_DeleteRow" xml:space="preserve">
-    <value>Supprimer la ligne</value>
+    <value>Poista rivi</value>
   </data>
   <data name="RichTextEditor_TableEditHeader" xml:space="preserve">
-    <value>Modifier le tableau</value>
+    <value>Muokkaa taulukkoa</value>
   </data>
   <data name="RichTextEditor_TableHeadingText" xml:space="preserve">
-    <value>Titre</value>
+    <value>otsikko</value>
   </data>
   <data name="RichTextEditor_TableColText" xml:space="preserve">
     <value>Col</value>
   </data>
   <data name="RichTextEditor_ImageInsertLinkHeader" xml:space="preserve">
-    <value>Insérer un lien</value>
+    <value>Lisää linkki</value>
   </data>
   <data name="RichTextEditor_EditImageHeader" xml:space="preserve">
-    <value>Éditer l'image</value>
+    <value>Muokkaa kuvaa</value>
   </data>
   <data name="RichTextEditor_AlignmentsDropDownLeft" xml:space="preserve">
-    <value>Alignez à gauche</value>
+    <value>Tasaa vasemmalle</value>
   </data>
   <data name="RichTextEditor_AlignmentsDropDownCenter" xml:space="preserve">
-    <value>Aligner le centre</value>
+    <value>Kohdista keskusta</value>
   </data>
   <data name="RichTextEditor_AlignmentsDropDownRight" xml:space="preserve">
-    <value>Aligner à droite</value>
+    <value>Kohdista oikea</value>
   </data>
   <data name="RichTextEditor_AlignmentsDropDownJustify" xml:space="preserve">
-    <value>Aligner Justifier</value>
+    <value>Kohdista perustelu</value>
   </data>
   <data name="RichTextEditor_ImageDisplayDropDownInline" xml:space="preserve">
-    <value>En ligne</value>
+    <value>Linjassa</value>
   </data>
   <data name="RichTextEditor_ImageDisplayDropDownBreak" xml:space="preserve">
-    <value>Pause</value>
+    <value>Tauko</value>
   </data>
   <data name="RichTextEditor_TableInsertRowDropDownBefore" xml:space="preserve">
-    <value>Insérer une ligne avant</value>
+    <value>Lisää rivi ennen</value>
   </data>
   <data name="RichTextEditor_TableInsertRowDropDownAfter" xml:space="preserve">
-    <value>Insérer une ligne après</value>
+    <value>Lisää rivi jälkeen</value>
   </data>
   <data name="RichTextEditor_TableInsertRowDropDownDelete" xml:space="preserve">
-    <value>Supprimer la ligne</value>
+    <value>Poista rivi</value>
   </data>
   <data name="RichTextEditor_TableInsertColumnDropDownLeft" xml:space="preserve">
-    <value>Insérer la colonne à gauche</value>
+    <value>Lisää sarake vasemmalle</value>
   </data>
   <data name="RichTextEditor_TableInsertColumnDropDownRight" xml:space="preserve">
-    <value>Insérer une colonne à droite</value>
+    <value>Lisää sarake oikealle</value>
   </data>
   <data name="RichTextEditor_TableInsertColumnDropDownDelete" xml:space="preserve">
-    <value>Supprimer la colonne</value>
+    <value>Poista sarake</value>
   </data>
   <data name="RichTextEditor_TableVerticalAlignDropDownTop" xml:space="preserve">
-    <value>Aligner en haut</value>
+    <value>Kohdista yläosa</value>
   </data>
   <data name="RichTextEditor_TableVerticalAlignDropDownMiddle" xml:space="preserve">
-    <value>Aligner au milieu</value>
+    <value>Kohdista keskimmäinen</value>
   </data>
   <data name="RichTextEditor_TableVerticalAlignDropDownBottom" xml:space="preserve">
-    <value>Aligner en bas</value>
+    <value>Kohdista alaosa</value>
   </data>
   <data name="RichTextEditor_TableStylesDropDownDashedBorder" xml:space="preserve">
-    <value>Bordures pointillées</value>
+    <value>Katkoviivat rajat</value>
   </data>
   <data name="RichTextEditor_TableStylesDropDownAlternateRows" xml:space="preserve">
-    <value>Lignes alternatives</value>
+    <value>Vaihtoehtoiset rivit</value>
   </data>
   <data name="RichTextEditor_PasteFormat" xml:space="preserve">
-    <value>Coller le format</value>
+    <value>Liitä muoto</value>
   </data>
   <data name="RichTextEditor_PasteFormatContent" xml:space="preserve">
-    <value>Choisissez l'action de formatage</value>
+    <value>Valitse muotoilutoiminto</value>
   </data>
   <data name="RichTextEditor_PlainText" xml:space="preserve">
-    <value>Texte brut</value>
+    <value>Pelkkä teksti</value>
   </data>
   <data name="RichTextEditor_CleanFormat" xml:space="preserve">
-    <value>Nettoyer</value>
+    <value>Puhdas</value>
   </data>
   <data name="RichTextEditor_KeepFormat" xml:space="preserve">
-    <value>Garder</value>
+    <value>Pitää</value>
   </data>
   <data name="RichTextEditor_PasteDialogOk" xml:space="preserve">
-    <value>D'accord</value>
+    <value>kunnossa</value>
   </data>
   <data name="RichTextEditor_PasteDialogCancel" xml:space="preserve">
-    <value>Annuler</value>
+    <value>Peruuttaa</value>
   </data>
-<data name="PdfViewer" xml:space="preserve">
-    <value> Visionneuse PDF </value>
+    <data name="Diagram_BringToFront" xml:space="preserve">
+    <value>Tuo eteen</value>
+  </data>
+  <data name="Diagram_Copy" xml:space="preserve">
+    <value>Kopio</value>
+  </data>
+  <data name="Diagram_Cut" xml:space="preserve">
+    <value>Cortar</value>
+  </data>
+  <data name="Diagram_Group" xml:space="preserve">
+    <value>Leikata</value>
+  </data>
+  <data name="Diagram_Grouping" xml:space="preserve">
+    <value>ryhmittely</value>
+  </data>
+  <data name="Diagram_MoveForward" xml:space="preserve">
+    <value>Siirry eteenpäin</value>
+  </data>
+  <data name="Diagram_Order" xml:space="preserve">
+    <value>Tilaus</value>
+  </data>
+  <data name="Diagram_Paste" xml:space="preserve">
+    <value>liitä</value>
+  </data>
+  <data name="Diagram_Redo" xml:space="preserve">
+    <value>Toista</value>
+  </data>
+  <data name="Diagram_SelectAll" xml:space="preserve">
+    <value>Valitse kaikki</value>
+  </data>
+  <data name="Diagram_SendBackward" xml:space="preserve">
+    <value>Lähetä takaperin</value>
+  </data>
+  <data name="Diagram_SendToBack" xml:space="preserve">
+    <value>Lähetä takaisin</value>
+  </data>
+  <data name="Diagram_Undo" xml:space="preserve">
+    <value>Kumoa</value>
+  </data>
+  <data name="Diagram_UnGroup" xml:space="preserve">
+    <value>Pura</value>
+  </data>
+  <data name="Grid_EmptyRecord" xml:space="preserve">
+    <value>Ei näytettäviä tietueita</value>
+  </data>
+  <data name="Grid_True" xml:space="preserve">
+    <value>totta</value>
+  </data>
+  <data name="Grid_False" xml:space="preserve">
+    <value>väärä</value>
+  </data>
+  <data name="Grid_InvalidFilterMessage" xml:space="preserve">
+    <value>Virheelliset suodatintiedot</value>
+  </data>
+  <data name="Grid_GroupDropArea" xml:space="preserve">
+    <value>Vedä sarakkeen otsikko tähän ryhmitelläksesi sen sarake</value>
+  </data>
+  <data name="Grid_UnGroupButton" xml:space="preserve">
+    <value>Poista ryhmä napsauttamalla tätä</value>
+  </data>
+  <data name="Grid_GroupDisable" xml:space="preserve">
+    <value>Ryhmittely on poistettu käytöstä tässä sarakkeessa</value>
+  </data>
+  <data name="Grid_FilterbarTitle" xml:space="preserve">
+    <value>"suodatinpalkin solu</value>
+  </data>
+  <data name="Grid_EmptyDataSourceError" xml:space="preserve">
+    <value>DataSource ei saa olla tyhjä alkuperäisessä latauksessa, koska sarakkeet luodaan dataSourcesta AutoGenerate -sarakkeen ruudukossa</value>
+  </data>
+  <data name="Grid_Add" xml:space="preserve">
+    <value>Lisätä</value>
+  </data>
+  <data name="Grid_Edit" xml:space="preserve">
+    <value>Muokata</value>
+  </data>
+  <data name="Grid_Cancel" xml:space="preserve">
+    <value>Peruuttaa</value>
+  </data>
+  <data name="Grid_Update" xml:space="preserve">
+    <value>Päivittää</value>
+  </data>
+  <data name="Grid_Delete" xml:space="preserve">
+    <value>Poistaa</value>
+  </data>
+  <data name="Grid_Print" xml:space="preserve">
+    <value>Tulosta</value>
+  </data>
+  <data name="Grid_Pdfexport" xml:space="preserve">
+    <value>PDF-vienti</value>
+  </data>
+  <data name="Grid_Excelexport" xml:space="preserve">
+    <value>Excel-vienti</value>
+  </data>
+  <data name="Grid_Wordexport" xml:space="preserve">
+    <value>Sanavienti</value>
+  </data>
+  <data name="Grid_Csvexport" xml:space="preserve">
+    <value>CSV Export</value>
+  </data>
+  <data name="Grid_Search" xml:space="preserve">
+    <value>Hae</value>
+  </data>
+  <data name="Grid_Columnchooser" xml:space="preserve">
+    <value>pylväät</value>
+  </data>
+  <data name="Grid_Save" xml:space="preserve">
+    <value>Tallentaa</value>
+  </data>
+  <data name="Grid_Item" xml:space="preserve">
+    <value>erä</value>
+  </data>
+  <data name="Grid_Items" xml:space="preserve">
+    <value>kohdetta</value>
+  </data>
+  <data name="Grid_EditOperationAlert" xml:space="preserve">
+    <value>Muokkaustoimintaan ei ole valittu tietueita</value>
+  </data>
+  <data name="Grid_DeleteOperationAlert" xml:space="preserve">
+    <value>Poistooperaatioon ei ole valittu tietueita</value>
+  </data>
+  <data name="Grid_SaveButton" xml:space="preserve">
+    <value>Tallentaa</value>
+  </data>
+  <data name="Grid_OKButton" xml:space="preserve">
+    <value>kunnossa</value>
+  </data>
+  <data name="Grid_CancelButton" xml:space="preserve">
+    <value>Peruuttaa</value>
+  </data>
+  <data name="Grid_EditFormTitle" xml:space="preserve">
+    <value>Yksityiskohdat</value>
+  </data>
+  <data name="Grid_AddFormTitle" xml:space="preserve">
+    <value>Lisää uusi tietue</value>
+  </data>
+  <data name="Grid_BatchSaveConfirm" xml:space="preserve">
+    <value>Haluatko varmasti tallentaa muutokset?</value>
+  </data>
+  <data name="Grid_BatchSaveLostChanges" xml:space="preserve">
+    <value>Tallentamattomat muutokset menetetään. Oletko varma, että haluat jatkaa?</value>
+  </data>
+  <data name="Grid_ConfirmDelete" xml:space="preserve">
+    <value>Haluatko varmasti poistaa tietueen?</value>
+  </data>
+  <data name="Grid_CancelEdit" xml:space="preserve">
+    <value>Haluatko varmasti peruuttaa muutokset?</value>
+  </data>
+  <data name="Grid_ChooseColumns" xml:space="preserve">
+    <value>Valitse Sarake</value>
+  </data>
+  <data name="Grid_SearchColumns" xml:space="preserve">
+    <value>haku sarakkeet</value>
+  </data>
+  <data name="Grid_Matchs" xml:space="preserve">
+    <value>Ei hakua vastaavia tuloksia</value>
+  </data>
+  <data name="Grid_FilterButton" xml:space="preserve">
+    <value>Suodattaa</value>
+  </data>
+  <data name="Grid_ClearButton" xml:space="preserve">
+    <value>Asia selvä</value>
+  </data>
+  <data name="Grid_StartsWith" xml:space="preserve">
+    <value>Alkaa</value>
+  </data>
+  <data name="Grid_EndsWith" xml:space="preserve">
+    <value>Loppuu</value>
+  </data>
+  <data name="Grid_Contains" xml:space="preserve">
+    <value>Sisältää</value>
+  </data>
+  <data name="Grid_Equal" xml:space="preserve">
+    <value>Yhtä suuri</value>
+  </data>
+  <data name="Grid_NotEqual" xml:space="preserve">
+    <value>Ei yhtä</value>
+  </data>
+  <data name="Grid_LessThan" xml:space="preserve">
+    <value>Vähemmän kuin</value>
+  </data>
+  <data name="Grid_LessThanOrEqual" xml:space="preserve">
+    <value>Vähemmän kuin yhtäsuuri</value>
+  </data>
+  <data name="Grid_GreaterThan" xml:space="preserve">
+    <value>Suurempi kuin</value>
+  </data>
+  <data name="Grid_GreaterThanOrEqual" xml:space="preserve">
+    <value>Suurempi kuin tai yhtä suuri</value>
+  </data>
+  <data name="Grid_ChooseDate" xml:space="preserve">
+    <value>Valitse päivämäärä</value>
+  </data>
+  <data name="Grid_EnterValue" xml:space="preserve">
+    <value>Kirjoita arvo</value>
+  </data>
+  <data name="Grid_Copy" xml:space="preserve">
+    <value>Kopio</value>
+  </data>
+  <data name="Grid_Group" xml:space="preserve">
+    <value>Ryhmitä tämän sarakkeen mukaan</value>
+  </data>
+  <data name="Grid_Ungroup" xml:space="preserve">
+    <value>Poista ryhmä tämän sarakkeen perusteella</value>
+  </data>
+  <data name="Grid_AutoFitAll" xml:space="preserve">
+    <value>Sovita kaikki sarakkeet automaattisesti</value>
+  </data>
+  <data name="Grid_AutoFit" xml:space="preserve">
+    <value>Asenna tämä sarake automaattisesti</value>
+  </data>
+  <data name="Grid_Export" xml:space="preserve">
+    <value>Viedä</value>
+  </data>
+  <data name="Grid_FirstPage" xml:space="preserve">
+    <value>Ensimmäinen sivu</value>
+  </data>
+  <data name="Grid_LastPage" xml:space="preserve">
+    <value>Viimeinen sivu</value>
+  </data>
+  <data name="Grid_PreviousPage" xml:space="preserve">
+    <value>Edellinen sivu</value>
+  </data>
+  <data name="Grid_NextPage" xml:space="preserve">
+    <value>Seuraava sivu</value>
+  </data>
+  <data name="Grid_SortAscending" xml:space="preserve">
+    <value>Lajittele nousevaan järjestykseen</value>
+  </data>
+  <data name="Grid_SortDescending" xml:space="preserve">
+    <value>Järjestä laskevasti</value>
+  </data>
+  <data name="Grid_EditRecord" xml:space="preserve">
+    <value>Muokkaa tietuetta</value>
+  </data>
+  <data name="Grid_DeleteRecord" xml:space="preserve">
+    <value>Poista tietue</value>
+  </data>
+  <data name="Grid_FilterMenu" xml:space="preserve">
+    <value>Suodattaa</value>
+  </data>
+  <data name="Grid_SelectAll" xml:space="preserve">
+    <value>Valitse kaikki</value>
+  </data>
+  <data name="Grid_Blanks" xml:space="preserve">
+    <value>aihioita</value>
+  </data>
+  <data name="Grid_FilterTrue" xml:space="preserve">
+    <value>Totta</value>
+  </data>
+  <data name="Grid_FilterFalse" xml:space="preserve">
+    <value>Väärä</value>
+  </data>
+  <data name="Grid_NoResult" xml:space="preserve">
+    <value>Ei hakua vastaavia tuloksia</value>
+  </data>
+  <data name="Grid_ClearFilter" xml:space="preserve">
+    <value>Tyhjennä suodatin</value>
+  </data>
+  <data name="Grid_NumberFilter" xml:space="preserve">
+    <value>Numerosuodattimet</value>
+  </data>
+  <data name="Grid_TextFilter" xml:space="preserve">
+    <value>Tekstisuodattimet</value>
+  </data>
+  <data name="Grid_DateFilter" xml:space="preserve">
+    <value>Päivämäärän suodattimet</value>
+  </data>
+  <data name="Grid_DateTimeFilter" xml:space="preserve">
+    <value>DateTime-suodattimet</value>
+  </data>
+  <data name="Grid_MatchCase" xml:space="preserve">
+    <value>Ottelun tapaus</value>
+  </data>
+  <data name="Grid_Between" xml:space="preserve">
+    <value>Välillä</value>
+  </data>
+  <data name="Grid_CustomFilter" xml:space="preserve">
+    <value>Muokattu suodatin</value>
+  </data>
+  <data name="Grid_CustomFilterPlaceHolder" xml:space="preserve">
+    <value>Kirjoita arvo</value>
+  </data>
+  <data name="Grid_CustomFilterDatePlaceHolder" xml:space="preserve">
+    <value>Valitse päivämäärä</value>
+  </data>
+  <data name="Grid_AND" xml:space="preserve">
+    <value>JA</value>
+  </data>
+  <data name="Grid_OR" xml:space="preserve">
+    <value>TAI</value>
+  </data>
+  <data name="Grid_ShowRowsWhere" xml:space="preserve">
+    <value>Näytä rivit missä:</value>
+  </data>
+  <data name="Pager_CurrentPageInfo" xml:space="preserve">
+    <value>{0} {1} sivusta</value>
+  </data>
+  <data name="Pager_TotalItemsInfo" xml:space="preserve">
+    <value>({0} tuotetta)</value>
+  </data>
+  <data name="Pager_FirstPageTooltip" xml:space="preserve">
+    <value>Siirry ensimmäiselle sivulle</value>
+  </data>
+  <data name="Pager_LastPageTooltip" xml:space="preserve">
+    <value>Siirry viimeiselle sivulle</value>
+  </data>
+  <data name="Pager_NextPageTooltip" xml:space="preserve">
+    <value>Siirry seuraavalle sivulle</value>
+  </data>
+  <data name="Pager_PreviousPageTooltip" xml:space="preserve">
+    <value>Siirry edelliselle sivulle</value>
+  </data>
+  <data name="Pager_NextPagerTooltip" xml:space="preserve">
+    <value>Siirry seuraavaan hakulaitteeseen</value>
+  </data>
+  <data name="Pager_PreviousPagerTooltip" xml:space="preserve">
+    <value>Siirry edelliseen hakulaitteeseen</value>
+  </data>
+  <data name="Pager_PagerDropDown" xml:space="preserve">
+    <value>Tuotteita sivua kohden</value>
+  </data>
+  <data name="Pager_PagerAllDropDown" xml:space="preserve">
+    <value>Tuotteet</value>
+  </data>
+  <data name="Pager_All" xml:space="preserve">
+    <value>Kaikki</value>
+  </data>
+  <data name="RecurrenceEditor_Count" xml:space="preserve">
+    <value>Kreivi</value>
+  </data>
+  <data name="RecurrenceEditor_Daily" xml:space="preserve">
+    <value>Päivittäin</value>
+  </data>
+  <data name="RecurrenceEditor_Days" xml:space="preserve">
+    <value>Päivä (ä)</value>
+  </data>
+  <data name="RecurrenceEditor_End" xml:space="preserve">
+    <value>pää</value>
+  </data>
+  <data name="RecurrenceEditor_Every" xml:space="preserve">
+    <value>joka</value>
+  </data>
+  <data name="RecurrenceEditor_First" xml:space="preserve">
+    <value>Ensimmäinen</value>
+  </data>
+  <data name="RecurrenceEditor_Fourth" xml:space="preserve">
+    <value>Neljäs</value>
+  </data>
+  <data name="RecurrenceEditor_Last" xml:space="preserve">
+    <value>Kestää</value>
+  </data>
+  <data name="RecurrenceEditor_Month" xml:space="preserve">
+    <value>Kuukausi</value>
+  </data>
+  <data name="RecurrenceEditor_MonthExpander" xml:space="preserve">
+    <value>Kuukauden laajennus</value>
+  </data>
+  <data name="RecurrenceEditor_Monthly" xml:space="preserve">
+    <value>Kuukausittain</value>
+  </data>
+  <data name="RecurrenceEditor_MonthPosition" xml:space="preserve">
+    <value>Kuukauden sijainti</value>
+  </data>
+  <data name="RecurrenceEditor_Months" xml:space="preserve">
+    <value>Kuukaudet)</value>
+  </data>
+  <data name="RecurrenceEditor_MonthWeek" xml:space="preserve">
+    <value>Kuukauden viikko</value>
+  </data>
+  <data name="RecurrenceEditor_Never" xml:space="preserve">
+    <value>Ei koskaan</value>
+  </data>
+  <data name="RecurrenceEditor_None" xml:space="preserve">
+    <value>Ei mitään</value>
+  </data>
+  <data name="RecurrenceEditor_On" xml:space="preserve">
+    <value>Toista päällä</value>
+  </data>
+  <data name="RecurrenceEditor_OnDay" xml:space="preserve">
+    <value>Päivä</value>
+  </data>
+  <data name="RecurrenceEditor_Repeat" xml:space="preserve">
+    <value>Toistaa</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatEvery" xml:space="preserve">
+    <value>Toista jokainen</value>
+  </data>
+  <data name="RecurrenceEditor_RepeatInterval" xml:space="preserve">
+    <value>Toista väli</value>
+  </data>
+  <data name="RecurrenceEditor_Second" xml:space="preserve">
+    <value>Toinen</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryDay" xml:space="preserve">
+    <value>päivä (ä)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryMonth" xml:space="preserve">
+    <value>kuukaudet)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryOn" xml:space="preserve">
+    <value>päällä</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryRepeat" xml:space="preserve">
+    <value>toistot</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryTimes" xml:space="preserve">
+    <value>ajat)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryUntil" xml:space="preserve">
+    <value>siihen asti kun</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryWeek" xml:space="preserve">
+    <value>viikko (a)</value>
+  </data>
+  <data name="RecurrenceEditor_SummaryYear" xml:space="preserve">
+    <value>year (s)</value>
+  </data>
+  <data name="RecurrenceEditor_Third" xml:space="preserve">
+    <value>kolmas</value>
+  </data>
+  <data name="RecurrenceEditor_Until" xml:space="preserve">
+    <value>Siihen asti kun</value>
+  </data>
+  <data name="RecurrenceEditor_Weekly" xml:space="preserve">
+    <value>Viikoittain</value>
+  </data>
+  <data name="RecurrenceEditor_Weeks" xml:space="preserve">
+    <value>Viikko (a)</value>
+  </data>
+  <data name="RecurrenceEditor_YearExpander" xml:space="preserve">
+    <value>Vuoden laajennin</value>
+  </data>
+  <data name="RecurrenceEditor_Yearly" xml:space="preserve">
+    <value>Vuosittain</value>
+  </data>
+  <data name="RecurrenceEditor_Years" xml:space="preserve">
+    <value>Year (s)</value>
+  </data>
+  <data name="Schedule_AddTitle" xml:space="preserve">
+    <value>Lisää otsikko</value>
+  </data>
+  <data name="Schedule_Agenda" xml:space="preserve">
+    <value>esityslista</value>
+  </data>
+  <data name="Schedule_Alert" xml:space="preserve">
+    <value>hälytys</value>
+  </data>
+  <data name="Schedule_AllDay" xml:space="preserve">
+    <value>Koko päivä</value>
+  </data>
+  <data name="Schedule_BeginFrom" xml:space="preserve">
+    <value>Aloita</value>
+  </data>
+  <data name="Schedule_BlockAlert" xml:space="preserve">
+    <value>Tapahtumia ei voida ajoittaa estettyyn ajanjaksoon.</value>
+  </data>
+  <data name="Schedule_Cancel" xml:space="preserve">
+    <value>Peruuttaa</value>
+  </data>
+  <data name="Schedule_CancelButton" xml:space="preserve">
+    <value>Peruuttaa</value>
+  </data>
+  <data name="Schedule_Close" xml:space="preserve">
+    <value>kiinni</value>
+  </data>
+  <data name="Schedule_CreateError" xml:space="preserve">
+    <value>Tapahtuman keston on oltava lyhyempi kuin kuinka usein se tapahtuu. Lyhennä kestoa tai muuta toistuvuuskuviota toistotapahtumaeditorissa.</value>
+  </data>
+  <data name="Schedule_CreateEvent" xml:space="preserve">
+    <value>Luoda</value>
+  </data>
+  <data name="Schedule_Day" xml:space="preserve">
+    <value>Päivä</value>
+  </data>
+  <data name="Schedule_Delete" xml:space="preserve">
+    <value>Poistaa</value>
+  </data>
+  <data name="Schedule_DeleteButton" xml:space="preserve">
+    <value>Poistaa</value>
+  </data>
+  <data name="Schedule_DeleteContent" xml:space="preserve">
+    <value>Haluatko varmasti poistaa tämän tapahtuman?</value>
+  </data>
+  <data name="Schedule_DeleteEvent" xml:space="preserve">
+    <value>Tämä tapahtuma</value>
+  </data>
+  <data name="Schedule_DeleteMultipleContent" xml:space="preserve">
+    <value>Haluatko varmasti poistaa valitut tapahtumat?</value>
+  </data>
+  <data name="Schedule_DeleteMultipleEvent" xml:space="preserve">
+    <value>Poista useita tapahtumia</value>
+  </data>
+  <data name="Schedule_DeleteSeries" xml:space="preserve">
+    <value>Koko sarja</value>
+  </data>
+  <data name="Schedule_DeleteTitle" xml:space="preserve">
+    <value>Poista tapahtuma</value>
+  </data>
+  <data name="Schedule_Description" xml:space="preserve">
+    <value>Kuvaus</value>
+  </data>
+  <data name="Schedule_Edit" xml:space="preserve">
+    <value>Muokata</value>
+  </data>
+  <data name="Schedule_EditContent" xml:space="preserve">
+    <value>Kuinka haluaisit muuttaa tapaamisen sarjassa?</value>
+  </data>
+  <data name="Schedule_EditEvent" xml:space="preserve">
+    <value>Tämä tapahtuma</value>
+  </data>
+  <data name="Schedule_EditFollowingEvent" xml:space="preserve">
+    <value>Seuraavat tapahtumat</value>
+  </data>
+  <data name="Schedule_EditRecurrence" xml:space="preserve">
+    <value>Muokkaa toistoa</value>
+  </data>
+  <data name="Schedule_EditSeries" xml:space="preserve">
+    <value>Koko sarja</value>
+  </data>
+  <data name="Schedule_EditTitle" xml:space="preserve">
+    <value>Muokkaa tapahtumaa</value>
+  </data>
+  <data name="Schedule_EmptyContainer" xml:space="preserve">
+    <value>Tälle päivälle ei ole suunniteltu tapahtumia.</value>
+  </data>
+  <data name="Schedule_End" xml:space="preserve">
+    <value>pää</value>
+  </data>
+  <data name="Schedule_EndAt" xml:space="preserve">
+    <value>Loppu kello</value>
+  </data>
+  <data name="Schedule_EndTimezone" xml:space="preserve">
+    <value>Lopeta aikavyöhyke</value>
+  </data>
+  <data name="Schedule_InvalidDateError" xml:space="preserve">
+    <value>Annettu päivämääräarvo on virheellinen.</value>
+  </data>
+  <data name="Schedule_Location" xml:space="preserve">
+    <value>Sijainti</value>
+  </data>
+  <data name="Schedule_Month" xml:space="preserve">
+    <value>Kuukausi</value>
+  </data>
+  <data name="Schedule_MonthAgenda" xml:space="preserve">
+    <value>Kuukauden esityslista</value>
+  </data>
+  <data name="Schedule_More" xml:space="preserve">
+    <value>lisää</value>
+  </data>
+  <data name="Schedule_MoreDetails" xml:space="preserve">
+    <value>Lisätietoja</value>
+  </data>
+  <data name="Schedule_NewEvent" xml:space="preserve">
+    <value>Uusi tapahtuma</value>
+  </data>
+  <data name="Schedule_next" xml:space="preserve">
+    <value>Seuraava</value>
+  </data>
+  <data name="Schedule_No" xml:space="preserve">
+    <value>Ei</value>
+  </data>
+  <data name="Schedule_NoEvents" xml:space="preserve">
+    <value>Ei tapahtumia</value>
+  </data>
+  <data name="Schedule_NoTitle" xml:space="preserve">
+    <value>(Ei otsikkoa)</value>
+  </data>
+  <data name="Schedule_Occurrence" xml:space="preserve">
+    <value>esiintyminen</value>
+  </data>
+  <data name="Schedule_Ok" xml:space="preserve">
+    <value>kunnossa</value>
+  </data>
+  <data name="Schedule_Previous" xml:space="preserve">
+    <value>Edellinen</value>
+  </data>
+  <data name="Schedule_Recurrence" xml:space="preserve">
+    <value>Toistuminen</value>
+  </data>
+  <data name="Schedule_Repeat" xml:space="preserve">
+    <value>Toistaa</value>
+  </data>
+  <data name="Schedule_Repeats" xml:space="preserve">
+    <value>toistot</value>
+  </data>
+  <data name="Schedule_SameDayAlert" xml:space="preserve">
+    <value>Kaksi saman tapahtuman tapahtumaa ei voi tapahtua samana päivänä.</value>
+  </data>
+  <data name="Schedule_Save" xml:space="preserve">
+    <value>Tallentaa</value>
+  </data>
+  <data name="Schedule_SaveButton" xml:space="preserve">
+    <value>Tallentaa</value>
+  </data>
+  <data name="Schedule_SelectedItems" xml:space="preserve">
+    <value>Valitut tuotteet</value>
+  </data>
+  <data name="Schedule_Series" xml:space="preserve">
+    <value>Sarja</value>
+  </data>
+  <data name="Schedule_SeriesChangeAlert" xml:space="preserve">
+    <value>Haluatko peruuttaa tämän sarjan tiettyihin ilmentymiin tehdyt muutokset ja sovittaa sen uudelleen koko sarjaan?</value>
+  </data>
+  <data name="Schedule_Start" xml:space="preserve">
+    <value>alkaa</value>
+  </data>
+  <data name="Schedule_StartEndError" xml:space="preserve">
+    <value>Valittu lopetuspäivämäärä tapahtuu ennen aloituspäivää.</value>
+  </data>
+  <data name="Schedule_StartTimezone" xml:space="preserve">
+    <value>Käynnistä aikavyöhyke</value>
+  </data>
+  <data name="Schedule_Subject" xml:space="preserve">
+    <value>aihe</value>
+  </data>
+  <data name="Schedule_TimelineDay" xml:space="preserve">
+    <value>Aikajana päivä</value>
+  </data>
+  <data name="Schedule_TimelineMonth" xml:space="preserve">
+    <value>Aikajanan kuukausi</value>
+  </data>
+  <data name="Schedule_TimelineWeek" xml:space="preserve">
+    <value>Aikajanaviikko</value>
+  </data>
+  <data name="Schedule_TimelineWorkWeek" xml:space="preserve">
+    <value>Aikajana Work Week</value>
+  </data>
+  <data name="Schedule_TimelineYear" xml:space="preserve">
+    <value>Aikajana vuosi</value>
+  </data>
+  <data name="Schedule_Timezone" xml:space="preserve">
+    <value>Aikavyöhyke</value>
+  </data>
+  <data name="Schedule_Title" xml:space="preserve">
+    <value>otsikko</value>
+  </data>
+  <data name="Schedule_Today" xml:space="preserve">
+    <value>Tänään</value>
+  </data>
+  <data name="Schedule_Week" xml:space="preserve">
+    <value>Viikko</value>
+  </data>
+  <data name="Schedule_WeekAgenda" xml:space="preserve">
+    <value>Viikon esityslista</value>
+  </data>
+  <data name="Schedule_WorkWeek" xml:space="preserve">
+    <value>Työviikko</value>
+  </data>
+  <data name="Schedule_WorkWeekAgenda" xml:space="preserve">
+    <value>Työviikon esityslista</value>
+  </data>
+  <data name="Schedule_WrongPattern" xml:space="preserve">
+    <value>Toistokuvio ei kelpaa.</value>
+  </data>
+  <data name="Schedule_Yes" xml:space="preserve">
+    <value>Joo</value>
+  </data>
+<data name="Tab_CloseButtonTitle" xml:space="preserve">
+    <value>kiinni</value>
+  </data>
+  <data name="PdfViewer" xml:space="preserve">
+    <value>PDF-katseluohjelma</value>
   </data>
   <data name="PdfViewer_Cancel" xml:space="preserve">
-    <value> Annuler </value>
+    <value>Peruuttaa</value>
   </data>
   <data name="PdfViewer_DownloadFile" xml:space="preserve">
-    <value> Télécharger un fichier </value>
+    <value>Lataa tiedosto</value>
   </data>
   <data name="PdfViewer_Download" xml:space="preserve">
-    <value> Télécharger </value>
+    <value>ladata</value>
   </data>
   <data name="PdfViewer_EnterPassword" xml:space="preserve">
-    <value> Ce document est protégé par mot de passe. Veuillez entrer un mot de passe.</value>
+    <value>Tämä asiakirja on suojattu salasanalla. Ole hyvä ja anna salasana.</value>
   </data>
   <data name="PdfViewer_FileCorrupted" xml:space="preserve">
-    <value> Fichier corrompu </value>
+    <value>Tiedosto korruptoitunut</value>
   </data>
   <data name="PdfViewer_FileCorruptedContent" xml:space="preserve">
-    <value> Le fichier est corrompu et ne peut pas être ouvert.</value>
+    <value>Tiedosto on vioittunut, eikä sitä voi avata..</value>
   </data>
   <data name="PdfViewer_FitPage" xml:space="preserve">
-    <value> Ajuster la page </value>
+    <value>Sovita sivu</value>
   </data>
   <data name="PdfViewer_FitWidth" xml:space="preserve">
-    <value> Largeur de coupe </value>
+    <value>Sovita leveys</value>
   </data>
   <data name="PdfViewer_Automatic" xml:space="preserve">
-    <value> Automatique </value>
+    <value>Automaattinen</value>
   </data>
   <data name="PdfViewer_GoToFirstPage" xml:space="preserve">
-    <value> Afficher la première page </value>
+    <value>Näytä ensimmäinen sivu</value>
   </data>
   <data name="PdfViewer_InvalidPassword" xml:space="preserve">
-    <value> Mot de passe incorrect. Veuillez réessayer.</value>
+    <value>Väärä salasana. Yritä uudelleen.</value>
   </data>
   <data name="PdfViewer_NextPage" xml:space="preserve">
-    <value> Afficher la page suivante </value>
+    <value>Näytä seuraava sivu</value>
   </data>
   <data name="PdfViewer_PreviousPage" xml:space="preserve">
-    <value> Afficher la page précédente </value>
+    <value>Näytä edellinen sivu</value>
   </data>
   <data name="PdfViewer_OK" xml:space="preserve">
-    <value> D'accord </value>
+    <value>kunnossa</value>
   </data>
   <data name="PdfViewer_Open" xml:space="preserve">
-    <value> Fichier ouvert </value>
+    <value>Avaa tiedosto</value>
   </data>
   <data name="PdfViewer_PageNumber" xml:space="preserve">
-    <value> Numéro de page actuel </value>
+    <value>Nykyisen sivun numero</value>
   </data>
   <data name="PdfViewer_GoToLastPage" xml:space="preserve">
-    <value> Afficher la dernière page </value>
+    <value>Näytä viimeinen sivu</value>
   </data>
   <data name="PdfViewer_Zoom" xml:space="preserve">
-    <value> Zoom </value>
+    <value>Zoomaus</value>
   </data>
   <data name="PdfViewer_ZoomIn" xml:space="preserve">
-    <value> Agrandir </value>
+    <value>lähennä</value>
   </data>
   <data name="PdfViewer_ZoomOut" xml:space="preserve">
-    <value> Dézoomer </value>
+    <value>Loitontaa</value>
   </data>
   <data name="PdfViewer_PageThumbnails" xml:space="preserve">
-    <value> Vignettes de page </value>
+    <value>Sivun pikkukuvat</value>
   </data>
   <data name="PdfViewer_Bookmarks" xml:space="preserve">
-    <value> Signets </value>
+    <value>kirjanmerkit</value>
   </data>
   <data name="PdfViewer_Print" xml:space="preserve">
-    <value> Imprimer le fichier </value>
+    <value>Tulosta tiedosto</value>
   </data>
   <data name="PdfViewer_PasswordProtected" xml:space="preserve">
-    <value> Mot de passe requis </value>
+    <value>Salasana vaaditaan</value>
   </data>
   <data name="PdfViewer_Copy" xml:space="preserve">
-    <value> Copie </value>
+    <value>Kopio</value>
   </data>
   <data name="PdfViewer_TextSelection" xml:space="preserve">
-    <value> Outil de sélection de texte </value>
+    <value>Tekstin valintatyökalu</value>
   </data>
   <data name="PdfViewer_Panning" xml:space="preserve">
-    <value> Mode panoramique </value>
+    <value>Panorointitila</value>
   </data>
   <data name="PdfViewer_TextSearch" xml:space="preserve">
-    <value> Rechercher du texte </value>
+    <value>Etsi teksti</value>
   </data>
   <data name="PdfViewer_Findindocument" xml:space="preserve">
-    <value> Rechercher dans le document </value>
+    <value>Etsi asiakirjasta</value>
   </data>
   <data name="PdfViewer_Matchcase" xml:space="preserve">
-    <value> Cas de correspondance </value>
+    <value>Ottelun tapaus</value>
   </data>
   <data name="PdfViewer_Apply" xml:space="preserve">
-    <value> Appliquer </value>
+    <value>Käytä</value>
   </data>
   <data name="PdfViewer_GoToPage" xml:space="preserve">
-    <value> Aller à la page </value>
+    <value>Mene sivulle</value>
   </data>
   <data name="PdfViewer_Nomatches" xml:space="preserve">
-    <value> La visionneuse a terminé la recherche du document. Aucune autre correspondance n'a été trouvée </value>
+    <value>Katsoja on valmis etsimään asiakirjaa. Enemmän vastaavia ei löytynyt</value>
   </data>
   <data name="PdfViewer_NoTextFound" xml:space="preserve">
-    <value> Aucun texte trouvé </value>
+    <value>Tekstiä ei löytynyt</value>
   </data>
   <data name="PdfViewer_Undo" xml:space="preserve">
-    <value> annuler </value>
+    <value>Kumoa</value>
   </data>
   <data name="PdfViewer_Redo" xml:space="preserve">
-    <value> Refaire </value>
+    <value>Toista</value>
   </data>
   <data name="PdfViewer_Annotation" xml:space="preserve">
-    <value> Ajouter ou modifier des annotations </value>
+    <value>Lisää tai muokkaa merkintöjä</value>
   </data>
   <data name="PdfViewer_Highlight" xml:space="preserve">
-    <value> Texte surligné </value>
+    <value>Korosta tekstiä</value>
   </data>
   <data name="PdfViewer_Underline" xml:space="preserve">
-    <value> Souligner le texte </value>
+    <value>Alleviivattu teksti</value>
   </data>
   <data name="PdfViewer_Strikethrough" xml:space="preserve">
-    <value> Texte barré </value>
+    <value>Läpivientikirja</value>
   </data>
   <data name="PdfViewer_Delete" xml:space="preserve">
-    <value> Supprimer l'annotation </value>
+    <value>Poista merkintä</value>
   </data>
   <data name="PdfViewer_Opacity" xml:space="preserve">
-    <value> Opacité </value>
+    <value>sameus</value>
   </data>
   <data name="PdfViewer_ColorEdit" xml:space="preserve">
-    <value> Changer de couleur </value>
+    <value>Vaihda väri</value>
   </data>
   <data name="PdfViewer_OpacityEdit" xml:space="preserve">
-    <value> Changer l'opacité </value>
+    <value>Vaihda opasiteetti</value>
   </data>
   <data name="PdfViewer_HighlightContext" xml:space="preserve">
-    <value> Surligner </value>
+    <value>Kohokohta</value>
   </data>
   <data name="PdfViewer_UnderlineContext" xml:space="preserve">
-    <value>Souligner</value>
+    <value>Korostaa</value>
   </data>
   <data name="PdfViewer_StrikethroughContext" xml:space="preserve">
-    <value> Grève </value>
+    <value>Läpi läpi</value>
   </data>
   <data name="PdfViewer_Servererror" xml:space="preserve">
-    <value> Le service Web n'écoute pas. PDF Viewer dépend du service Web pour toutes ses fonctionnalités. Veuillez démarrer le service Web pour continuer.</value>
+    <value>Web-palvelu ei kuuntele. PDF Viewer riippuu verkkopalvelusta kaikilla ominaisuuksillaan. Käynnistä verkkopalvelu jatkaaksesi.</value>
   </data>
   <data name="PdfViewer_Clienterror" xml:space="preserve">
-    <value> Une erreur côté client a été trouvée. Veuillez vérifier les en-têtes personnalisés fournis dans la propriété AjaxRequestSettings et les méthodes d'action Web dans la propriété ServerActionSettings.</value>
+    <value>Asiakaspuolen virhe löytyy. Tarkista AjaxRequestSettings-ominaisuuden tarjoamat mukautetut otsikot ja ServerActionSettings-ominaisuuden verkkotoimintatavat.</value>
   </data>
   <data name="PdfViewer_OpenText" xml:space="preserve">
-    <value> Ouverte </value>
+    <value>Avata</value>
   </data>
   <data name="PdfViewer_FirstText" xml:space="preserve">
-    <value>Première page</value>
+    <value>Ensimmäinen sivu</value>
   </data>
   <data name="PdfViewer_PreviousText" xml:space="preserve">
-    <value>Page précédente</value>
+    <value>Edellinen sivu</value>
   </data>
   <data name="PdfViewer_NextText" xml:space="preserve">
-    <value> Page suivante </value>
+    <value>Seuraava sivu</value>
   </data>
   <data name="PdfViewer_LastText" xml:space="preserve">
-    <value> Dernière page </value>
+    <value>Viimeinen sivu</value>
   </data>
   <data name="PdfViewer_ZoomInText" xml:space="preserve">
-    <value> Agrandir </value>
+    <value>lähennä</value>
   </data>
   <data name="PdfViewer_ZoomOutText" xml:space="preserve">
-    <value> Dézoomer </value>
+    <value>Loitontaa</value>
   </data>
   <data name="PdfViewer_SelectionText" xml:space="preserve">
-    <value> Sélection </value>
+    <value>Valinta</value>
   </data>
   <data name="PdfViewer_PanText" xml:space="preserve">
-    <value> La poêle </value>
+    <value>Panoroida</value>
   </data>
   <data name="PdfViewer_PrintText" xml:space="preserve">
-    <value> Impression </value>
+    <value>Tulosta</value>
   </data>
   <data name="PdfViewer_SearchText" xml:space="preserve">
-    <value> Chercher </value>
+    <value>Hae</value>
   </data>
   <data name="PdfViewer_AnnotationEditText" xml:space="preserve">
-    <value> Modifier l'annotation </value>
+    <value>Muokkaa huomautusta</value>
   </data>
   <data name="PdfViewer_LineThickness" xml:space="preserve">
-    <value> Épaisseur de ligne </value>
+    <value>Linjan paksuus</value>
   </data>
   <data name="PdfViewer_LineProperties" xml:space="preserve">
-    <value> Propriétés de ligne </value>
+    <value>Linjan ominaisuudet</value>
   </data>
   <data name="PdfViewer_StartArrow" xml:space="preserve">
-    <value> Flèche de départ </value>
+    <value>Aloita nuoli</value>
   </data>
   <data name="PdfViewer_EndArrow" xml:space="preserve">
-    <value> Flèche de fin </value>
+    <value>Lopeta nuoli</value>
   </data>
   <data name="PdfViewer_LineStyle" xml:space="preserve">
-    <value> Style de ligne </value>
+    <value>Rivityyli</value>
   </data>
   <data name="PdfViewer_FillColor" xml:space="preserve">
-    <value> La couleur de remplissage </value>
+    <value>Täyttöväri</value>
   </data>
   <data name="PdfViewer_LineColor" xml:space="preserve">
-    <value> Couleur de la ligne </value>
+    <value>Rivin väri</value>
   </data>
   <data name="PdfViewer_None" xml:space="preserve">
-    <value> Aucune </value>
+    <value>Ei mitään</value>
   </data>
   <data name="PdfViewer_OpenArrow" xml:space="preserve">
-    <value> Flèche ouverte </value>
+    <value>Avaa nuoli</value>
   </data>
   <data name="PdfViewer_ClosedArrow" xml:space="preserve">
-    <value> Flèche fermée </value>
+    <value>Suljettu nuoli</value>
   </data>
   <data name="PdfViewer_RoundArrow" xml:space="preserve">
-    <value> Flèche ronde </value>
+    <value>Pyöreä nuoli</value>
   </data>
   <data name="PdfViewer_SquareArrow" xml:space="preserve">
-    <value> Flèche carrée </value>
+    <value>Neliönmuotoinen nuoli</value>
   </data>
   <data name="PdfViewer_DiamondArrow" xml:space="preserve">
-    <value> Flèche de diamant </value>
+    <value>Diamond-nuoli</value>
   </data>
   <data name="PdfViewer_Cut" xml:space="preserve">
-    <value> Couper </value>
+    <value>Leikata</value>
   </data>
   <data name="PdfViewer_Paste" xml:space="preserve">
-    <value> Pâte </value>
+    <value>liitä</value>
   </data>
   <data name="PdfViewer_DeleteContext" xml:space="preserve">
-    <value> Effacer </value>
+    <value>Poistaa</value>
   </data>
   <data name="PdfViewer_Properties" xml:space="preserve">
-    <value> Propriétés </value>
+    <value>ominaisuudet</value>
   </data>
   <data name="PdfViewer_AddStamp" xml:space="preserve">
-    <value> Ajouter un tampon </value>
+    <value>Lisää leima</value>
   </data>
   <data name="PdfViewer_AddShapes" xml:space="preserve">
-    <value> Ajouter des formes </value>
+    <value>Lisää muodot</value>
   </data>
   <data name="PdfViewer_StrokeEdit" xml:space="preserve">
-    <value> Changer la couleur du trait </value>
+    <value>Vaihda värin väri</value>
   </data>
   <data name="PdfViewer_ChangeThickness" xml:space="preserve">
-    <value> Modifier l'épaisseur de la bordure </value>
+    <value>Vaihda reunan paksuus</value>
   </data>
   <data name="PdfViewer_Addline" xml:space="preserve">
-    <value> Ajouter une ligne </value>
+    <value>Lisää rivi</value>
   </data>
   <data name="PdfViewer_AddArrow" xml:space="preserve">
-    <value> Ajouter une flèche </value>
+    <value>Lisää nuoli</value>
   </data>
   <data name="PdfViewer_AddRectangle" xml:space="preserve">
-    <value> Ajouter un rectangle </value>
+    <value>Lisää suorakulmio</value>
   </data>
   <data name="PdfViewer_AddCircle" xml:space="preserve">
-    <value> Ajouter un cercle </value>
+    <value>Lisää ympyrä</value>
   </data>
   <data name="PdfViewer_AddPolygon" xml:space="preserve">
-    <value> Ajouter un polygone </value>
+    <value>Lisää monikulmio</value>
   </data>
   <data name="PdfViewer_AddComments" xml:space="preserve">
-    <value> Ajoutez des commentaires </value>
+    <value>Lisää kommentteja</value>
   </data>
   <data name="PdfViewer_Comments" xml:space="preserve">
-    <value> commentaires </value>
+    <value>Kommentit</value>
   </data>
   <data name="PdfViewer_NoCommentsYet" xml:space="preserve">
-    <value> Aucun commentaire pour l'instant </value>
+    <value>Ei vielä kommentteja</value>
   </data>
   <data name="PdfViewer_Accepted" xml:space="preserve">
-    <value> Accepté </value>
+    <value>Hyväksytyt</value>
   </data>
   <data name="PdfViewer_Completed" xml:space="preserve">
-    <value> Terminé </value>
+    <value>valmistunut</value>
   </data>
   <data name="PdfViewer_Cancelled" xml:space="preserve">
-    <value> Annulé </value>
+    <value>peruttu</value>
   </data>
   <data name="PdfViewer_Rejected" xml:space="preserve">
-    <value> Rejetée </value>
+    <value>hylätty</value>
   </data>
   <data name="PdfViewer_LeaderLength" xml:space="preserve">
-    <value> Longueur de ligne de repère </value>
+    <value>Johtajan pituus</value>
   </data>
   <data name="PdfViewer_ScaleRatio" xml:space="preserve">
-    <value> Rapport d'échelle </value>
+    <value>Asteikosuhde</value>
   </data>
   <data name="PdfViewer_Calibrate" xml:space="preserve">
-    <value> Étalonner </value>
+    <value>Calibrate</value>
   </data>
   <data name="PdfViewer_CalibrateDistance" xml:space="preserve">
-    <value> Calibrer la distance </value>
+    <value>Kalibroi etäisyys</value>
   </data>
   <data name="PdfViewer_CalibratePerimeter" xml:space="preserve">
-    <value> Calibrer le périmètre </value>
+    <value>Kalibroi kehä</value>
   </data>
   <data name="PdfViewer_CalibrateArea" xml:space="preserve">
-    <value> Étalonner la zone </value>
+    <value>Kalibroi alue</value>
   </data>
   <data name="PdfViewer_CalibrateRadius" xml:space="preserve">
-    <value> Calibrer le rayon </value>
+    <value>Kalibroi säde</value>
   </data>
   <data name="PdfViewer_CalibrateVolume" xml:space="preserve">
-    <value> Calibrer le volume </value>
+    <value>Kalibroi äänenvoimakkuus</value>
   </data>
   <data name="PdfViewer_Depth" xml:space="preserve">
-    <value> Profondeur </value>
+    <value>Syvyys</value>
   </data>
   <data name="PdfViewer_Closed" xml:space="preserve">
-    <value> Fermée </value>
+    <value>Suljettu</value>
   </data>
   <data name="PdfViewer_Round" xml:space="preserve">
-    <value> Ronde </value>
+    <value>Pyöristää</value>
   </data>
   <data name="PdfViewer_Square" xml:space="preserve">
-    <value> Carrée </value>
+    <value>Neliö</value>
   </data>
   <data name="PdfViewer_Diamond" xml:space="preserve">
-    <value> diamant </value>
+    <value>Timantti</value>
   </data>
   <data name="PdfViewer_Edit" xml:space="preserve">
-    <value> Éditer </value>
+    <value>Muokata</value>
   </data>
   <data name="PdfViewer_Comment" xml:space="preserve">
-    <value> Commentaire </value>
+    <value>Kommentti</value>
   </data>
   <data name="PdfViewer_CommentPanel" xml:space="preserve">
-    <value> Panneau de commentaires </value>
+    <value>Kommenttipaneeli</value>
   </data>
   <data name="PdfViewer_SetStatus" xml:space="preserve">
-    <value> Définir le statut </value>
+    <value>Aseta tila</value>
   </data>
   <data name="PdfViewer_Post" xml:space="preserve">
-    <value> Publier </value>
+    <value>Lähettää</value>
   </data>
   <data name="PdfViewer_Page" xml:space="preserve">
-    <value> </value>
+    <value>Sivu</value>
   </data>
   <data name="PdfViewer_AddComment" xml:space="preserve">
-    <value> Ajouter un commentaire </value>
+    <value>Lisää kommentti</value>
   </data>
   <data name="PdfViewer_AddReply" xml:space="preserve">
-    <value> Ajouter une réponse </value>
+    <value>Lisää vastaus</value>
   </data>
   <data name="PdfViewer_ImportAnnotations" xml:space="preserve">
-    <value> Importer des annotations </value>
+    <value>Tuo huomautukset</value>
   </data>
   <data name="PdfViewer_ExportAnnotations" xml:space="preserve">
-    <value> Exporter les annotations </value>
+    <value>Vie huomautukset</value>
   </data>
   <data name="PdfViewer_Add" xml:space="preserve">
-    <value> Ajouter </value>
+    <value>Lisätä</value>
   </data>
   <data name="PdfViewer_Clear" xml:space="preserve">
-    <value> Claire </value>
+    <value>Asia selvä</value>
   </data>
   <data name="PdfViewer_Bold" xml:space="preserve">
-    <value> Audacieuse </value>
+    <value>Lihavoitu</value>
   </data>
   <data name="PdfViewer_Italic" xml:space="preserve">
-    <value> Italique </value>
+    <value>kursivoitu</value>
   </data>
   <data name="PdfViewer_Strikethroughs" xml:space="preserve">
-    <value> Barrés </value>
+    <value>Yliviivaus</value>
   </data>
   <data name="PdfViewer_Underlines" xml:space="preserve">
-    <value> Souligne </value>
+    <value>korostaa</value>
   </data>
   <data name="PdfViewer_Superscript" xml:space="preserve">
-    <value> Exposante </value>
+    <value>Yläindeksi</value>
   </data>
   <data name="PdfViewer_Subscript" xml:space="preserve">
-    <value> Indice </value>
+    <value>alaindeksi</value>
   </data>
   <data name="PdfViewer_AlignLeft" xml:space="preserve">
-    <value> Alignez à gauche </value>
+    <value>Tasaa vasemmalle</value>
   </data>
   <data name="PdfViewer_AlignRight" xml:space="preserve">
-    <value> Aligner à droite </value>
+    <value>Kohdista oikea</value>
   </data>
   <data name="PdfViewer_Center" xml:space="preserve">
-    <value> Centre </value>
+    <value>Keskusta</value>
   </data>
   <data name="PdfViewer_Justify" xml:space="preserve">
-    <value> Justifier </value>
+    <value>Perustella</value>
   </data>
   <data name="PdfViewer_FontColor" xml:space="preserve">
-    <value> Couleur de la police </value>
+    <value>Fontin väri</value>
   </data>
   <data name="PdfViewer_TextAlign" xml:space="preserve">
-    <value> Aligner le texte </value>
+    <value>Tekstin kohdistaminen</value>
   </data>
   <data name="PdfViewer_TextProperties" xml:space="preserve">
-    <value> Le style de police </value>
+    <value>Fonttityyli</value>
   </data>
   <data name="PdfViewer_DrawSignature" xml:space="preserve">
-    <value> Dessiner la signature </value>
+    <value>Piirrä allekirjoitus</value>
   </data>
   <data name="PdfViewer_Create" xml:space="preserve">
-    <value> Créer </value>
+    <value>Luoda</value>
   </data>
   <data name="PdfViewer_FontFamily" xml:space="preserve">
-    <value> Famille de polices </value>
+    <value>Kirjasinperhe</value>
   </data>
   <data name="PdfViewer_FontSize" xml:space="preserve">
-    <value> Taille de police </value>
+    <value>Fonttikoko</value>
   </data>
   <data name="PdfViewer_FreeText" xml:space="preserve">
-    <value> Texte libre </value>
+    <value>Ilmainen teksti</value>
   </data>
   <data name="PdfViewer_ImportFailed" xml:space="preserve">
-    <value> Type ou nom de fichier JSON non valide; veuillez sélectionner un fichier JSON valide </value>
+    <value>Virheellinen JSON-tiedostotyyppi tai tiedostonimi; valitse kelvollinen JSON-tiedosto</value>
   </data>
   <data name="PdfViewer_FileNotFound" xml:space="preserve">
-    <value> Le fichier JSON importé est introuvable à l'emplacement souhaité </value>
+    <value>Tuodua JSON-tiedostoa ei löydy halutusta sijainnista</value>
   </data>
   <data name="PdfViewer_ExportFailed" xml:space="preserve">
-    <value> L'action d'exportation des annotations a échoué; veuillez vous assurer que les annotations sont ajoutées correctement </value>
+    <value>Vie merkinnät -toiminto epäonnistui. varmista, että merkinnät on lisätty oikein</value>
   </data>
   <data name="DocumentEditor_Table" xml:space="preserve">
     <value>Pöytä</value>
