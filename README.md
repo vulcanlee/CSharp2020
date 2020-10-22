@@ -11,6 +11,7 @@
 |DBEntityFrameworkCore|使用 Console 專案與 Entity Freamework Core 讀取已經存在的 Contoso University 資料庫|https://csharpkh.blogspot.com/2020/04/CSharp-Console-Entity-Freamework-Core-SQL-Server-Database.html|
 ||使用 Visual Studio 建立 Contoso University 資料庫|https://csharpkh.blogspot.com/2020/04/Visual-Studio-Contoso-University-SQL-Server-Explorer.html|
 |efMultiThread|DbContext 在多執行緒環境下的運作情況|https://csharpkh.blogspot.com/2020/10/Entity-Framework-Core-dbcontext-multi-thread-safty-InvalidOperationException-OnConfiguring.html|
+|xfFontIcon|使用字體圖片 Material Design Icons 的練習||
 ||||
 ||||
 ||||
@@ -29,7 +30,6 @@
 |bzMatBlazorStart|使用 MatBlazor 來開發 Blazor 專案||
 |xfNewDialogService|使用 Prism 7.2 提供的新對話窗服務||
 |xfQRCode3|使用 ZXing.Net.Mobile.Forms 3.0 Beta 版的測試效果||
-|xfFontIcon|使用字體圖片 Material Design Icons 的練習||
 |xfSQLiteDB|使用 EF Core 存取 SQLite 資料庫||
 |XFNFC|透過 Xamarin.Forms 來讀取 NFC 裝置 Tag||
 |xfLogin|使用者登入 (儲存登入帳密)||
