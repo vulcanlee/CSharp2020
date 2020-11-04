@@ -1,0 +1,116 @@
+﻿@page "/"
+@using System.Collections.ObjectModel
+@using Syncfusion.Blazor.DropDowns
+
+<h1>Hello, SfDropDownList 動態增刪清單</h1>
+
+<div>
+    @for (int i = 0; i < dropdownChoice.Count; i++)
+    {
+        var idx = i;
+        var dataSource = dropdownDataSource[idx];
+        <SfDropDownList TValue="string" TItem="DataItem" Placeholder="請選擇"
+                        DataSource="@dropdownDataSource[idx]" @bind-Value="@dropdownChoice[idx].Value">
+            <DropDownListFieldSettings Text="Value" Value="Value"></DropDownListFieldSettings>
+            <DropDownListEvents TValue="string" TItem="DataItem" OnValueSelect="OnSelect"
+                                ValueChange="OnValueChange"></DropDownListEvents>
+        </SfDropDownList>
+        <button class="btn btn-primary" @onclick="()=>AddItem(idx)">+</button>
+        <button class="btn btn-primary" @onclick="()=>RemoveItem(idx)">-</button>
+    }
+
+</div>
+@code{
+    void AddItem(int i)
+    {
+        if (i == dropdownDataSource.Count)
+        {
+            dropdownChoice.Add(new DataItem() { ID = "", Value = null });
+            dropdownDataSource.Add(new ObservableCollection<DataItem>(allLists));
+        }
+        else
+        {
+            dropdownChoice.Insert(i+1,new DataItem() { ID = "", Value = null });
+            dropdownDataSource.Insert(i + 1, new ObservableCollection<DataItem>(allLists));
+        }
+        UpdateChoice();
+    }
+    void RemoveItem(int i)
+    {
+        dropdownChoice.RemoveAt(i);
+        dropdownDataSource.RemoveAt(i);
+        UpdateChoice();
+    }
+    public void OnSelect(Syncfusion.Blazor.DropDowns.SelectEventArgs<DataItem> args)
+    {
+        //UpdateChoice();
+    }
+    public void OnValueChange(Syncfusion.Blazor.DropDowns.ChangeEventArgs<string,DataItem> args)
+    {
+        UpdateChoice();
+    }
+    public class DataItem
+    {
+        public string ID { get; set; }
+        public string Value { get; set; }
+    }
+    public ObservableCollection<DataItem> allLists = new ObservableCollection<DataItem>();
+    public ObservableCollection<DataItem> allUserChoice = new ObservableCollection<DataItem>();
+    public List<ObservableCollection<DataItem>> dropdownDataSource = new List<ObservableCollection<DataItem>>();
+    public List<DataItem> dropdownChoice = new List<DataItem>();
+
+    protected override void OnInitialized()
+    {
+        allLists.Add(new DataItem() { Value = "A1", ID = "" });
+        allLists.Add(new DataItem() { Value = "A2", ID = "" });
+        allLists.Add(new DataItem() { Value = "A3", ID = "" });
+        allLists.Add(new DataItem() { Value = "B1", ID = "" });
+        allLists.Add(new DataItem() { Value = "B2", ID = "" });
+        allLists.Add(new DataItem() { Value = "C1", ID = "" });
+        allLists.Add(new DataItem() { Value = "C2", ID = "" });
+        allLists.Add(new DataItem() { Value = "C3", ID = "" });
+        allLists.Add(new DataItem() { Value = "C4", ID = "" });
+        allLists.Add(new DataItem() { Value = "C5", ID = "" });
+
+
+        dropdownDataSource.Add(new ObservableCollection<DataItem>(allLists));
+        dropdownChoice.Add(new DataItem() { ID = null, Value = null });
+    }
+
+    void GetAllChoice()
+    {
+        allUserChoice = new ObservableCollection<DataItem>();
+        foreach (var item in dropdownChoice)
+        {
+            if (string.IsNullOrEmpty(item.Value) == false)
+            {
+                allUserChoice.Add(item);
+            }
+        }
+    }
+    void UpdateChoice()
+    {
+        GetAllChoice();
+        for (int i = 0; i < dropdownChoice.Count; i++)
+        {
+            DataItem choice = dropdownChoice[i];
+            RenewDropdownSource(i, choice);
+        }
+    }
+    void RenewDropdownSource(int idx, DataItem current)
+    {
+        dropdownDataSource[idx] = new ObservableCollection<DataItem>(allLists);
+        //if (current.Value == null) return;
+        foreach (var item in allUserChoice)
+        {
+            if (item.Value != current.Value)
+            {
+                var needRemove = dropdownDataSource[idx].FirstOrDefault(x => x.Value == item.Value);
+                if (needRemove != null)
+                {
+                    dropdownDataSource[idx].Remove(needRemove);
+                }
+            }
+        }
+    }
+}

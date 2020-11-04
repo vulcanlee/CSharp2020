@@ -1,0 +1,48 @@
+﻿@page "/"
+@using System.Threading
+@using Syncfusion.Blazor
+@using Syncfusion.Blazor.Data
+@using Syncfusion.Blazor.Grids
+@using bzsfCustomBindingCRUD.Data
+@inject OrderService OrderService
+
+
+<h1>Hello, world!</h1>
+
+<div style="margin-bottom: 20px;">
+    Current UI culture (used for localization): @Thread.CurrentThread.CurrentUICulture.Name
+    <br />
+    Current thread culture (used for date and number formatting): @Thread.CurrentThread.CurrentCulture.Name
+</div>
+
+<button class="btn btn-primary" @onclick="OnClick">CRUD</button>
+@*<SfDataManager AdaptorInstance="@typeof(CustomAdaptor)" Adaptor="Adaptors.CustomAdaptor"></SfDataManager>*@
+<SfGrid @ref="Grid" TValue="Order" ID="Grid"
+        AllowSorting="true" AllowFiltering="true" AllowPaging="true"
+        Toolbar="@(new List<string>() { "Add", "Delete", "Update", "Cancel","Search" })">
+    <SfDataManager Adaptor="Adaptors.CustomAdaptor">
+        <OrderServiceAdapter></OrderServiceAdapter>
+    </SfDataManager>
+    <GridPageSettings PageSize="8"></GridPageSettings>
+    <GridEditSettings AllowEditing="true" AllowDeleting="true" AllowAdding="true" Mode="@EditMode.Dialog"></GridEditSettings>
+    <GridSearchSettings Fields=@InitSearch Operator=Syncfusion.Blazor.Operator.Contains IgnoreCase="true"></GridSearchSettings>
+    <GridColumns>
+        <GridColumn Field=@nameof(Order.OrderID) HeaderText="Order ID" IsPrimaryKey="true" TextAlign="@TextAlign.Center" Width="140"></GridColumn>
+        <GridColumn Field=@nameof(Order.CustomerID) HeaderText="Customer Name" Width="150"></GridColumn>
+        <GridColumn Field=@nameof(Order.Freight) HeaderText="Freight" Width="150"></GridColumn>
+    </GridColumns>
+</SfGrid>
+
+@code{
+    SfGrid<Order> Grid;
+    string[] InitSearch = (new string[] { "CustomerID" });
+    protected override void OnInitialized()
+    {
+    }
+
+    void OnClick()
+    {
+        OrderService.RemoveSomeRecordAsync();
+        Grid.Refresh();
+    }
+}

@@ -1,0 +1,69 @@
+﻿@using Syncfusion.Blazor;
+@using Syncfusion.Blazor.Data;
+@using Newtonsoft.Json
+@using bzsfCustomBindingCRUD.Data
+
+@inherits DataAdaptor<OrderService>
+
+<CascadingValue Value="@this">
+    @ChildContent
+</CascadingValue>
+
+@code {
+    [Parameter]
+    [JsonIgnore]
+    public RenderFragment ChildContent { get; set; }
+
+    // Performs data Read operation
+    public override async Task<object> ReadAsync(DataManagerRequest dataManagerRequest, string key = null)
+    {
+        IEnumerable<Order> DataSource = (IEnumerable<Order>)Service.GetItems();
+        if (dataManagerRequest.Search != null && dataManagerRequest.Search.Count > 0)
+        {
+            // Searching
+            DataSource = DataOperations.PerformSearching(DataSource, dataManagerRequest.Search);
+        }
+        if (dataManagerRequest.Sorted != null && dataManagerRequest.Sorted.Count > 0)
+        {
+            // Sorting
+            DataSource = DataOperations.PerformSorting(DataSource, dataManagerRequest.Sorted);
+        }
+        if (dataManagerRequest.Where != null && dataManagerRequest.Where.Count > 0)
+        {
+            // Filtering
+            DataSource = DataOperations.PerformFiltering(DataSource, dataManagerRequest.Where, dataManagerRequest.Where[0].Operator);
+        }
+        int count = DataSource.Cast<Order>().Count();
+        if (dataManagerRequest.Skip != 0)
+        {
+            //Paging
+            DataSource = DataOperations.PerformSkip(DataSource, dataManagerRequest.Skip);
+        }
+        if (dataManagerRequest.Take != 0)
+        {
+            DataSource = DataOperations.PerformTake(DataSource, dataManagerRequest.Take);
+        }
+        var item = dataManagerRequest.RequiresCounts ? new DataResult() { Result = DataSource, Count = count } : (object)DataSource;
+        await Task.Yield();
+        return item;
+    }
+
+    public override async Task<object> InsertAsync(DataManager dataManager, object data, string key)
+    {
+        await Service.AddAsync(data as Order);
+        return data;
+    }
+
+    public override async Task<object> UpdateAsync(DataManager dataManager, object data, string keyfield, string key)
+    {
+        await Service.UpdateAsync(data as Order);
+        return data;
+    }
+
+    public override async Task<object> RemoveAsync(DataManager dataManager, object data, string keyField, string key)
+    {
+        var item = await Service.GetAsync(Convert.ToInt32(data));
+        await Service.RemoveAsync(item);
+        return data;
+    }
+}
