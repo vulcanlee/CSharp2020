@@ -1,0 +1,75 @@
+﻿@page "/"
+<EditForm Model="@this">
+    <div>
+        @foreach (var item in pets)
+        {
+            <div>
+                <span>@item.Name</span>
+                <span class="mx-1">@item.HashCode</span>
+            </div>
+        }
+    </div>
+    <ListViewTemplate Items="pets">
+        <ItemTemplate Context="EditForm">
+            @{
+                // 模擬 Syncfusion 的做法
+                // 這裡呼叫自行設計的 Clone 方法，複製一份新的物件
+                var data = (EditForm as Pet).Clone();
+            }
+            <div>
+                <div class="form-row">
+                    <input @bind-value="data.Name" />
+                </div>
+                <label class="text-primary">@data.HashCode</label>
+                <div class="can-list">
+                    @foreach (var item in phases)
+                    {
+                        <label class="btn btn-primary m-1"
+                               @onclick="()=> {data.Name = item.Message;}"> @item.Message </label>
+                        }
+                </div>
+            </div>
+        </ItemTemplate>
+    </ListViewTemplate>
+</EditForm>
+
+@code {
+    private List<Pet> pets = new List<Pet>
+{
+        new Pet { Name = "Mr. Bigglesworth" },
+        new Pet { Name = "Salem Saberhagen" },
+        new Pet { Name = "K-9" }
+    };
+    List<Phase> phases = new List<Phase>
+{
+        new Phase(){ Message = "Message1" },
+        new Phase(){ Message = "Message2" },
+        new Phase(){ Message = "Message3" },
+        new Phase(){ Message = "Message4" },
+        new Phase(){ Message = "Message5" },
+    };
+
+    protected override void OnInitialized()
+    {
+    }
+    public class Pet
+    {
+        public string Name { get; set; }
+        public int HashCode
+        {
+            get
+            {
+                return this.GetHashCode();
+            }
+            set { }
+        }
+        public Pet Clone()
+        {
+            return this.MemberwiseClone() as Pet;
+        }
+    }
+    public class Phase
+    {
+        public string Message { get; set; }
+    }
+}
