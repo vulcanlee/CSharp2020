@@ -15,14 +15,14 @@
 |bzsfSimpleCRUD|使用 Syncfusion DataGrid 做出一個具有中文語系的簡單 CRUD 應用|https://csharpkh.blogspot.com/2020/10/Xamarin-Forms-Material-Design-Icons-FontFamily-ExportFont.html|
 |bzsfCustomBindingCRUD|使用 Syncfusion DataGrid 做出一個具有中文語系的簡單 CRUD 應用||
 |bzSidebar|使用 Syncfusion SfSidebar 建立一個版面功能表選項清單|https://csharpkh.blogspot.com/2021/01/Blazor-Syncfusion-SfSidebar-Menu-MenuItem-MainLayout.html|
-|bzSyncfusion|如何使用 Syncfusion 在 Blazor 專案上|https://csharpkh.blogspot.com/2021/01/Blazor-Syncfusion-Getting-Starter.html|
+|bzSyncfusion|如何使用 Syncfusion 在 Blazor 專案上|https://csharpkh.blogspot.com/2021/01//Blazor-Syncfusion-Getting-Starter.html|
 |bzSyncfusionButton|使用 Syncfusion 的按鈕元件或指定按鈕代表圖形，有 Bootstrap 4 與 Open Iconic 兩種用法||
+|bzSyncfusionDialog|使用 Syncfusion 的各種對話窗的用法，包含巢狀對話窗|https://csharpkh.blogspot.com/2021/01/Blazor-Syncfusion-SfDialog-DialogButtons-IsModal.html|
 ||||
 ||||
 ||||
 ||||
 ||||
-|bzSyncfusionDialog|使用 Syncfusion 的各種對話窗的用法，包含巢狀對話窗||
 |bzsfCustomCommandCRUD|使用客製命令與轉接器做出一個 CRUD 應用||
 |bzFormValidation|Blazor 的表單驗證||
 |bzSyncfusionEssentialStudio|使用 Syncfusion Essential Studio for Blazor 建立一個專案||
