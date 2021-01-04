@@ -1,19 +1,12 @@
 ﻿using Prism.Commands;
-using Prism.Mvvm;
-using Prism.Navigation;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace xfMediaPicker.ViewModels
 {
     using System.ComponentModel;
     using System.IO;
     using System.Threading.Tasks;
-    using Prism.Events;
     using Prism.Navigation;
-    using Prism.Services;
     using Xamarin.Essentials;
     using Xamarin.Forms;
 
