@@ -41,14 +41,14 @@ namespace XFNFC.ViewModels
                 }
 
                 SubscribeEvents();
-                await StartListeningIfNotiOS();
+                StartListen();
             });
             StopReadNFCCommand = new DelegateCommand(() =>
-              {
-                  Tag = "";
-                  UnsubscribeEvents();
-                  CrossNFC.Current.StopListening();
-              });
+            {
+                Tag = "";
+                UnsubscribeEvents();
+                CrossNFC.Current.StopListening();
+            });
         }
         void SubscribeEvents()
         {
@@ -62,21 +62,7 @@ namespace XFNFC.ViewModels
             CrossNFC.Current.OnMessageReceived -= OnMessageReceived;
             CrossNFC.Current.OnMessagePublished -= OnMessagePublished;
         }
-        /// <summary>
-        /// Task to start listening for NFC tags if the user's device platform is not iOS
-        /// </summary>
-        /// <returns>Task to be performed</returns>
-        async Task StartListeningIfNotiOS()
-        {
-            if (Device.RuntimePlatform == Device.iOS)
-                return;
-            await BeginListening();
-        }
-        /// <summary>
-        /// Task to safely start listening for NFC Tags
-        /// </summary>
-        /// <returns>The task to be performed</returns>
-        async Task BeginListening()
+        void StartListen()
         {
             try
             {
@@ -84,10 +70,10 @@ namespace XFNFC.ViewModels
             }
             catch (Exception ex)
             {
+                UnsubscribeEvents();
                 Console.WriteLine(ex.Message);
             }
         }
-
         private void OnMessagePublished(ITagInfo tagInfo)
         {
             Tag = tagInfo.SerialNumber;
@@ -110,10 +96,5 @@ namespace XFNFC.ViewModels
         public void OnNavigatedTo(INavigationParameters parameters)
         {
         }
-
-        public void OnNavigatingTo(INavigationParameters parameters)
-        {
-        }
-
     }
 }

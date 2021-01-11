@@ -18,6 +18,9 @@
 |bzSyncfusion|如何使用 Syncfusion 在 Blazor 專案上|https://csharpkh.blogspot.com/2021/01//Blazor-Syncfusion-Getting-Starter.html|
 |bzSyncfusionButton|使用 Syncfusion 的按鈕元件或指定按鈕代表圖形，有 Bootstrap 4 與 Open Iconic 兩種用法||
 |bzSyncfusionDialog|使用 Syncfusion 的各種對話窗的用法，包含巢狀對話窗|https://csharpkh.blogspot.com/2021/01/Blazor-Syncfusion-SfDialog-DialogButtons-IsModal.html|
+|XFNFC|透過 Xamarin.Forms 來讀取 NFC 裝置 Tag|https://csharpkh.blogspot.com/2021/01/Xamarin-Plugin-NFC-CrossNFC-Tag.html|
+|xfCamera|使用鏡頭進行拍照||
+|xfMediaPicker|Xamarin.Forms 使用 Xamarin.Essentials 媒體選擇器|https://csharpkh.blogspot.com/2021/01/Xamarin-Essentials-MediaPicker-CapturePhotoAsync-ImageSource-FileResult.html|
 ||||
 ||||
 ||||
@@ -31,9 +34,7 @@
 |xfNewDialogService|使用 Prism 7.2 提供的新對話窗服務||
 |xfQRCode3|使用 ZXing.Net.Mobile.Forms 3.0 Beta 版的測試效果||
 |xfSQLiteDB|使用 EF Core 存取 SQLite 資料庫||
-|XFNFC|透過 Xamarin.Forms 來讀取 NFC 裝置 Tag||
 |xfLogin|使用者登入 (儲存登入帳密)||
-|xfCamera|使用鏡頭進行拍照||
 |bzsfTimePicker|使用 Syncfusion 設計 TimeSpan Picker||
 |bzUpload|使用 Syncfusion 設計 Server side 的檔案上傳功能||
 |ImageSharpResize|.NET Core 的圖片放大與縮小 ImageSharp||
