@@ -21,7 +21,7 @@
 |XFNFC|透過 Xamarin.Forms 來讀取 NFC 裝置 Tag|https://csharpkh.blogspot.com/2021/01/Xamarin-Plugin-NFC-CrossNFC-Tag.html|
 |xfCamera|使用鏡頭進行拍照||
 |xfMediaPicker|Xamarin.Forms 使用 Xamarin.Essentials 媒體選擇器|https://csharpkh.blogspot.com/2021/01/Xamarin-Essentials-MediaPicker-CapturePhotoAsync-ImageSource-FileResult.html|
-||||
+|csAPMwaitOne|使用 APM 非同步設計模式加上 callback 的各個觸發時間點|https://csharpkh.blogspot.com/2021/02/CSharp-APM-WaitOne-Callback-Begin-End.html|
 ||||
 ||||
 ||||
